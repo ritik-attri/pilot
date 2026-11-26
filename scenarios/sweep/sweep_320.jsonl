@@ -1,0 +1,696 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-09-21T09:15:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-09-21T09:16:00","text":"Fabrikam's COO, Marcus Webb, wants every update as three bullets by text message, never email."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-09-21T09:18:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-09-22T09:30:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-22T09:31:00","text":"Contoso: Rania Aziz (IT Operations Lead) wants the patching window moved from Saturday night to Sunday 6-10am from October. Needs our confirmation by Friday."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-22T09:33:00","text":"draft a short confirmation to Rania: Sunday 6-10am window from 4 Oct, first run supervised by our senior engineer"}
+{"type":"end","user":"u1","session":"s02","ts":"2026-09-22T09:39:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-09-23T11:15:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-09-23T11:16:00","text":"Fabrikam data migration status: waves 1-3 done, about 60% of records moved. Wave 4 (finance history) is blocked waiting on their DBA's sign-off. Cutover still planned for 14 Nov."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-09-23T11:19:00","text":"Initech: Bruno Carvalho (procurement) asked for our 2027 rate card by mid-October"}
+{"type":"end","user":"u1","session":"s03","ts":"2026-09-23T11:21:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-09-24T14:05:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-24T14:06:00","text":"Hooli: Mei Watanabe (Platform Lead) says the Kubernetes cost review saved them 18% last month. She wants to present it internally and needs a summary slide from us."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-24T14:08:00","text":"draft the slide text for Mei: 18% saving, top 3 changes (rightsizing, spot nodes, idle namespace cleanup), next steps"}
+{"type":"end","user":"u1","session":"s04","ts":"2026-09-24T14:15:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-09-25T10:20:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-09-25T10:21:00","text":"Northwind: renewal kickoff with Sergei Ivanov (Head of Procurement) set for 8 Oct. He wants a usage report for the last 12 months first."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-09-25T10:24:00","text":"Northwind numbers for the last 12 months: ~31k tickets, avg resolution 6.2h, CSAT 4.2"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-09-28T09:10:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-09-28T09:11:00","text":"Tailspin: Grace Liu (Engineering Director) reported 2 failed deployments last week caused by our pipeline change. No customer impact but she's annoyed, rightly."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-09-28T09:14:00","text":"draft an apology note to Grace explaining what we changed and the rollback plan"}
+{"type":"end","user":"u1","session":"s06","ts":"2026-09-28T09:21:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-09-29T13:40:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-09-29T13:41:00","text":"Wingtip: Daniel Okafor (CTO) wants to talk about a managed security service. 400 endpoints, no SOC today, and their cyber insurer is asking questions."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-09-29T13:43:00","text":"prep me 4 discovery questions for Daniel about their security setup"}
+{"type":"end","user":"u1","session":"s07","ts":"2026-09-29T13:50:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-09-30T16:10:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-09-30T16:11:00","text":"Litware invoice dispute: they say the Sep invoice double-billed 12 hours of DBA time. Checked, they're right. Credit note needed."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-09-30T16:13:00","text":"Litware finance contact is Ayumi Sato, she wants the credit note before their month-end close on 6 Oct"}
+{"type":"end","user":"u1","session":"s08","ts":"2026-09-30T16:15:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-10-01T10:45:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-10-01T10:46:00","text":"Adatum: Joseph Mwangi (Service Desk Manager) asked to add Spanish-language support for their Madrid office, 60 users, from January."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-10-01T10:48:00","text":"is it cheaper to hire a Spanish speaker or use our Madrid partner? rough pros and cons"}
+{"type":"end","user":"u1","session":"s09","ts":"2026-10-01T10:55:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-10-02T11:30:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-10-02T11:31:00","text":"Proseware QBR went well. Katarzyna Nowak (VP Delivery) wants to extend the testing team through Q1."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-10-02T11:33:00","text":"draft the QBR follow-up email to Katarzyna with the 3 actions: testing team extension quote, automation roadmap, monthly defect report"}
+{"type":"end","user":"u1","session":"s10","ts":"2026-10-02T11:40:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-10-05T09:25:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-10-05T09:26:00","text":"Woodgrove: Ahmed Siddiqui (CISO) wants a ransomware tabletop exercise in November. 3-hour session, exec team included."}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-10-05T09:28:00","text":"Ahmed needs date options by next Friday, he's thinking week of 16 Nov"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-10-06T14:50:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-10-06T14:51:00","text":"Coho Winery: Lucia Ferreira (GM) says harvest is going fine but the Wi-Fi in the barrel room keeps dropping. She asked for a site visit."}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-10-06T14:53:00","text":"draft a reply to Lucia offering a site survey on 20 or 21 Oct"}
+{"type":"end","user":"u1","session":"s12","ts":"2026-10-06T14:58:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-10-07T10:05:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-10-07T10:06:00","text":"Contoso: Rania confirmed the Sunday patching window worked, zero issues on the first run"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-10-07T10:07:00","text":"Contoso renewal is 31 Jan, about $410k. Let's start prep in November"}
+{"type":"end","user":"u1","session":"s13","ts":"2026-10-07T10:09:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-10-08T15:35:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-10-08T15:36:00","text":"Northwind renewal kickoff done. Sergei wants a 3-year price lock and 5% off. We'd consider 3% with a 3-year term."}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-10-08T15:39:00","text":"draft the follow-up to Sergei: 3-year term, 3% off, price lock with a CPI cap"}
+{"type":"end","user":"u1","session":"s14","ts":"2026-10-08T15:46:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-10-09T09:50:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-10-09T09:51:00","text":"Hooli: Mei wants to extend the cost review to their data platform next quarter"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-10-09T09:52:00","text":"give me a rough scope outline for a data platform cost review, 4 weeks, 1 engineer"}
+{"type":"end","user":"u1","session":"s15","ts":"2026-10-09T09:59:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s16","ts":"2026-10-12T11:20:00"}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-10-12T11:21:00","text":"Initech: sent the 2027 rate card to Bruno. He asked if we can hold 2026 rates for 6 more months."}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-10-12T11:23:00","text":"what's a reasonable counter? we've had about 4% wage inflation this year"}
+{"type":"end","user":"u1","session":"s16","ts":"2026-10-12T11:29:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s17","ts":"2026-10-13T13:15:00"}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-10-13T13:16:00","text":"Wingtip: Daniel liked the direction of the security proposal, wants pricing for 400 endpoints with 24x7 monitoring."}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-10-13T13:18:00","text":"for the pricing: our 24x7 MDR is $9 per endpoint per month, minimum 12 months"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s18","ts":"2026-10-14T16:00:00"}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-10-14T16:01:00","text":"Tailspin: Grace says deployments have been stable since the fix. She wants a monthly pipeline health report."}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-10-14T16:03:00","text":"draft a template for the monthly pipeline health report for Tailspin"}
+{"type":"end","user":"u1","session":"s18","ts":"2026-10-14T16:10:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s19","ts":"2026-10-15T10:30:00"}
+{"type":"msg","user":"u1","session":"s19","ts":"2026-10-15T10:31:00","text":"Adatum: we're going with the Madrid partner for Spanish support. Joseph needed a start date, I told him 11 Jan."}
+{"type":"msg","user":"u1","session":"s19","ts":"2026-10-15T10:33:00","text":"Joseph also wants the knowledge base translated into Spanish, 140 articles"}
+{"type":"end","user":"u1","session":"s19","ts":"2026-10-15T10:35:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s20","ts":"2026-10-16T14:10:00"}
+{"type":"msg","user":"u1","session":"s20","ts":"2026-10-16T14:11:00","text":"Woodgrove: tabletop exercise booked for 17 Nov, 9am-12pm at their HQ. Ahmed will invite the exec team."}
+{"type":"msg","user":"u1","session":"s20","ts":"2026-10-16T14:13:00","text":"prep me a draft agenda for the 3-hour tabletop for Ahmed"}
+{"type":"end","user":"u1","session":"s20","ts":"2026-10-16T14:20:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s21","ts":"2026-10-19T09:40:00"}
+{"type":"msg","user":"u1","session":"s21","ts":"2026-10-19T09:41:00","text":"Proseware: Katarzyna approved the testing extension, PO coming this week"}
+{"type":"msg","user":"u1","session":"s21","ts":"2026-10-19T09:42:00","text":"Coho: site survey confirmed for 21 Oct, Lucia will meet us on site"}
+{"type":"end","user":"u1","session":"s21","ts":"2026-10-19T09:44:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s22","ts":"2026-10-20T09:11:00"}
+{"type":"msg","user":"u1","session":"s22","ts":"2026-10-20T09:12:00","text":"Contoso weekly DC exit sync w/ Mark Ellison (IT Director) and Ishani Deshmukh (Infrastructure Mgr, she runs the cutovers day to day). 140 VMs leaving the Naperville data centre in 3 waves. Wave 1 is 32 VMs, non-prod plus the intranet, cutover Sat 21 Feb. Naperville lease ends 30 June and Mark has zero appetite to extend."}
+{"type":"msg","user":"u1","session":"s22","ts":"2026-10-20T09:13:00","text":"Wingtip Toys catch-up w/ Callum Fraser (VP Ecommerce) and Nnamdi Eze (IT Director). Holiday peak recap: 99.95% uptime apart from the 47 min checkout outage on Black Friday, which Callum still brings up on every call. Our managed platform contract ($612k/yr, hosting + 24x7 platform support) renews 30 April."}
+{"type":"end","user":"u1","session":"s22","ts":"2026-10-20T09:15:00"}
+{"type":"start","user":"u1","session":"s23","ts":"2026-10-20T09:39:00"}
+{"type":"msg","user":"u1","session":"s23","ts":"2026-10-20T09:40:00","text":"Proseware renewal is coming up fast. Our CloudOps contract (managed Azure for their policy and claims platforms) ends 31 Mar, current ACV $410k. Duncan Kilbride (Head of Cloud & Infrastructure) is happy with us, but Bianca Moretti in vendor mgmt says anything over $250k goes to competitive review this year."}
+{"type":"msg","user":"u1","session":"s23","ts":"2026-10-20T09:48:00","text":"Wide World Importers rollout steering this morning w/ Stavros Dimitriou (COO, exec sponsor) and Clifford Abara (Head of IT, owns devices + network). Handheld scanner + WMS mobile rollout, 310 devices across 4 DCs: Dallas go-live Mon 16 Feb, then Memphis 9 Mar, Savannah 6 Apr, Reno 27 Apr. Our fee is $860k, billed per DC at each go-live. Stavros wants a go/no-go call the Thursday before each one."}
+{"type":"end","user":"u1","session":"s23","ts":"2026-10-20T09:50:00"}
+{"type":"start","user":"u1","session":"s24","ts":"2026-10-20T11:04:00"}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-10-20T11:05:00","text":"Northwind call w/ Anton Kovalenko (Head of Transport) and Gianna Benedetti (Harrisburg depot manager). Cold-chain pilot: temp + door sensors on 40 refrigerated trucks out of Harrisburg, alerts straight to dispatch. 6 weeks from Mon 9 Feb, $36k fixed fee. Harrisburg pays out about $38k a month in credits for warm deliveries, target is to cut that by 30%."}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-10-20T11:20:00","text":"Woodgrove Bank Jan service desk numbers: 18,400 tickets, FCR 68%, CSAT 4.1. Contract is $1.15M ACV for 2,300 users and renews 30 Jun. Teodora Constantin (Head of IT Ops) told me she wants FCR above 72% before we even start renewal talks."}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-10-20T11:30:00","text":"Fourth Coffee renewal kickoff with Sunita Varghese (procurement mgr). Store Care contract (service desk + store network/POS support for 212 cafes) is $1.38M/yr and renews 17 Apr. We plan to go in at a 6% uplift - they added 40 cafes last year and our field tech wages are up. Sunita wants our proposal by Fri 13 Feb."}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-10-20T11:34:00","text":"also from Sunita: their CFO Philippa Achterberg wants every commercial change shown as a redline against the current contract. No fresh proposal decks, she won't read them."}
+{"type":"start","user":"u1","session":"s25","ts":"2026-10-20T11:37:00"}
+{"type":"msg","user":"u1","session":"s25","ts":"2026-10-20T11:38:00","text":"Adatum: Lourdes Pineda (their service desk manager) sent the January numbers. First call resolution 61% vs 70% target, avg speed to answer 94s vs 60s. Czech queue is the worst by far. Service credit for Jan comes to $14,200. Corinne Haas, our SDM, is pulling root causes."}
+{"type":"end","user":"u1","session":"s25","ts":"2026-10-20T11:40:00"}
+{"type":"start","user":"u1","session":"s26","ts":"2026-10-20T14:09:00"}
+{"type":"msg","user":"u1","session":"s26","ts":"2026-10-20T14:10:00","text":"Proseware observability pilot agreed w/ Duncan. 6 weeks, $18k fixed fee, credited back if they buy the full service. 20 claims platform services in scope, kickoff planned Mon 9 Feb. Raf Quintero (cloud platform mgr) is their lead. Success criteria: alert noise down 50%, MTTR down 30% from the 47 min baseline."}
+{"type":"end","user":"u1","session":"s26","ts":"2026-10-20T14:12:00"}
+{"type":"start","user":"u1","session":"s27","ts":"2026-10-20T15:03:00"}
+{"type":"msg","user":"u1","session":"s27","ts":"2026-10-20T15:04:00","text":"Litware new-year kickoff with Annika Holm (VP Eng) and Deepa Venkatesan (Head of QA). Our QA automation SOW: 12 FTE at $52/hr blended, ~$1.19M/yr, renews 31 March. Annika wants to keep all 12 but move 3 onto performance testing before their April payroll peak. She prefers Slack for day to day, not email."}
+{"type":"msg","user":"u1","session":"s27","ts":"2026-10-20T15:05:00","text":"Trey Research: Dr. Shirin Farrokh (Head of Research IT) rang. January Azure bill came in at $61k vs their $48k monthly budget, a GPU cluster was left running 9 days after a protein-folding batch. Their CFO, Cornelius Ashdown, is asking questions. She needs our explanation by Wed."}
+{"type":"end","user":"u1","session":"s27","ts":"2026-10-20T15:07:00"}
+{"type":"start","user":"u1","session":"s28","ts":"2026-10-20T15:39:00"}
+{"type":"msg","user":"u1","session":"s28","ts":"2026-10-20T15:40:00","text":"Tailspin intro call tmrw 11:00 with Lorraine Pettigrew, their CFO. First time I'm meeting her. Background: we run their contact centre platform plus 24x7 support, $31.8k/month, renews 21 April. Bettina Sorensen (Director of Customer Care) is our champion. What should I ask Lorraine to understand how she's thinking about the renewal?"}
+{"type":"msg","user":"u1","session":"s28","ts":"2026-10-20T16:05:00","text":"Lucerne Publishing royalties migration update from Nkechi Obi (Royalties & Contracts Mgr): data mapping about 70% done, cutover still planned for 6 Apr. Spring royalty statements to ~4,800 authors have to go out of the new system by 30 Apr, zero slack on that date."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s29","ts":"2026-10-21T09:14:00"}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-10-21T09:15:00","text":"Woodgrove Win11 migration: Pavel Hrabal (EUC lead) says the Jan pilot on 120 devices went fine, only 3 rollbacks. Main rollout begins Mon 16 Feb with the North region branches (410 devices), then Central from 9 Mar. 1,850 devices in total, fixed price $640k."}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-10-21T09:20:00","text":"Draft a short email to Ishani at Contoso: let's walk through the wave 1 runbook together Thu 5 Feb at 10:00, and can her network team send over the firewall change ticket numbers before the 21 Feb cutover."}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-10-21T09:31:00","text":"Email from Leopold Varga, Litware CFO. He wants 15% off the QA SOW at renewal, their FY26 budgets lock in April. Annika warned me he doesnt take vendor calls at all - email only, and he wants the cost in the subject line so he can triage. noted"}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-10-21T09:40:00","text":"draft a note to Shirin on the Azure overrun. The $13k is on us, our runbook had no auto-shutdown on the GPU pool. Fix: auto-stop after 4 hrs idle, budget alerts at 80% and 100%. Say we'll come back with a credit proposal by Thursday. Short, no excuses."}
+{"type":"end","user":"u1","session":"s29","ts":"2026-10-21T09:42:00"}
+{"type":"start","user":"u1","session":"s30","ts":"2026-10-21T10:46:00"}
+{"type":"msg","user":"u1","session":"s30","ts":"2026-10-21T10:47:00","text":"Prep me for Thursday's call with Saskia de Vries, Wingtip's procurement manager. She's new to our contract. I want to walk her through the renewal mechanics: 60-day notice, so anything has to be agreed by 1 March, otherwise it auto-renews on 30 April at the 6% rate card uplift. What will procurement push on?"}
+{"type":"end","user":"u1","session":"s30","ts":"2026-10-21T10:49:00"}
+{"type":"start","user":"u1","session":"s31","ts":"2026-10-21T12:09:00"}
+{"type":"msg","user":"u1","session":"s31","ts":"2026-10-21T12:10:00","text":"Tailspin: Lorraine call went well. Big one: she wants all pricing quoted per quarter, never monthly, their budgets run quarterly. So today we're $95.4k a quarter. She'd go 3 years if support for the new Amazon Connect platform is bundled and the Q4 seasonal agents are covered. Shannon Mercer (procurement lead) runs the paperwork."}
+{"type":"end","user":"u1","session":"s31","ts":"2026-10-21T12:12:00"}
+{"type":"start","user":"u1","session":"s32","ts":"2026-10-21T13:19:00"}
+{"type":"msg","user":"u1","session":"s32","ts":"2026-10-21T13:20:00","text":"Fourth Coffee kiosk pilot planning w/ Reggie Mulcahy (VP Retail Ops) and Ezra Pemberton (IT Director). 12 Portland cafes, 2 self-order kiosks each, start Mon 9 Feb, runs 6 weeks. Success = avg ticket +8%, peak queue time -20%, kiosk uptime 99%. Our integration fee is $96k fixed. Ezra wants a PCI scan of the card readers before go-live."}
+{"type":"msg","user":"u1","session":"s32","ts":"2026-10-21T13:24:00","text":"Reggie: never book him 7-10am, that's the morning rush and he's out in stores. He'd rather do a quick Teams call than a long email thread."}
+{"type":"msg","user":"u1","session":"s32","ts":"2026-10-21T13:30:00","text":"Lucerne: Felix Brandauer (Head of Digital) wants a proof of concept for AI metadata tagging on their backlist, 24k titles. $15k is the most he can sign without going to Wilhelmina Strathearn, their CFO. He wants a proposal by Fri 13 Feb."}
+{"type":"start","user":"u1","session":"s33","ts":"2026-10-21T14:21:00"}
+{"type":"msg","user":"u1","session":"s33","ts":"2026-10-21T14:22:00","text":"Draft a quick internal note to Corinne: before I meet Bogdan Ilic (Adatum CIO) tomorrow I need the Jan SLA miss broken down by queue (EN/ES/CZ), the top 3 root causes, and what the $14,200 credit is made of. Need it by 9am."}
+{"type":"end","user":"u1","session":"s33","ts":"2026-10-21T14:24:00"}
+{"type":"start","user":"u1","session":"s34","ts":"2026-10-21T15:24:00"}
+{"type":"msg","user":"u1","session":"s34","ts":"2026-10-21T15:25:00","text":"Northwind: email from Fatma Yilmaz (Vendor Manager). Our managed network contract (SD-WAN + depot Wi-Fi, 4 depots plus HQ, $22.4k/month) renews 18 May. She wants a 3-year proposal by Fri 20 Feb and is opening at 12% off. Also wants the Wi-Fi refreshed at Erie and Scranton."}
+{"type":"end","user":"u1","session":"s34","ts":"2026-10-21T15:27:00"}
+{"type":"start","user":"u1","session":"s35","ts":"2026-10-21T16:44:00"}
+{"type":"msg","user":"u1","session":"s35","ts":"2026-10-21T16:45:00","text":"prep me for Thursday 11am with Ottilie Marchbank, Proseware's CFO. She joined in Sept and I've only met her once. Agenda is the CloudOps renewal ($410k ACV, ends 31 Mar) and vendor mgmt's competitive review. What will she care about and what should I ask her?"}
+{"type":"end","user":"u1","session":"s35","ts":"2026-10-21T16:47:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s36","ts":"2026-10-22T09:34:00"}
+{"type":"msg","user":"u1","session":"s36","ts":"2026-10-22T09:35:00","text":"WWI wifi survey results from Dallas: dead zones in the cold store, aisles 40-52. Jolanta Nowicka (Dallas DC ops manager) says handhelds drop out every few mins in the freezer section. We need 6 extra access points, change order $14,800 incl. install. Has to be in by 12 Feb or the 16 Feb go-live is at risk."}
+{"type":"msg","user":"u1","session":"s36","ts":"2026-10-22T09:41:00","text":"draft the change order cover email to Clifford: 6 extra APs for the Dallas cold store, $14,800 incl. install, need his approval by Fri so the kit ships in time to install by 12 Feb. Make clear the 16 Feb go-live depends on it."}
+{"type":"msg","user":"u1","session":"s36","ts":"2026-10-22T10:05:00","text":"Draft the agenda for the Woodgrove QBR on Tue 10 Feb, 10-12 at their HQ. Harriet Wanjiru (CIO), Teodora and Pavel attending. Items: Jan service desk stats (FCR 68%, CSAT 4.1), FCR improvement plan, Win11 readiness for the 16 Feb start, renewal timeline to 30 Jun. Keep it tight."}
+{"type":"msg","user":"u1","session":"s36","ts":"2026-10-22T10:06:00","text":"Met Bogdan Ilic. Calm but very clear. He wants a written service improvement plan by Fri 13 Feb, with measures he can track weekly. Every meeting needs an agenda in the calendar invite at least 24h before or he declines it, that's his rule for all vendors. Service desk contract ($1.85M/yr, 2,300 users across Columbus, Monterrey and Brno) ends 30 June. They decide by 31 March: 3-yr extension or go to tender."}
+{"type":"start","user":"u1","session":"s37","ts":"2026-10-22T10:14:00"}
+{"type":"msg","user":"u1","session":"s37","ts":"2026-10-22T10:15:00","text":"Contoso: first proper meeting with Evangeline Rourke, their CFO. She owns the DC exit business case. If they're not out of Naperville by 30 June the lease rolls month to month at $62k. Her rule for anything we send her: open with the cost of doing nothing, then our ask. Otherwise she stops reading."}
+{"type":"end","user":"u1","session":"s37","ts":"2026-10-22T10:17:00"}
+{"type":"start","user":"u1","session":"s38","ts":"2026-10-22T14:19:00"}
+{"type":"msg","user":"u1","session":"s38","ts":"2026-10-22T14:20:00","text":"fyi Raf Quintero at Proseware wants everything operational in the shared slack channel #proseware-ops, he ignores email in his on-call weeks. Also their CISO Yusuf Demir has to approve the monitoring agent install before the pilot can start. Raf says he's thorough but slow."}
+{"type":"end","user":"u1","session":"s38","ts":"2026-10-22T14:22:00"}
+{"type":"start","user":"u1","session":"s39","ts":"2026-10-22T14:49:00"}
+{"type":"msg","user":"u1","session":"s39","ts":"2026-10-22T14:50:00","text":"Tailspin: Bettina and Kelsey Monroe (IT Director) walked me through the Avaya to Amazon Connect move. 160 agents. Pilot with the warranty claims team (40 agents) from Mon 23 Feb, the other 120 in waves after that. Jan abandonment was 9.2% vs their 5% target. Kelsey wants a written status at 4pm Mountain every day of a cutover week, nothing in between unless it's a P1."}
+{"type":"end","user":"u1","session":"s39","ts":"2026-10-22T14:52:00"}
+{"type":"start","user":"u1","session":"s40","ts":"2026-10-22T15:49:00"}
+{"type":"msg","user":"u1","session":"s40","ts":"2026-10-22T15:50:00","text":"Lucerne: Nkechi prefers calls after 2pm, mornings she's buried in author and agent queries. Also realised she's the only person there who really understands the old royalty rules (escalators, reserves against returns). Single point of failure for the migration."}
+{"type":"msg","user":"u1","session":"s40","ts":"2026-10-22T16:10:00","text":"Trey: agreed w/ my VP we'll credit half the overrun, $6,500, on the Feb invoice. Shirin is fine with that. Auto-stop and budget alerts went live today."}
+{"type":"msg","user":"u1","session":"s40","ts":"2026-10-22T16:12:00","text":"Wingtip: Beatrix Thornquist (CFO) joined the end of my call with Callum. FY26 IT services budget is down 8% and she wants the renewal flat, no uplift. Important: any pricing for her goes as a simple table in the email body. No attachments, no decks, she reads everything on her phone between meetings."}
+{"type":"msg","user":"u1","session":"s40","ts":"2026-10-22T16:20:00","text":"Draft a 45-min kickoff agenda for the Northwind cold-chain pilot, Fri 6 Feb at Harrisburg. Anton, Gianna, 2 of her dispatchers, our IoT lead. Scope (40 trucks), what an alert looks like and who acts on it, how we baseline the $38k/month in credits, weekly readouts, what happens at week 6."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s41","ts":"2026-10-23T09:17:00"}
+{"type":"msg","user":"u1","session":"s41","ts":"2026-10-23T09:18:00","text":"Saskia call done. Wingtip policy is 3 quotes for any contract over $500k, so she's getting 2 benchmark quotes for hosting + support. 'Not an RFP', she says. She wants our current SLA schedule and the 2025 incident log by 13 Feb."}
+{"type":"end","user":"u1","session":"s41","ts":"2026-10-23T09:20:00"}
+{"type":"start","user":"u1","session":"s42","ts":"2026-10-23T10:49:00"}
+{"type":"msg","user":"u1","session":"s42","ts":"2026-10-23T10:50:00","text":"Kiosk readiness call w/ Ezra at 2pm. Prep me: what to check on PCI scope for the card readers, firmware versions, what happens to orders if a kiosk loses network, and the rollback plan if a cafe has problems on day one."}
+{"type":"end","user":"u1","session":"s42","ts":"2026-10-23T10:52:00"}
+{"type":"start","user":"u1","session":"s43","ts":"2026-10-23T11:29:00"}
+{"type":"msg","user":"u1","session":"s43","ts":"2026-10-23T11:30:00","text":"Northwind: sensor supplier just told us the shipment slipped, now lands Wed 11 Feb. Install is about 4 days across 40 trucks, so the Mon 9 Feb start is gone. Realistic start is the week after. Kickoff tomorrow still goes ahead, Gianna is fine with it."}
+{"type":"msg","user":"u1","session":"s43","ts":"2026-10-23T11:33:00","text":"Litware: Annika asked if we can help with SOC 2 Type II evidence collection, their compliance manager left in Jan and the audit window opens 1 April. Rough ask is 1 analyst for 8 weeks. I ballparked $36k. She needs a decision by 20 Feb, Gareth Pryce (their vendor manager) will paper it."}
+{"type":"msg","user":"u1","session":"s43","ts":"2026-10-23T11:35:00","text":"Just off with Ottilie Marchbank. She wants a 2-yr option priced, wants to see pilot results before signing anything, and anything commercial has to be in her inbox the evening before - she reads email at 7am ahead of her 8:30 exec meeting. I floated a 5% uplift, she didnt love it."}
+{"type":"end","user":"u1","session":"s43","ts":"2026-10-23T11:37:00"}
+{"type":"start","user":"u1","session":"s44","ts":"2026-10-23T13:09:00"}
+{"type":"msg","user":"u1","session":"s44","ts":"2026-10-23T13:10:00","text":"Contoso runbook review with Ishani done. Wave 2 = 58 VMs (claims apps) on Sat 11 Apr, wave 3 = 50 VMs (policy admin + data warehouse) on Sat 16 May. Leaves about 6 weeks of buffer before the lease ends. Our Naperville infra support contract ends 15 June, the other date to watch."}
+{"type":"start","user":"u1","session":"s45","ts":"2026-10-23T14:04:00"}
+{"type":"msg","user":"u1","session":"s45","ts":"2026-10-23T14:05:00","text":"Help me outline the Adatum service improvement plan (SIP) Bogdan wants by the 13th. Issues: FCR 61%, ASA 94s, Czech queue understaffed, knowledge articles way out of date (Corinne found 40% untouched since 2023). Practical, weekly measures he can track. Not a consultancy deck."}
+{"type":"end","user":"u1","session":"s45","ts":"2026-10-23T14:07:00"}
+{"type":"start","user":"u1","session":"s46","ts":"2026-10-23T15:09:00"}
+{"type":"msg","user":"u1","session":"s46","ts":"2026-10-23T15:10:00","text":"Woodgrove: Josh Tremblay (third-party risk mgr) emailed. Their regulator wants a documented exit plan for every critical outsourced service, ours (service desk) is due 31 Mar. Plus a 120-question due diligence questionnaire, due 27 Feb."}
+{"type":"msg","user":"u1","session":"s46","ts":"2026-10-23T15:15:00","text":"Fourth Coffee readiness: only 14 of 24 kiosks have arrived, the rest are due Tue. So pilot start slips from Mon 9 Feb to Wed 11 Feb. PCI scan booked for Mon 9 Feb. Ezra wants offline mode tested at 2 cafes before launch."}
+{"type":"msg","user":"u1","session":"s46","ts":"2026-10-23T15:40:00","text":"Trey: Shirin warned me Cornelius Ashdown never approves anything over $100k by email. He wants a 20-min call with the numbers on screen, Thursdays after 3pm only. The phase 2 SOW goes to him next week."}
+{"type":"end","user":"u1","session":"s46","ts":"2026-10-23T15:42:00"}
+{"type":"start","user":"u1","session":"s47","ts":"2026-10-23T16:29:00"}
+{"type":"msg","user":"u1","session":"s47","ts":"2026-10-23T16:30:00","text":"Tailspin: Bettina wants the monthly KPI pack to show abandonment by queue (warranty, orders, tech support) from the Feb pack on. Passed it to our WFM analyst, easy add."}
+{"type":"msg","user":"u1","session":"s47","ts":"2026-10-23T16:44:00","text":"Draft my reply to Leopold on the 15% ask. Dont concede anything yet, just say we'll come back with options by Fri 13 Feb, one of which reduces team size. Remember his rules on format."}
+{"type":"end","user":"u1","session":"s47","ts":"2026-10-23T16:46:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s48","ts":"2026-10-26T09:24:00"}
+{"type":"msg","user":"u1","session":"s48","ts":"2026-10-26T09:25:00","text":"Trey contract facts so I stop digging: Research Cloud Ops (managed Azure + support) is $520k/yr and renews 15 May. Lab Data Platform phase 2 SOW is $410k - 14 instrument connectors, ELN integration, GxP validation pack. Kickoff targeted Mon 16 Feb."}
+{"type":"msg","user":"u1","session":"s48","ts":"2026-10-26T09:50:00","text":"Draft the proposal summary for Felix's metadata POC: 2,000 backlist titles as the sample, 4 weeks, we generate BISAC subject codes + keywords, accuracy target 85% against his editors' own tags. $14.5k fixed so he can sign it himself under his $15k limit."}
+{"type":"start","user":"u1","session":"s49","ts":"2026-10-26T10:27:00"}
+{"type":"msg","user":"u1","session":"s49","ts":"2026-10-26T10:28:00","text":"Wingtip: Tobias Kranz (Head of Demand Planning) wants a forecasting pilot. Their 8-week forecast error is ~34% MAPE and they overstocked plush by $1.1M last Christmas. Idea: 6 weeks, 3 product lines (plush, puzzles, outdoor). Hugo Lam from our data science team is scoping it."}
+{"type":"end","user":"u1","session":"s49","ts":"2026-10-26T10:30:00"}
+{"type":"start","user":"u1","session":"s50","ts":"2026-10-26T11:04:00"}
+{"type":"msg","user":"u1","session":"s50","ts":"2026-10-26T11:05:00","text":"draft a quick note to Reggie confirming the new kiosk pilot start, Wed 11 Feb, all 12 cafes. Remaining 10 kiosks land Tue and get installed overnight, PCI scan Mon. Offer a 10-min Teams call Tue afternoon if he wants a walkthrough."}
+{"type":"end","user":"u1","session":"s50","ts":"2026-10-26T11:07:00"}
+{"type":"start","user":"u1","session":"s51","ts":"2026-10-26T14:04:00"}
+{"type":"msg","user":"u1","session":"s51","ts":"2026-10-26T14:05:00","text":"Contoso: Niamh Cassidy (CISO) pinged me. Nothing production moves to Azure until there's an independent pen-test of the landing zone. Not in our SOW and Mark didn't know about it. Wave 1 is mostly non-prod but the intranet counts as prod, so this hits 21 Feb."}
+{"type":"msg","user":"u1","session":"s51","ts":"2026-10-26T14:30:00","text":"WWI: Clifford approved the AP change order on the phone, PO to follow. Maeve Abernathy (procurement) confirmed the EDI migration RFP is out: responses due Fri 20 Feb noon, decision targeted 6 Mar. They're moving 62 trading partners off their old VAN."}
+{"type":"msg","user":"u1","session":"s51","ts":"2026-10-26T14:40:00","text":"draft the pilot kickoff post for #proseware-ops (Raf + team) for Mon 9 Feb: 20 claims services in scope, 6 weeks, targets alert noise -50% and MTTR -30% vs the 47 min baseline. Mention we still need Yusuf's sign-off on the agent install. Short, it's slack."}
+{"type":"end","user":"u1","session":"s51","ts":"2026-10-26T14:42:00"}
+{"type":"start","user":"u1","session":"s52","ts":"2026-10-26T15:15:00"}
+{"type":"msg","user":"u1","session":"s52","ts":"2026-10-26T15:16:00","text":"Jakub Hora (IT lead at Adatum's Brno plant) emailed, pretty angry. Czech callers are waiting 6+ min at the 6am shift change. He wants a Czech speaker on L1 from 5:30. Corinne says we can add 2 Czech-speaking agents but earliest start is 2 March."}
+{"type":"start","user":"u1","session":"s53","ts":"2026-10-26T15:44:00"}
+{"type":"msg","user":"u1","session":"s53","ts":"2026-10-26T15:45:00","text":"Northwind kickoff at Harrisburg done, good energy, the dispatchers get it. Anton doesn't want email updates: he wants 10 mins at his Monday 11:30 transport huddle, every week. Gianna runs the pilot readout with us Thursdays at 2pm."}
+{"type":"end","user":"u1","session":"s53","ts":"2026-10-26T15:47:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s54","ts":"2026-10-27T09:08:00"}
+{"type":"msg","user":"u1","session":"s54","ts":"2026-10-27T09:09:00","text":"Litware Playwright migration: rollout started on 9 Feb (today), payroll module first. Bartek Zielinski, our lead automation engineer, is running it. 1,400 Selenium tests to migrate by end of April. Benefits module is next, planned for 2 March."}
+{"type":"msg","user":"u1","session":"s54","ts":"2026-10-27T09:10:00","text":"Prep me for Thursday's 3:30 call with Cornelius Ashdown on the phase 2 SOW ($410k). He'll bring up the Azure overrun too. Give me the numbers in the order he'll want them, likely objections, and what I can concede."}
+{"type":"msg","user":"u1","session":"s54","ts":"2026-10-27T09:25:00","text":"Lucerne: Linus Penhaligon (IT Mgr) told me Wilhelmina Strathearn sent back our last SOW unread because it was a PDF. She wants Word docs so she can track-change them. So every commercial doc for her goes in Word from now on."}
+{"type":"end","user":"u1","session":"s54","ts":"2026-10-27T09:27:00"}
+{"type":"start","user":"u1","session":"s55","ts":"2026-10-27T10:44:00"}
+{"type":"msg","user":"u1","session":"s55","ts":"2026-10-27T10:45:00","text":"Marguerite Castellano (WWI CFO) pushed back on the $14,800 AP change order. Her view: our original survey missed the cold store so we should eat half. Also fyi she wants every cost split by DC in an Excel attachment, never typed into the email body."}
+{"type":"end","user":"u1","session":"s55","ts":"2026-10-27T10:47:00"}
+{"type":"start","user":"u1","session":"s56","ts":"2026-10-27T11:46:00"}
+{"type":"msg","user":"u1","session":"s56","ts":"2026-10-27T11:47:00","text":"Scoping call with Tobias at 2pm on the Wingtip pilot. What do I need to nail down? Thinking success metric (target MAPE), access to POS + web store order data, an owner on their side, and price. Hugo reckons $48k fixed for the 6 weeks."}
+{"type":"msg","user":"u1","session":"s56","ts":"2026-10-27T11:55:00","text":"Draft a note to Mark at Contoso flagging Niamh's pen-test requirement. Not in our SOW, and since the intranet in wave 1 counts as prod it could hit the 21 Feb cutover. Propose a CR to bring in a pen-test firm, roughly $18-20k. Friendly, not defensive."}
+{"type":"msg","user":"u1","session":"s56","ts":"2026-10-27T12:10:00","text":"Proseware pilot did NOT start today. Yusuf Demir hasn't approved the agent install, he wants our latest pen test summary first. Sent it at 11. Raf thinks Wed is realistic, so the pilot end date moves too."}
+{"type":"start","user":"u1","session":"s57","ts":"2026-10-27T13:49:00"}
+{"type":"msg","user":"u1","session":"s57","ts":"2026-10-27T13:50:00","text":"PCI scan on the kiosk card readers came back with 2 low findings (default SNMP string, an old TLS cipher on 3 units). Ezra's team is fixing tonight. Still go for Wed."}
+{"type":"end","user":"u1","session":"s57","ts":"2026-10-27T13:52:00"}
+{"type":"start","user":"u1","session":"s58","ts":"2026-10-27T15:14:00"}
+{"type":"msg","user":"u1","session":"s58","ts":"2026-10-27T15:15:00","text":"Renewal kickoff with Shannon Mercer at Tailspin tmrw 2pm. We're at $95.4k/qtr, renews 21 April, Lorraine is open to 3 yrs if Connect support and the Q4 seasonal agents are in. What's my opening position and what should I hold back?"}
+{"type":"end","user":"u1","session":"s58","ts":"2026-10-27T15:17:00"}
+{"type":"start","user":"u1","session":"s59","ts":"2026-10-27T16:29:00"}
+{"type":"msg","user":"u1","session":"s59","ts":"2026-10-27T16:30:00","text":"prep me for tmrw's Woodgrove QBR. Harriet will push on FCR (68% vs the 72% Teodora wants). I also want to plant the MDR idea - Teodora let slip their SOC provider contract ends 31 Aug and Harriet is unhappy with their response times. Who cares about what in that room?"}
+{"type":"msg","user":"u1","session":"s59","ts":"2026-10-27T16:31:00","text":"Adatum: when exactly does Bogdan want the improvment plan, and what was his rule about how meetings with him get set up?"}
+{"type":"end","user":"u1","session":"s59","ts":"2026-10-27T16:33:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s60","ts":"2026-10-28T09:29:00"}
+{"type":"msg","user":"u1","session":"s60","ts":"2026-10-28T09:30:00","text":"ugh, WWI: the AP vendor says the 6 access points won't arrive until 17 Feb. Dallas go-live slips from 16 Feb to Mon 23 Feb. Stavros grumbled but agreed, as long as Memphis stays 9 Mar."}
+{"type":"msg","user":"u1","session":"s60","ts":"2026-10-28T09:36:00","text":"draft a short update to Stavros and Jolanta: Dallas go-live now Mon 23 Feb because the APs land 17 Feb, install 17-18 Feb, coverage test Thu 19 Feb morning ahead of the go/no-go. Memphis still 9 Mar. Ask Jolanta to keep the training slots in the week of 16 Feb as dry runs."}
+{"type":"start","user":"u1","session":"s61","ts":"2026-10-28T10:18:00"}
+{"type":"msg","user":"u1","session":"s61","ts":"2026-10-28T10:19:00","text":"Tobias agreed: $48k fixed, 6 weeks, target MAPE under 25% on the 8-week horizon for the 3 lines. Data extract from POS + web store by Friday. Start Mon 16 Feb if the SOW is signed this week. Anything over $40k needs Beatrix's signature."}
+{"type":"msg","user":"u1","session":"s61","ts":"2026-10-28T10:40:00","text":"Contoso: Ishani's network team sent teh firewall tickets, 14 rule changes, all approved for the 21 Feb window. One less blocker, assuming the pen-test thing gets sorted."}
+{"type":"end","user":"u1","session":"s61","ts":"2026-10-28T10:42:00"}
+{"type":"start","user":"u1","session":"s62","ts":"2026-10-28T13:04:00"}
+{"type":"msg","user":"u1","session":"s62","ts":"2026-10-28T13:05:00","text":"Woodgrove QBR done. Harriet happy with CSAT, not with FCR. We agreed to add 2 L2 engineers for 8 weeks at our cost to push knowledge articles. Harriet wants an MDR proposal by 13 Mar, budget around $300k/yr. Teodora: for any P1 she wants a phone call first, email after, never email only."}
+{"type":"msg","user":"u1","session":"s62","ts":"2026-10-28T13:20:00","text":"draft the QBR follow-up email to Harriet Wanjiru, cc Teodora: thanks for teh time, 2 extra L2 engineers for 8 weeks at our cost on knowledge articles, FCR target 72% by end of March, MDR proposal by 13 Mar, exit plan to Josh by 31 Mar."}
+{"type":"end","user":"u1","session":"s62","ts":"2026-10-28T13:22:00"}
+{"type":"start","user":"u1","session":"s63","ts":"2026-10-28T14:40:00"}
+{"type":"msg","user":"u1","session":"s63","ts":"2026-10-28T14:41:00","text":"Draft the options email to Leopold Varga for Friday. Option A: keep 12 FTE at $50/hr on a 2-year term. Option B: 10 FTE at $51/hr, also 2-year. Show annual cost and saving vs the current $1.19M for each. Cost in the subject line like he wants."}
+{"type":"end","user":"u1","session":"s63","ts":"2026-10-28T14:43:00"}
+{"type":"start","user":"u1","session":"s64","ts":"2026-10-28T15:34:00"}
+{"type":"msg","user":"u1","session":"s64","ts":"2026-10-28T15:35:00","text":"Tailspin: Shannon wants 10% off for a 3-yr commitment, and the Q4 seasonal seats (60 extra agents, Oct-Dec) priced as a seperate option. Needs our proposal by Fri 27 Feb. I didn't commit to anything."}
+{"type":"start","user":"u1","session":"s65","ts":"2026-10-28T16:19:00"}
+{"type":"msg","user":"u1","session":"s65","ts":"2026-10-28T16:20:00","text":"Lucerne steerco: Linus says the AS/400 extract has 11,000 contract records with the territory fields missing. Nkechi reckons 3 weeks of manual cleanup and she's the only one who can do it. 6 Apr cutover now at risk."}
+{"type":"end","user":"u1","session":"s65","ts":"2026-10-28T16:22:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s66","ts":"2026-10-29T09:03:00"}
+{"type":"msg","user":"u1","session":"s66","ts":"2026-10-29T09:04:00","text":"Beatrix signed the forecasting pilot SOW last night, $48k. Start Mon 16 Feb confirmed. Tobias owns it on their side, Hugo on ours. Midpoint readout pencilled for Fri 6 March, final readout 27 March."}
+{"type":"end","user":"u1","session":"s66","ts":"2026-10-29T09:06:00"}
+{"type":"start","user":"u1","session":"s67","ts":"2026-10-29T09:34:00"}
+{"type":"msg","user":"u1","session":"s67","ts":"2026-10-29T09:35:00","text":"Yusuf signed off first thing, so the Proseware observability pilot started on Wed 11 Feb, not the 9th. Agents going onto 14 of the 20 services today, the other 6 by Fri. Keeping the full 6 weeks means it now ends 25 Mar."}
+{"type":"end","user":"u1","session":"s67","ts":"2026-10-29T09:37:00"}
+{"type":"start","user":"u1","session":"s68","ts":"2026-10-29T10:19:00"}
+{"type":"msg","user":"u1","session":"s68","ts":"2026-10-29T10:20:00","text":"Fourth Coffee kiosk pilot went live today in all 12 Portland cafes. By 10am: 410 kiosk orders. Hawthorne St cafe had a card reader freeze around 8:15, rebooted and fine by 8:40. Offline mode test passed at both test cafes yesterday. Reggie happy so far."}
+{"type":"msg","user":"u1","session":"s68","ts":"2026-10-29T10:21:00","text":"Tailspin: Bettina says 31% of their contacts are 'where is my order'. She wants self-service order tracking in the Connect IVR, but not before the migration is done. Logged it as a post-migration idea, no promises."}
+{"type":"start","user":"u1","session":"s69","ts":"2026-10-29T11:54:00"}
+{"type":"msg","user":"u1","session":"s69","ts":"2026-10-29T11:55:00","text":"prep for my 2:30 with Nkechi on the contract data cleanup. 11k records missing territory, she estimates 3 weeks by hand, cutover 6 Apr at risk and statements due 30 Apr. What options can I put to her to speed it up without burning her out?"}
+{"type":"end","user":"u1","session":"s69","ts":"2026-10-29T11:57:00"}
+{"type":"start","user":"u1","session":"s70","ts":"2026-10-29T12:28:00"}
+{"type":"msg","user":"u1","session":"s70","ts":"2026-10-29T12:29:00","text":"Adatum: met Wendell Park, their SAP programme lead. They're moving to S/4HANA by 2028 and want a 6-week readiness assessment, proposal from us by 27 Feb. Anything unbudgeted over $100k needs board approval via Rosalind Featherstone, the CFO. Next board meeting is 12 March."}
+{"type":"end","user":"u1","session":"s70","ts":"2026-10-29T12:31:00"}
+{"type":"start","user":"u1","session":"s71","ts":"2026-10-29T13:19:00"}
+{"type":"msg","user":"u1","session":"s71","ts":"2026-10-29T13:20:00","text":"Northwind: sensors arrived this morning, install started on the first 10 trucks. Leah Morgan (Head of IT) needs our gateway security questionnaire back before anything connects to their TMS. Our IoT lead is on it, due Fri."}
+{"type":"end","user":"u1","session":"s71","ts":"2026-10-29T13:22:00"}
+{"type":"start","user":"u1","session":"s72","ts":"2026-10-29T14:14:00"}
+{"type":"msg","user":"u1","session":"s72","ts":"2026-10-29T14:15:00","text":"Prep me for the WWI EDI RFP response. Maeve's weighting: cost 40%, delivery approach 30%, references 20%, support 10%. We're planning $285k fixed for 62 trading partners. I hear Norvik Partners is bidding. What are our win themes and where are we weak?"}
+{"type":"start","user":"u1","session":"s73","ts":"2026-10-29T15:09:00"}
+{"type":"msg","user":"u1","session":"s73","ts":"2026-10-29T15:10:00","text":"Nkechi call went well. We script a first pass using territory data from their rights database and she only reviews the exceptions. Should cut it to ~8 working days. Extra effort on our side ~12 days, so a $16.8k change request (12 x $1,400)."}
+{"type":"end","user":"u1","session":"s73","ts":"2026-10-29T15:12:00"}
+{"type":"start","user":"u1","session":"s74","ts":"2026-10-29T15:51:00"}
+{"type":"msg","user":"u1","session":"s74","ts":"2026-10-29T15:52:00","text":"Deepa wants the weekly QA metrics (defects found, escaped defects, automation coverage) as a CSV export every Monday by 10am instead of the PDF report. She pipes it into their own dashboard. Marek Dvorak (our delivery manager) is setting it up from next Monday."}
+{"type":"end","user":"u1","session":"s74","ts":"2026-10-29T15:54:00"}
+{"type":"start","user":"u1","session":"s75","ts":"2026-10-29T16:39:00"}
+{"type":"msg","user":"u1","session":"s75","ts":"2026-10-29T16:40:00","text":"what did we agree to credit Trey for the Jan Azure overrun again, and is it going on the Feb invoice?"}
+{"type":"end","user":"u1","session":"s75","ts":"2026-10-29T16:42:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s76","ts":"2026-10-30T09:49:00"}
+{"type":"msg","user":"u1","session":"s76","ts":"2026-10-30T09:50:00","text":"Draft the Store Care renewal for Philippa Achterberg: 6% uplift on the $1.38M, plus a 3-yr option at 4.5% per year. Remember she wants it as a redline against the current contract, so give me a redline summary of the changed clauses (fees, term, kiosk support exclusion), not a proposal."}
+{"type":"msg","user":"u1","session":"s76","ts":"2026-10-30T10:14:00","text":"Draft the cover email to Bogdan for the SIP (Corinne's doc goes attached). Headline commitments: FCR back to 70% by end of April, ASA under 60s by end of March, 2 Czech agents from 2 March, KB refresh done by 20 Feb, self-service portal rollout starting at Columbus 23 Feb, then Monterrey 9 Mar and Brno 23 Mar."}
+{"type":"msg","user":"u1","session":"s76","ts":"2026-10-30T10:30:00","text":"Contoso: Mark approved the pen-test CR, $18.5k incl. remediation time. He can sign CRs up to $25k himself, so no need to go up the chain. Only slot the pen-test firm has is 23-25 Feb, so wave 1 cutover moves from 21 Feb to Sat 7 Mar."}
+{"type":"start","user":"u1","session":"s77","ts":"2026-10-30T12:39:00"}
+{"type":"msg","user":"u1","session":"s77","ts":"2026-10-30T12:40:00","text":"Bianca Moretti (Proseware vendor mgmt) sent a 40-question RFI style questionnaire for the CloudOps renewal, due 20 Feb. She also mentioned another MSP quoted 12% under our current price. Wouldn't say who."}
+{"type":"end","user":"u1","session":"s77","ts":"2026-10-30T12:42:00"}
+{"type":"start","user":"u1","session":"s78","ts":"2026-10-30T16:04:00"}
+{"type":"msg","user":"u1","session":"s78","ts":"2026-10-30T16:05:00","text":"Cornelius call done. He wants the PO split: $150k before their FY ends 31 Mar, the rest from 1 Apr. Asked if the mass-spec connector can move to phase 3 to cut cost. Wants a revised SOW by Wed 18 Feb. Didn't mention the overrun once, good."}
+{"type":"msg","user":"u1","session":"s78","ts":"2026-10-30T16:06:00","text":"Woodgrove: Josh wants our SOC 2 Type II report and latest BCP test evidence with the questionnaire. SOC 2 is from Oct so fine. Our last BCP test was June 2025, hes ok as long as the next one is booked before June."}
+{"type":"msg","user":"u1","session":"s78","ts":"2026-10-30T16:10:00","text":"Northwind install update: 22 of 40 trucks fitted. 3 of them have old reefer units with no data port and need adapters at $140 each, Gianna approved on the spot. Questionnaire went to Leah's team this afternoon."}
+{"type":"msg","user":"u1","session":"s78","ts":"2026-10-30T16:21:00","text":"Deal desk approved two Wingtip renewal options: 3-year term at 3.5% uplift instead of the 6% rate card, or 2-year flat if they drop 24x7 phone support to business hours. Not sending anything to Beatrix until I've run it past Callum."}
+{"type":"end","user":"u1","session":"s78","ts":"2026-10-30T16:23:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s79","ts":"2026-11-02T09:14:00"}
+{"type":"msg","user":"u1","session":"s79","ts":"2026-11-02T09:15:00","text":"Trey: Mireille Dufresne (QA & validation lead) hasn't approved the validation plan. She wants a risk-based approach per GAMP 5 and needs ~3 more weeks. So phase 2 kickoff slips from 16 Feb to Mon 2 Mar. Shirin agreed, not thrilled."}
+{"type":"end","user":"u1","session":"s79","ts":"2026-11-02T09:17:00"}
+{"type":"start","user":"u1","session":"s80","ts":"2026-11-02T09:40:00"}
+{"type":"msg","user":"u1","session":"s80","ts":"2026-11-02T09:41:00","text":"Sent Bogdan the SIP. He replied within the hour: fine, but he wants it tracked every Tuesday on our weekly call, and the Jan credit of $14,200 shown on the February invoice, not March."}
+{"type":"start","user":"u1","session":"s81","ts":"2026-11-02T10:29:00"}
+{"type":"msg","user":"u1","session":"s81","ts":"2026-11-02T10:30:00","text":"Felix signed the metadata POC at $14.5k, starts Mon 23 Feb. He also said, very casually, that he's had a demo from a Shopify agency for the bookstore. Our retainer ($26k/month) renews 1 May. Need to watch this."}
+{"type":"end","user":"u1","session":"s81","ts":"2026-11-02T10:32:00"}
+{"type":"start","user":"u1","session":"s82","ts":"2026-11-02T11:11:00"}
+{"type":"msg","user":"u1","session":"s82","ts":"2026-11-02T11:12:00","text":"Options email went to Leopold. Gareth called after: Leopold leans to B but wants $47/hr. Also an offshore shop is quoting them $41/hr, though Gareth doesn't think they'd switch mid-migration. Holding at $51 for now."}
+{"type":"end","user":"u1","session":"s82","ts":"2026-11-02T11:14:00"}
+{"type":"start","user":"u1","session":"s83","ts":"2026-11-02T11:39:00"}
+{"type":"msg","user":"u1","session":"s83","ts":"2026-11-02T11:40:00","text":"Sent the Store Care renewal redline to Sunita at 11:30. 6% = $1,462,800 for 1 yr, or 4.5% per year on a 3-yr term. She'll put it in front of Philippa next week."}
+{"type":"msg","user":"u1","session":"s83","ts":"2026-11-02T11:50:00","text":"Northwind: Fatma says Samuel Osei (CFO) signs off the network renewal himself. Her tip: never show him a percentage without the dollar amount next to it, he hates doing the maths and sends things back."}
+{"type":"end","user":"u1","session":"s83","ts":"2026-11-02T11:52:00"}
+{"type":"start","user":"u1","session":"s84","ts":"2026-11-02T14:35:00"}
+{"type":"msg","user":"u1","session":"s84","ts":"2026-11-02T14:36:00","text":"Write the email to Saskia sending the SLA schedule and 2025 incident log she asked for. Be upfront about the Black Friday outage: 47 min, RCA done, $18k service credit paid in December. Short and factual, no spin."}
+{"type":"start","user":"u1","session":"s85","ts":"2026-11-02T15:19:00"}
+{"type":"msg","user":"u1","session":"s85","ts":"2026-11-02T15:20:00","text":"Jolanta (WWI Dallas): 120 pickers over 3 shifts need training, and she wants our trainers on the night shift too, 10pm-6am. Best time to reach her is 2pm right after shift change, never before 11am, she's on teh floor."}
+{"type":"msg","user":"u1","session":"s85","ts":"2026-11-02T15:45:00","text":"what do I still owe Proseware right now? want to clear it before the weekend"}
+{"type":"end","user":"u1","session":"s85","ts":"2026-11-02T15:47:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s86","ts":"2026-11-03T09:23:00"}
+{"type":"msg","user":"u1","session":"s86","ts":"2026-11-03T09:24:00","text":"Wingtip forecasting pilot started on 16 February as planned. Hugo has 3 years of POS + web order history. Tobias runs a 30 min check-in every Wednesday at 11. First forecast output due 27 Feb."}
+{"type":"end","user":"u1","session":"s86","ts":"2026-11-03T09:26:00"}
+{"type":"start","user":"u1","session":"s87","ts":"2026-11-03T09:59:00"}
+{"type":"msg","user":"u1","session":"s87","ts":"2026-11-03T10:00:00","text":"Draft the revised phase 2 SOW summary for Cornelius: mass-spec connector moved to phase 3, total down from $410k to $372k, PO 1 $150k by 31 Mar, PO 2 $222k from 1 Apr, kickoff Mon 2 Mar once Mireille signs off the validation plan. I'll walk him through it on screen Thursday."}
+{"type":"msg","user":"u1","session":"s87","ts":"2026-11-03T10:05:00","text":"Tailspin incident over the weekend, and it's on us. Our Salesforce integration created about 1,900 duplicate warranty cases from Sat 14 Feb. Bettina's team is spending this morning cleaning up. Fix is in, a dedupe check on the case ID. She wants the RCA by Wed 18 Feb."}
+{"type":"end","user":"u1","session":"s87","ts":"2026-11-03T10:07:00"}
+{"type":"start","user":"u1","session":"s88","ts":"2026-11-03T10:44:00"}
+{"type":"msg","user":"u1","session":"s88","ts":"2026-11-03T10:45:00","text":"Harriet called: Augustin Valcourt, Woodgrove's CFO, wants the MDR to go through their investment committee. It meets the first Tuesday of each month, papers due the Thursday before. For the 3 Mar committee that means papers by 26 Feb, otherwise it's 7 Apr. Harriet wants 3 Mar. And nothing goes to Augustin direct from vendors, always via Harriet's office."}
+{"type":"start","user":"u1","session":"s89","ts":"2026-11-03T11:39:00"}
+{"type":"msg","user":"u1","session":"s89","ts":"2026-11-03T11:40:00","text":"Evangeline Rourke called re the Contoso slip. She wants a risk-share in writing: if the exit runs past 30 June because of delays on our side, we pay 50% of the lease extension. Wants our position before her investment review on Thu 26 Feb."}
+{"type":"msg","user":"u1","session":"s89","ts":"2026-11-03T11:56:00","text":"Bad news on Litware. Bartek Zielinski resigned this morning, last day 20 March. He's the Playwright brain. Marek is putting Ola Wrona on to shadow him from tomorrow. Havent told Annika yet, want a handover plan first."}
+{"type":"end","user":"u1","session":"s89","ts":"2026-11-03T11:58:00"}
+{"type":"start","user":"u1","session":"s90","ts":"2026-11-03T14:19:00"}
+{"type":"msg","user":"u1","session":"s90","ts":"2026-11-03T14:20:00","text":"Draft the Northwind network renewal proposal for Fatma, Samuel will read it. 3-year term from 18 May, 5% off the $22.4k/month, Wi-Fi refresh at Erie included, Scranton quoted as an option. Samuel's rule: every percentage gets its dollar amount next to it."}
+{"type":"msg","user":"u1","session":"s90","ts":"2026-11-03T14:25:00","text":"Draft my reply to Bianca's questionnaire email: we'll return all 40 answers by 20 Feb, ask for 30 min to walk her through the SLA section, and gently point out the 12% cheaper quote probably doesn't include 24x7 P1 cover. Polite, not defensive."}
+{"type":"end","user":"u1","session":"s90","ts":"2026-11-03T14:27:00"}
+{"type":"start","user":"u1","session":"s91","ts":"2026-11-03T15:19:00"}
+{"type":"msg","user":"u1","session":"s91","ts":"2026-11-03T15:20:00","text":"Tailspin - when did Shannon say she needs our renewal proposal by? And Lorraine wanted pricing quarterly not monthly, right?"}
+{"type":"msg","user":"u1","session":"s91","ts":"2026-11-03T15:29:00","text":"How do I tell Annika about Bartek without spooking her mid-renewal? Normally I'd just Slack her but this needs a call. Give me talking points: handover plan, Ola shadowing for 5 weeks, migration status (210 of 1,400 tests moved in week 1), and why the April timeline holds."}
+{"type":"end","user":"u1","session":"s91","ts":"2026-11-03T15:31:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s92","ts":"2026-11-04T09:04:00"}
+{"type":"msg","user":"u1","session":"s92","ts":"2026-11-04T09:05:00","text":"remind me when Maeve's EDI RFP responses are due for WWI - is it this Friday at noon?"}
+{"type":"msg","user":"u1","session":"s92","ts":"2026-11-04T09:20:00","text":"Philippa pushed back on the renewal, via Sunita: same-store sales down 3% in Q4, she wants it flat. Counter is 2% for 1 yr, or 3% per year on a 3-yr term, plus kiosk support folded into Store Care at no extra cost. My VP says our floor is 3.5%/yr on 3 yrs; kiosk support ok for the 12 pilot cafes only."}
+{"type":"msg","user":"u1","session":"s92","ts":"2026-11-04T09:21:00","text":"Woodgrove Win11 rollout started on Mon 16 Feb as planned, North region. 96 devices done on day one, 2 failures, both old Latitude 5400s with the BIOS issue. Pavel happy so far."}
+{"type":"start","user":"u1","session":"s93","ts":"2026-11-04T10:01:00"}
+{"type":"msg","user":"u1","session":"s93","ts":"2026-11-04T10:02:00","text":"Adatum Tuesday SIP call. KB refresh done early, 140 articles rewritten. FCR for the first half of Feb is 64%. Lourdes noticeably happier. Bogdan confirmed portal go-live at Columbus on 23 Feb, his team owns the Okta SSO piece."}
+{"type":"end","user":"u1","session":"s93","ts":"2026-11-04T10:04:00"}
+{"type":"start","user":"u1","session":"s94","ts":"2026-11-04T12:04:00"}
+{"type":"msg","user":"u1","session":"s94","ts":"2026-11-04T12:05:00","text":"What does the Naperville lease cost per month if Contoso overruns, and who on their side signs CRs?"}
+{"type":"end","user":"u1","session":"s94","ts":"2026-11-04T12:07:00"}
+{"type":"start","user":"u1","session":"s95","ts":"2026-11-04T14:12:00"}
+{"type":"msg","user":"u1","session":"s95","ts":"2026-11-04T14:13:00","text":"Ran the renewal options past Callum. Dropping 24x7 phone support is a non-starter for him with Easter coming (5 April), so really we're pitching 3-year at 3.5%. He also wants the Easter load test confirmed for 24 Feb, target 450 orders/min, 3x last Easter's peak."}
+{"type":"msg","user":"u1","session":"s95","ts":"2026-11-04T14:30:00","text":"Draft the RCA cover note to Bettina for the Tailspin duplicate cases. Own it: our integration retried without a dedupe check, about 1,900 duplicates from Sat 14 Feb, fixed Monday, plus a new alert if case volume spikes. Offer a $4,500 credit on the March invoice for her team's clean-up time."}
+{"type":"msg","user":"u1","session":"s95","ts":"2026-11-04T14:55:00","text":"Draft the cover note for the change request to Wilhelmina Strathearn: $16.8k for the scripted cleanup of the 11k contract records, protects the 6 Apr cutover and the 30 Apr royalty statements. I'll paste it into the Word doc, she'll track-change it anyway."}
+{"type":"end","user":"u1","session":"s95","ts":"2026-11-04T14:57:00"}
+{"type":"start","user":"u1","session":"s96","ts":"2026-11-04T15:44:00"}
+{"type":"msg","user":"u1","session":"s96","ts":"2026-11-04T15:45:00","text":"WWI: APs arrived today as promised. Install today and tomorrow, coverage test Thu morning before Stavros's go/no-go at 2pm. We accepted Marguerite's 50/50 split on the change order, so $7,400 each. Clifford is raising the PO for their half."}
+{"type":"start","user":"u1","session":"s97","ts":"2026-11-04T16:19:00"}
+{"type":"msg","user":"u1","session":"s97","ts":"2026-11-04T16:20:00","text":"Northwind: Leah's team signed off the gateway questionnaire, TMS access granted for the pilot. All 40 trucks fitted. Pilot goes live tomorrow, Wed 18 Feb."}
+{"type":"end","user":"u1","session":"s97","ts":"2026-11-04T16:22:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s98","ts":"2026-11-05T09:04:00"}
+{"type":"msg","user":"u1","session":"s98","ts":"2026-11-05T09:05:00","text":"Draft the exec summary for our WWI EDI RFP response, addressed to Maeve Abernathy: $285k fixed, 14-week migration of 62 trading partners in 4 waves, 4-week parallel run, 30 days hypercare. Lead with low-risk cutover and our two distribution references. Keep it under 400 words."}
+{"type":"msg","user":"u1","session":"s98","ts":"2026-11-05T09:21:00","text":"Litware incident: payroll tax calc bug for Quebec employees escaped to prod in last night's release, ~2,300 payslips affected, a customer caught it. Deepa wants a post-mortem from us by Fri 20 Feb, says our regression suite should have caught it. She's right."}
+{"type":"msg","user":"u1","session":"s98","ts":"2026-11-05T09:30:00","text":"Proseware pilot week 1: alert volume down 38% (from ~1,900 to ~1,180 a week), MTTR 47 to 39 min across 6 incidents. Raf pleased. He wants to add the document imaging service too, which is outside the agreed scope."}
+{"type":"msg","user":"u1","session":"s98","ts":"2026-11-05T09:31:00","text":"Tailspin news: Shannon Mercer is leaving, last day Fri 20 Feb. Derek Pham (Senior Buyer) takes over our renewal. He hasn't seen any of the history, so I'll need to brief him properly."}
+{"type":"end","user":"u1","session":"s98","ts":"2026-11-05T09:33:00"}
+{"type":"start","user":"u1","session":"s99","ts":"2026-11-05T10:57:00"}
+{"type":"msg","user":"u1","session":"s99","ts":"2026-11-05T10:58:00","text":"Draft a holding reply to Deepa on the Quebec escape. Acknowledge it, full post-mortem Friday, interim finding: the test case existed in the old Selenium suite but was in a batch not yet migrated to Playwright. Don't throw Bartek under the bus."}
+{"type":"end","user":"u1","session":"s99","ts":"2026-11-05T11:00:00"}
+{"type":"start","user":"u1","session":"s100","ts":"2026-11-05T11:29:00"}
+{"type":"msg","user":"u1","session":"s100","ts":"2026-11-05T11:30:00","text":"Trey: Dr. Torben Aalund (Director of Lab Ops) complained instrument data takes ~6 hrs to show up in the platform, he wants under 1 hr. Phase 2 streaming ingestion fixes that. He wants plate readers done first, they're about 40% of his volume. Sent Cornelius the revised SOW summary this morning too."}
+{"type":"msg","user":"u1","session":"s100","ts":"2026-11-05T11:40:00","text":"need an outline for the Woodgrove MDR paper for the investment committee (papers due 26 Feb). Budget ~$300k/yr, replaces their SOC contract ending 31 Aug, 2,300 users and 140 branches. Augustin Valcourt will read every word. What sections and in what order?"}
+{"type":"start","user":"u1","session":"s101","ts":"2026-11-05T13:46:00"}
+{"type":"msg","user":"u1","session":"s101","ts":"2026-11-05T13:47:00","text":"Prep for Beatrix tmrw 9am, Wingtip renewal. Going in with 3-year at 3.5% vs the 6% rate card. Her budget is down 8% and she asked for flat. Expect questions on Black Friday and on Saskia's benchmarks. What concessions should I keep in reserve?"}
+{"type":"end","user":"u1","session":"s101","ts":"2026-11-05T13:49:00"}
+{"type":"start","user":"u1","session":"s102","ts":"2026-11-05T15:49:00"}
+{"type":"msg","user":"u1","session":"s102","ts":"2026-11-05T15:50:00","text":"Call with our pricing desk tmrw on Evangeline's 50% risk-share ask for Contoso. Lease extension is $62k/month. What's a sensible counter? I'm thinking a percentage with a hard cap, only for delays we cause, and conditional on Contoso hitting its own dependencies."}
+{"type":"msg","user":"u1","session":"s102","ts":"2026-11-05T16:10:00","text":"Wilhelmina approved the $16.8k CR, with tracked changes - she capped expenses at $500. She wants a cutover readiness report from us every week until go-live, RAG format, sent to her and Nkechi."}
+{"type":"msg","user":"u1","session":"s102","ts":"2026-11-05T16:15:00","text":"Northwind cold-chain pilot started on Wed 18 Feb, all 40 trucks live by 11:00. First real alert at 13:40, a failing reefer unit on a dairy run, dispatch swapped the trailer before anything spoiled. Gianna is thrilled."}
+{"type":"msg","user":"u1","session":"s102","ts":"2026-11-05T16:22:00","text":"Adatum portal rollout at Columbus is slipping. Okta SSO config on their side isn't done, and that's Bogdan's team. New date 2 March. Lourdes is annoyed but it's not on us. Monterrey and Brno dates TBC."}
+{"type":"end","user":"u1","session":"s102","ts":"2026-11-05T16:24:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s103","ts":"2026-11-06T10:09:00"}
+{"type":"msg","user":"u1","session":"s103","ts":"2026-11-06T10:10:00","text":"Kiosk pilot week 1 numbers from Reggie (pilot started on Wed 11 Feb): kiosks took 27% of orders across the 12 cafes, avg ticket +11% on kiosk orders, peak queue time down 14% vs the -20% target. Card reader freezes at 2 cafes, Hawthorne St and Division St. Vendor firmware patch due Tue 24 Feb."}
+{"type":"msg","user":"u1","session":"s103","ts":"2026-11-06T10:11:00","text":"Beatrix meeting done. She won't do 3.5%. Her counter is 2.5% on 3 years, plus a discount on a full forecasting rollout if the pilot works. She was friendly but firm, and asked twice about the Black Friday credits. Saskia's benchmark quotes are due 6 March, so Beatrix won't sign anything before then anyway. Told her I'd come back next week."}
+{"type":"msg","user":"u1","session":"s103","ts":"2026-11-06T10:15:00","text":"Big Proseware news: Duncan Kilbride is promoted to Deputy CIO from 1 Mar. Raf Quintero becomes acting Head of Cloud & Infrastructure and owns the technical sign-off on the renewal now. Duncan stays our exec sponsor."}
+{"type":"end","user":"u1","session":"s103","ts":"2026-11-06T10:17:00"}
+{"type":"start","user":"u1","session":"s104","ts":"2026-11-06T11:14:00"}
+{"type":"msg","user":"u1","session":"s104","ts":"2026-11-06T11:15:00","text":"Stavros's Dallas go/no-go is at 2pm. Coverage test this morning: -67 dBm or better in every cold store aisle. Give me a tight go/no-go checklist (devices, network, training, badge/login sync, rollback) and the questions Stavros will ask."}
+{"type":"msg","user":"u1","session":"s104","ts":"2026-11-06T11:30:00","text":"Pricing desk call done. For Contoso we can offer 25% of any lease extension, capped at $40k total, only for delays we cause, and only if Contoso turns firewall changes round in 5 working days and app owners sign off 48h before each wave."}
+{"type":"start","user":"u1","session":"s105","ts":"2026-11-06T13:30:00"}
+{"type":"msg","user":"u1","session":"s105","ts":"2026-11-06T13:31:00","text":"Annika approved the SOC 2 evidence work. Gareth got it down from $36k to $34k, 8 weeks starting 9 March, one analyst from our compliance practice. She wants progress as a RAG status in our shared Slack channel, not email."}
+{"type":"end","user":"u1","session":"s105","ts":"2026-11-06T13:33:00"}
+{"type":"start","user":"u1","session":"s106","ts":"2026-11-06T14:09:00"}
+{"type":"msg","user":"u1","session":"s106","ts":"2026-11-06T14:10:00","text":"Draft an intro email to Derek Pham at Tailspin. Who we are, what we run for them, $95.4k a quarter today, renewal 21 April, and where Shannon left it: 10% off asked for 3 yrs, Q4 seasonal seats as a separate option, proposal due 27 Feb. Offer a 30-min call early next week."}
+{"type":"end","user":"u1","session":"s106","ts":"2026-11-06T14:12:00"}
+{"type":"start","user":"u1","session":"s107","ts":"2026-11-06T15:34:00"}
+{"type":"msg","user":"u1","session":"s107","ts":"2026-11-06T15:35:00","text":"Woodgrove Win11 week 1: 388 of 410 North devices done, 7 rollbacks. Problem: their teller app BranchOne crashes on 24H2 at 3 branches. Pavel has raised it with the vendor. Central wave on 9 Mar might slip."}
+{"type":"end","user":"u1","session":"s107","ts":"2026-11-06T15:37:00"}
+{"type":"start","user":"u1","session":"s108","ts":"2026-11-06T16:03:00"}
+{"type":"msg","user":"u1","session":"s108","ts":"2026-11-06T16:04:00","text":"Write the agenda for Tuesday's Adatum SIP call so it's in Bogdan's invite today: Feb FCR/ASA to date, portal slip to 2 March (Okta on their side), Czech agents starting 2 March, Jan credit on the Feb invoice. Keep it tight."}
+{"type":"msg","user":"u1","session":"s108","ts":"2026-11-06T16:20:00","text":"Cornelius approved the $372k phase 2 in principle on today's call. PO 1 ($150k) to be raised by Fri 27 Feb. He also wants a monthly Azure spend summary from us, first week of every month."}
+{"type":"msg","user":"u1","session":"s108","ts":"2026-11-06T16:40:00","text":"Draft the Contoso risk-share response to Evangeline for her 26 Feb review. Her rule, cost of doing nothing first: 3 months of overrun is $186k on the lease alone. Then our offer: 25% capped at $40k, our delays only, conditions on firewall changes and app owner sign-offs."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s109","ts":"2026-11-09T10:43:00"}
+{"type":"msg","user":"u1","session":"s109","ts":"2026-11-09T10:44:00","text":"Draft the Quebec post-mortem summary for Deepa. Facts: 2,300 payslips, the test existed in Selenium but sat in a not-yet-migrated batch, nobody ran a coverage gap check during migration. Fixes: parity report before any Selenium test is retired, and both suites run in parallel until end of April."}
+{"type":"msg","user":"u1","session":"s109","ts":"2026-11-09T11:00:00","text":"Sent Bianca all 40 questionnaire answers this morning, on time. She now wants pricing on 3 options: 1-yr at current scope, 2-yr at current scope, and 2-yr including observability. Wants it before their exec mtg on 26 Feb."}
+{"type":"msg","user":"u1","session":"s109","ts":"2026-11-09T11:20:00","text":"Tailspin pilot slipping. Kelsey says the Salesforce screen-pop failed UAT, agents get the wrong customer record on about 1 in 20 calls. Not going live like that. Pilot moves from Mon 23 Feb to Wed 4 Mar, warranty team still first."}
+{"type":"end","user":"u1","session":"s109","ts":"2026-11-09T11:22:00"}
+{"type":"start","user":"u1","session":"s110","ts":"2026-11-09T14:29:00"}
+{"type":"msg","user":"u1","session":"s110","ts":"2026-11-09T14:30:00","text":"Need to get back to Philippa's team next week on their counter. Lay out options between their 3%/3yr and our 3.5% floor - what can I trade instead of price? Thinking kiosk support for the pilot cafes, quarterly reviews, maybe a rate lock on the rollout (our list is $9,600 per cafe installed)."}
+{"type":"msg","user":"u1","session":"s110","ts":"2026-11-09T14:31:00","text":"Draft the first weekly cutover readiness report for Lucerne (to Wilhelmina + Nkechi), RAG: data cleanup amber (script running, 4,200 of 11,000 done), environments green, 6 Apr cutover amber, 30 Apr statements green. Short, they'll read it on their phones."}
+{"type":"msg","user":"u1","session":"s110","ts":"2026-11-09T14:35:00","text":"Northwind: Fatma came back on the network renewal. She wants 10% off, not 5%, and the Wi-Fi refresh at both Erie and Scranton included. Says Samuel won't sign anything that looks like a straight rollover."}
+{"type":"end","user":"u1","session":"s110","ts":"2026-11-09T14:37:00"}
+{"type":"start","user":"u1","session":"s111","ts":"2026-11-09T15:17:00"}
+{"type":"msg","user":"u1","session":"s111","ts":"2026-11-09T15:18:00","text":"Wingtip Easter load test pushed from 24 Feb to 3 March, their payment provider's sandbox isnt ready. Code freeze stays 16 March. Callum not thrilled. Jess Morland (our delivery lead) says 3 March still leaves time for one retest before the freeze."}
+{"type":"end","user":"u1","session":"s111","ts":"2026-11-09T15:20:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s112","ts":"2026-11-10T09:15:00"}
+{"type":"msg","user":"u1","session":"s112","ts":"2026-11-10T09:16:00","text":"Big one: Bogdan Ilic is leaving Adatum end of March, joining one of their competitors. Wendell Park becomes interim CIO from 1 April. Bogdan was our sponsor for the service desk extension and Wendell is very SAP-focused. Need to rethink the renewal plan."}
+{"type":"start","user":"u1","session":"s113","ts":"2026-11-10T09:44:00"}
+{"type":"msg","user":"u1","session":"s113","ts":"2026-11-10T09:45:00","text":"Lucerne metadata POC started today, 2,000 titles loaded. Felix's team will tag 200 by hand as the benchmark. Also heard Margot Delacroix joins as COO on 2 Mar and Felix will report to her."}
+{"type":"end","user":"u1","session":"s113","ts":"2026-11-10T09:47:00"}
+{"type":"start","user":"u1","session":"s114","ts":"2026-11-10T10:39:00"}
+{"type":"msg","user":"u1","session":"s114","ts":"2026-11-10T10:40:00","text":"Anton's Northwind transport huddle at 11:30, I get 10 mins. Pilot live since Wed 18 Feb, 40 trucks, first saves already. Give me 4 short lines to say out loud, plus the one thing I need from his drivers this week."}
+{"type":"msg","user":"u1","session":"s114","ts":"2026-11-10T10:41:00","text":"WWI handheld rollout went live at the Dallas DC this morning, all 86 devices on day shift, night shift picks them up tonight. Two pickers couldn't log in (badge sync), fixed by 10am. Fyi the EDI response went in Fri at 11:40, before the noon cutoff. Jolanta happy, Stavros walked the floor."}
+{"type":"end","user":"u1","session":"s114","ts":"2026-11-10T10:43:00"}
+{"type":"start","user":"u1","session":"s115","ts":"2026-11-10T11:09:00"}
+{"type":"msg","user":"u1","session":"s115","ts":"2026-11-10T11:10:00","text":"First call with Derek Pham (Tailspin) at 2pm. Word is he's got a competitor quote. If he leads with price, how do I keep it on value without sounding defensive? Give me 4-5 lines I can actually say."}
+{"type":"msg","user":"u1","session":"s115","ts":"2026-11-10T11:31:00","text":"Wingtip: Nnamdi Eze promoted to CTO, effective 1 March. He keeps the hosting decision. Callum says Nnamdi will back a 3-year deal because he doesn't want a platform migration in his first year as CTO. Good for us."}
+{"type":"end","user":"u1","session":"s115","ts":"2026-11-10T11:33:00"}
+{"type":"start","user":"u1","session":"s116","ts":"2026-11-10T12:19:00"}
+{"type":"msg","user":"u1","session":"s116","ts":"2026-11-10T12:20:00","text":"Woodgrove MDR pricing done internally: $286k/yr for 2,300 users on a 3-yr term, plus $24k one-off onboarding. Harriet has seen the numbers and is fine. Josh's due diligence questionnaire is about 80% done, due Fri."}
+{"type":"start","user":"u1","session":"s117","ts":"2026-11-10T13:09:00"}
+{"type":"msg","user":"u1","session":"s117","ts":"2026-11-10T13:10:00","text":"Trey news: Shirin Farrokh is promoted to Chief Data Officer from 1 Mar. Her deputy Jasper Thackeray becomes Head of Research IT and our day-to-day contact. Shirin stays exec sponsor for phase 2."}
+{"type":"end","user":"u1","session":"s117","ts":"2026-11-10T13:12:00"}
+{"type":"start","user":"u1","session":"s118","ts":"2026-11-10T15:29:00"}
+{"type":"msg","user":"u1","session":"s118","ts":"2026-11-10T15:30:00","text":"Fourth Coffee: Sunita is moving to their new franchise development team. Fergus Doyle takes over procurement and the Store Care renewal from 2 Mar. Sunita will intro us this week."}
+{"type":"msg","user":"u1","session":"s118","ts":"2026-11-10T15:31:00","text":"Tailspin: Derek has a competitor quote at $26.5k/month, no workforce management in it. Wants us to match or explain the gap in writing. Strictly numbers, didn't care about the migration at all. Proposal still due Fri 27 Feb."}
+{"type":"msg","user":"u1","session":"s118","ts":"2026-11-10T15:42:00","text":"Leopold came back via Gareth: he'll do 10 FTE at $49/hr on a 2-year term if we add flex up to 12 FTE for the April-May payroll peak at the same rate. Flex also covers Annika's performance testing. I think that's the deal. Need deal desk sign-off."}
+{"type":"end","user":"u1","session":"s118","ts":"2026-11-10T15:44:00"}
+{"type":"start","user":"u1","session":"s119","ts":"2026-11-10T16:39:00"}
+{"type":"msg","user":"u1","session":"s119","ts":"2026-11-10T16:40:00","text":"prep me for tmrw's internal pricing review on Proseware. Bianca's 3 options (1-yr, 2-yr, 2-yr + observability), current $410k, the 5% uplift I floated, Ottilie wanting 2-yr, the mystery MSP 12% cheaper. What's a sensible walk-away?"}
+{"type":"end","user":"u1","session":"s119","ts":"2026-11-10T16:42:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s120","ts":"2026-11-11T09:14:00"}
+{"type":"msg","user":"u1","session":"s120","ts":"2026-11-11T09:15:00","text":"Big one at WWI: Clifford Abara is leaving, last day Fri 27 Feb. IT reports to Stavros for now. Jolanta Nowicka is promoted to Director of DC Operations and owns the remaining 3 rollouts. Still need a named IT contact for devices + network."}
+{"type":"msg","user":"u1","session":"s120","ts":"2026-11-11T09:25:00","text":"Contoso: Mark Ellison is off on paternity leave from Mon 2 Mar for 6 weeks. Ishani Deshmukh is acting IT Director while he's out and takes over CR approvals. Good for us, she knows the migration better than anyone."}
+{"type":"start","user":"u1","session":"s121","ts":"2026-11-11T10:28:00"}
+{"type":"msg","user":"u1","session":"s121","ts":"2026-11-11T10:29:00","text":"Prep for my call Thursday with Rosalind Featherstone, Adatum CFO. First time talking to her directly. Want to cover the service desk extension now Bogdan's leaving, and flag the SAP assessment proposal coming Friday. Wendell's tip: she hates surprises in writing, always call her before anything lands in her inbox."}
+{"type":"msg","user":"u1","session":"s121","ts":"2026-11-11T10:50:00","text":"Prep my 15 mins at Evangeline's Contoso investment review, Thu 26 Feb. Cover: DC exit status (wave 1 now 7 Mar after the pen-test, waves 2 and 3 unchanged), the risk-share offer (25%, $40k cap), what we need from Contoso. Open with the cost of doing nothing, she'll expect it."}
+{"type":"end","user":"u1","session":"s121","ts":"2026-11-11T10:52:00"}
+{"type":"start","user":"u1","session":"s122","ts":"2026-11-11T11:49:00"}
+{"type":"msg","user":"u1","session":"s122","ts":"2026-11-11T11:50:00","text":"Proseware pricing review outcome: 1-yr at +5% = $430.5k. 2-yr at +3.5% = $424.4k/yr. 2-yr plus observability = $489.4k/yr (observability list is $65k). Floor is +2% on the 2-yr, only if they commit to observability."}
+{"type":"end","user":"u1","session":"s122","ts":"2026-11-11T11:52:00"}
+{"type":"start","user":"u1","session":"s123","ts":"2026-11-11T14:51:00"}
+{"type":"msg","user":"u1","session":"s123","ts":"2026-11-11T14:52:00","text":"Deal desk approved Litware: 10 FTE @ $49/hr, 2-year, flex to 12 FTE Apr-May. Roughly $960k a year incl. the flex vs $1.19M today. Smaller account, but 2 years locked in and no rebid."}
+{"type":"end","user":"u1","session":"s123","ts":"2026-11-11T14:54:00"}
+{"type":"start","user":"u1","session":"s124","ts":"2026-11-11T15:19:00"}
+{"type":"msg","user":"u1","session":"s124","ts":"2026-11-11T15:20:00","text":"draft the cover memo for Augustin Valcourt to go with the MDR paper, via Harriet's office: $286k/yr, 3-yr term, $24k onboarding, replaces the SOC contract ending 31 Aug with a 30-day overlap for transition. Goes to the 3 Mar investment committee. Formal, he's a numbers guy."}
+{"type":"start","user":"u1","session":"s125","ts":"2026-11-11T15:49:00"}
+{"type":"msg","user":"u1","session":"s125","ts":"2026-11-11T15:50:00","text":"When does the Trey Research Cloud Ops contract renew again, and what's it worth per year?"}
+{"type":"msg","user":"u1","session":"s125","ts":"2026-11-11T15:55:00","text":"ok, draft a short intro email to Jasper Thackeray as our new day-to-day: congrats, who's who on our side (Rhiannon Teague is delivery lead), phase 2 kickoff Mon 2 Mar, open items: PO 1 by Fri and Mireille's sign-off on the validation plan."}
+{"type":"end","user":"u1","session":"s125","ts":"2026-11-11T15:57:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s126","ts":"2026-11-12T09:29:00"}
+{"type":"msg","user":"u1","session":"s126","ts":"2026-11-12T09:30:00","text":"Draft the counter for Philippa Achterberg: 3.5% per year on a 3-year term, kiosk support included for the 12 pilot cafes, quarterly service reviews, and the kiosk rollout rate locked until 30 Apr. Same format as last time."}
+{"type":"msg","user":"u1","session":"s126","ts":"2026-11-12T09:36:00","text":"Draft the confirmation to Leopold: 10 FTE at $49/hr, 2-year term from 1 April, flex to 12 FTE in April-May at the same rate, SOW out for signature by 13 March. You know his style. Cost in the subject, and put the yes/no ask right at the top."}
+{"type":"end","user":"u1","session":"s126","ts":"2026-11-12T09:38:00"}
+{"type":"start","user":"u1","session":"s127","ts":"2026-11-12T10:09:00"}
+{"type":"msg","user":"u1","session":"s127","ts":"2026-11-12T10:10:00","text":"Bad news on Lucerne. Script cleaned 7,900 records but 3,100 need Nkechi's manual review, not the ~1,000 we hoped. She thinks 2 more weeks. 6 Apr cutover is off, proposing 20 Apr. Statements still due 30 Apr, so only 10 days of buffer."}
+{"type":"end","user":"u1","session":"s127","ts":"2026-11-12T10:12:00"}
+{"type":"start","user":"u1","session":"s128","ts":"2026-11-12T12:08:00"}
+{"type":"msg","user":"u1","session":"s128","ts":"2026-11-12T12:09:00","text":"what did Saskia ask us for again, and when are her benchmark quotes due?"}
+{"type":"start","user":"u1","session":"s129","ts":"2026-11-12T13:59:00"}
+{"type":"msg","user":"u1","session":"s129","ts":"2026-11-12T14:00:00","text":"WWI Dallas, first 3 days since the rollout started on Mon 23 Feb: pick rate up from 92 to 104 lines/hr, mis-picks down ~30%. Night shift adoption slower, 6 pickers still on paper. Our trainers stay thru Fri."}
+{"type":"msg","user":"u1","session":"s129","ts":"2026-11-12T14:06:00","text":"draft a handover email to Clifford before he goes, cc Stavros and Jolanta. Open items: Memphis readiness for 9 Mar, their PO for the $7,400 AP half, the EDI decision on 6 Mar, and who owns network changes after Friday. Thank him properly, he's been good to us."}
+{"type":"end","user":"u1","session":"s129","ts":"2026-11-12T14:08:00"}
+{"type":"start","user":"u1","session":"s130","ts":"2026-11-12T16:32:00"}
+{"type":"msg","user":"u1","session":"s130","ts":"2026-11-12T16:33:00","text":"Start the SAP readiness assessment proposal for Wendell. 6 weeks, 4 people (SAP architect, data migration lead, 2 analysts), fixed fee $145k. Deliverables: landscape review, custom code analysis, data quality scan, migration roadmap. Due Friday. Give me a structure and the exec summary."}
+{"type":"end","user":"u1","session":"s130","ts":"2026-11-12T16:35:00"}
+{"type":"start","user":"u1","session":"s131","ts":"2026-11-12T17:04:00"}
+{"type":"msg","user":"u1","session":"s131","ts":"2026-11-12T17:05:00","text":"draft the pricing email to Ottilie and Bianca with the 3 options from yesterday's review. Lead with the 2-yr + observability. Sending it tonight so it's in Ottilie's inbox for her 7am read before tomorrow's exec mtg."}
+{"type":"end","user":"u1","session":"s131","ts":"2026-11-12T17:07:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s132","ts":"2026-11-13T09:04:00"}
+{"type":"msg","user":"u1","session":"s132","ts":"2026-11-13T09:05:00","text":"Woodgrove service desk phones were down 8:10 to 8:57 this morning. Carrier SIP trunk failed and failover to the backup trunk didn't kick in. Called Teodora at 8:20 like she wants, she was not happy. Getting the numbers together now."}
+{"type":"msg","user":"u1","session":"s132","ts":"2026-11-13T09:07:00","text":"Call with Rosalind done, 25 min, went well. She wants the service desk extension decision pushed from 31 March to 17 April so the interim CIO can weigh in. Her ask on price: flat for all 3 years, no uplift at all. On SAP she's fine for us to send the proposal Friday, but it goes to the board on 12 March and she won't pre-commit."}
+{"type":"start","user":"u1","session":"s133","ts":"2026-11-13T10:14:00"}
+{"type":"msg","user":"u1","session":"s133","ts":"2026-11-13T10:15:00","text":"Outage email sent to Teodora at 9:40: 47 min, 312 abandoned calls. She wants a full RCA by Mon noon and asked straight out about service credits."}
+{"type":"msg","user":"u1","session":"s133","ts":"2026-11-13T10:40:00","text":"Trey: Mireille signed off the validation plan today. Her condition: all our validation docs in their template TR-QA-014, as Word with tracked changes, never PDF. Phase 2 kickoff Mon 2 Mar confirmed. PO 1 still not in."}
+{"type":"end","user":"u1","session":"s133","ts":"2026-11-13T10:42:00"}
+{"type":"start","user":"u1","session":"s134","ts":"2026-11-13T11:21:00"}
+{"type":"msg","user":"u1","session":"s134","ts":"2026-11-13T11:22:00","text":"Wingtip curveball: Saskia sent a formal notice of non-renewal today, 'procedural, to keep options open' before the 1 March notice deadline. Beatrix rang me to say it's procedural. Still unsettling. Contract now ends 30 April unless we sign new terms."}
+{"type":"end","user":"u1","session":"s134","ts":"2026-11-13T11:24:00"}
+{"type":"start","user":"u1","session":"s135","ts":"2026-11-13T14:00:00"}
+{"type":"msg","user":"u1","session":"s135","ts":"2026-11-13T14:01:00","text":"Gareth Pryce's last day at Litware is tomorrow. Mirela Stan takes over as vendor manager from 2 March. Gareth says she'll want all our invoices through their Coupa portal from April. Intro call booked Wed 4 March."}
+{"type":"msg","user":"u1","session":"s135","ts":"2026-11-13T14:15:00","text":"weekly cutover report #2 for Wilhelmina and Nkechi pls. Data cleanup red (7,900 done, 3,100 need manual review), cutover proposed to move 6 Apr -> 20 Apr pending Wilhelmina's ok, statements 30 Apr amber, environments green."}
+{"type":"end","user":"u1","session":"s135","ts":"2026-11-13T14:17:00"}
+{"type":"start","user":"u1","session":"s136","ts":"2026-11-13T15:09:00"}
+{"type":"msg","user":"u1","session":"s136","ts":"2026-11-13T15:10:00","text":"Northwind week 1 readout with Gianna: 14 temperature excursions caught, 9 loads saved, roughly $11k of product. Downside: door-open alerts are way too noisy, 300+ in the first week, drivers hate it. Threshold goes from 60 seconds to 3 minutes from tomorrow."}
+{"type":"msg","user":"u1","session":"s136","ts":"2026-11-13T15:30:00","text":"Intro call with Fergus Doyle at 4. Give me a quick recap of where the Fourth Coffee renewal stands - what we proposed, Philippa's counter, what we sent yesterday - so I don't sound like I'm starting over with him."}
+{"type":"msg","user":"u1","session":"s136","ts":"2026-11-13T15:40:00","text":"Contoso investment review done. Board is fine with the exit plan. Evangeline countered on the risk-share: 40% capped at $75k. Ishani backed us on the dependency conditions, so those stay. Need to go back to the pricing desk."}
+{"type":"msg","user":"u1","session":"s136","ts":"2026-11-13T15:41:00","text":"Woodgrove MDR paper went to the investment committee today, on deadline. Harriet attached her own note backing it, which helps. Committee sits Tue 3 Mar."}
+{"type":"start","user":"u1","session":"s137","ts":"2026-11-13T16:09:00"}
+{"type":"msg","user":"u1","session":"s137","ts":"2026-11-13T16:10:00","text":"Tailspin: Kelsey's team fixed the screen-pop, UAT passed on the retest. Pilot Wed 4 Mar confirmed with the warranty team (40 agents). The other 120 agents go in 3 waves: 23 Mar, 6 Apr, 20 Apr."}
+{"type":"end","user":"u1","session":"s137","ts":"2026-11-13T16:12:00"}
+{"type":"start","user":"u1","session":"s138","ts":"2026-11-13T16:40:00"}
+{"type":"msg","user":"u1","session":"s138","ts":"2026-11-13T16:41:00","text":"Think through the Wingtip non-renewal notice with me. How exposed are we? The notice deadline has passed so we need a signed new contract by 30 April. Leverage I've got: Nnamdi doesn't want a migration, Easter on 5 April, pilot midpoint on 6 March."}
+{"type":"msg","user":"u1","session":"s138","ts":"2026-11-13T16:45:00","text":"Fergus Doyle (Fourth Coffee procurement, came over from their supply chain team) - sharp, numbers guy. He has our counter and wants a call with Philippa on Mon 2 Mar to close it out."}
+{"type":"msg","user":"u1","session":"s138","ts":"2026-11-13T17:05:00","text":"remind me exactly what the pricing desk approved on the Contoso risk-share, and the conditions"}
+{"type":"end","user":"u1","session":"s138","ts":"2026-11-13T17:07:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s139","ts":"2026-11-16T10:19:00"}
+{"type":"msg","user":"u1","session":"s139","ts":"2026-11-16T10:20:00","text":"Draft the RCA summary for Teodora Constantin on yesterday's phone outage: 47 min (8:10-8:57), 312 abandoned calls, root cause carrier SIP trunk failover misconfigured after their maintenance on 21 Feb. Fixes: weekly failover test, second carrier by 31 Mar. Offer the 5% service credit on the Feb desk fee (~$4.8k)."}
+{"type":"msg","user":"u1","session":"s139","ts":"2026-11-16T10:32:00","text":"Final pass on the SAP assessment cover note to Wendell. $145k fixed, 6 weeks, start 6 April if the board approves on 12 March. Mention we can hold the team for 2 weeks after approval. I called Rosalind yesterday so she knows it's coming."}
+{"type":"msg","user":"u1","session":"s139","ts":"2026-11-16T10:35:00","text":"Contoso: Niamh's pen-test findings are in. 2 highs (open mgmt ports on 2 jump hosts, one storage account with public access), our cloud architect fixed both the same day. She's signed off wave 1 for 7 Mar. Remediation stayed inside the $18.5k CR."}
+{"type":"end","user":"u1","session":"s139","ts":"2026-11-16T10:37:00"}
+{"type":"start","user":"u1","session":"s140","ts":"2026-11-16T12:19:00"}
+{"type":"msg","user":"u1","session":"s140","ts":"2026-11-16T12:20:00","text":"Draft my counter to Fatma on the Northwind network renewal: 8% off on the 3-year term, that's $1,792 off the $22.4k a month, so $20,608/month, with the Wi-Fi refresh at both Erie and Scranton done by end of June. Final offer, say it nicely. Samuel's rule on percentages applies."}
+{"type":"start","user":"u1","session":"s141","ts":"2026-11-16T14:14:00"}
+{"type":"msg","user":"u1","session":"s141","ts":"2026-11-16T14:15:00","text":"Draft the reply to Derek on the $26.5k quote for Tailspin. Angle: theirs has no WFM and no Connect migration support, ours has both plus 24x7. Offer: 3-yr at $29.9k/month incl. Connect support, Q4 seasonal seats as an add-on at $6.6k/month for Oct-Dec. Lorraine Pettigrew will read it, so quarterly figures only."}
+{"type":"end","user":"u1","session":"s141","ts":"2026-11-16T14:17:00"}
+{"type":"start","user":"u1","session":"s142","ts":"2026-11-16T15:10:00"}
+{"type":"msg","user":"u1","session":"s142","ts":"2026-11-16T15:11:00","text":"Wingtip renewal moving. Beatrix proposed 3% on the 3-year if we give 10% off the forecasting rollout should the pilot convert. Deal desk says yes to 3%. I'll confirm Monday once Hugo checks the rollout discount works for us."}
+{"type":"msg","user":"u1","session":"s142","ts":"2026-11-16T15:30:00","text":"Proseware pilot week 2: alert noise down 55% vs baseline, MTTR 35 min. Noise target hit, MTTR not there yet (-26%). Raf wants the numbers posted in #proseware-ops every Monday morning from now on. Told him document imaging waits for the full rollout."}
+{"type":"end","user":"u1","session":"s142","ts":"2026-11-16T15:32:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s143","ts":"2026-11-17T09:07:00"}
+{"type":"msg","user":"u1","session":"s143","ts":"2026-11-17T09:08:00","text":"Adatum portal rollout started on 2 March at Columbus, finally, Okta got fixed Friday. Monterrey now 16 March, Brno 30 March. The 2 Czech agents also started today, both on the 5:30am shift Jakub asked for."}
+{"type":"msg","user":"u1","session":"s143","ts":"2026-11-17T09:20:00","text":"Maeve called: Wide World EDI shortlist is us and Norvik Partners. Norvik came in at $240k vs our $285k. She wants our best and final by Fri 6 Mar, decision moved from 6 Mar to Fri 13 Mar. Marguerite will sit on the final panel."}
+{"type":"msg","user":"u1","session":"s143","ts":"2026-11-17T09:30:00","text":"Woodgrove changes: Pavel Hrabal moved to their digital channels team as of today, Teodora now owns Win11 on their side directly. Central wave officially moved from 9 Mar to 23 Mar, BranchOne vendor patch expected 16 Mar."}
+{"type":"end","user":"u1","session":"s143","ts":"2026-11-17T09:32:00"}
+{"type":"start","user":"u1","session":"s144","ts":"2026-11-17T10:38:00"}
+{"type":"msg","user":"u1","session":"s144","ts":"2026-11-17T10:39:00","text":"Litware Playwright: benefits module migration started today as planned. 520 of 1,400 tests migrated so far, flaky rate down from 9% to 3%. Bartek's handover to Ola is about 60% done per Marek."}
+{"type":"msg","user":"u1","session":"s144","ts":"2026-11-17T10:50:00","text":"Anton's Northwind huddle at 11:30. Remind me the Harrisburg credits baseline and the target %, want to quote it right."}
+{"type":"msg","user":"u1","session":"s144","ts":"2026-11-17T11:15:00","text":"Margot Delacroix starts as Lucerne's COO today. Draft a short intro email from me: who we are to Lucerne (digital platform retainer, royalties migration, metadata POC), and offer 30 min in her first few weeks. Warm but not salesy."}
+{"type":"msg","user":"u1","session":"s144","ts":"2026-11-17T11:16:00","text":"Trey PO 1 ($150k) landed Fri afternoon, just in time. Phase 2 kickoff done this morning, Jasper Thackeray chaired. Plate reader connector first per Torben, then HPLC and the 3 flow cytometers. Sprint 1 demo Thu 12 Mar. Rhiannon runs a weekly checkpoint with Jasper, Tuesdays 10am."}
+{"type":"start","user":"u1","session":"s145","ts":"2026-11-17T11:24:00"}
+{"type":"msg","user":"u1","session":"s145","ts":"2026-11-17T11:25:00","text":"Pricing desk on Contoso: we can go to 30% capped at $50k, conditions unchanged. That's the ceiling, anything beyond goes to my manager."}
+{"type":"end","user":"u1","session":"s145","ts":"2026-11-17T11:27:00"}
+{"type":"start","user":"u1","session":"s146","ts":"2026-11-17T12:13:00"}
+{"type":"msg","user":"u1","session":"s146","ts":"2026-11-17T12:14:00","text":"Draft the renewal note to Beatrix Thornquist: 3-year term, 3% uplift (down from the 6% rate card), 10% off the forecasting rollout if the pilot converts, paperwork signed by 31 March. You know how she wants pricing laid out."}
+{"type":"end","user":"u1","session":"s146","ts":"2026-11-17T12:16:00"}
+{"type":"start","user":"u1","session":"s147","ts":"2026-11-17T13:39:00"}
+{"type":"msg","user":"u1","session":"s147","ts":"2026-11-17T13:40:00","text":"Fourth Coffee call w/ Fergus + Philippa. They'll take 3.5% per year on 3 yrs IF the kiosk rollout to 80 cafes is fixed at $8,900 per cafe installed (vs our $9,600 list), so $712k. Need to check install costs w/ delivery before I say yes. Promised an answer by Thu 5 Mar."}
+{"type":"end","user":"u1","session":"s147","ts":"2026-11-17T13:42:00"}
+{"type":"start","user":"u1","session":"s148","ts":"2026-11-17T14:26:00"}
+{"type":"msg","user":"u1","session":"s148","ts":"2026-11-17T14:27:00","text":"Remind me what the Adatum January credit was and whether Bogdan wanted it on the Feb or March invoice? finance is asking"}
+{"type":"msg","user":"u1","session":"s148","ts":"2026-11-17T14:50:00","text":"Ottilie came back on the pricing: wants the 2-yr at +2% and observability at $50k instead of $65k. A 2-yr term means it goes to their board on 10 Mar, so Bianca needs final numbers by Thu. Signature by 24 Mar. Duncan backs us but won't overrule finance."}
+{"type":"msg","user":"u1","session":"s148","ts":"2026-11-17T14:51:00","text":"Tailspin: Lorraine joined Derek's call, good sign. They'll sign 3 yrs at $89.7k a quarter if the Q4 seasonal add-on comes down to $18k for the quarter ($6k/month). Derek wants the revised offer in writing."}
+{"type":"msg","user":"u1","session":"s148","ts":"2026-11-17T15:10:00","text":"Prep the WWI best-and-final. Norvik is $240k, we're at $285k. Levers: cut the parallel run from 4 to 2 weeks, fixed-price cap, 30% of the fee at go-live. Marguerite Castellano will be on the panel - what will a CFO want to see, and what's the lowest number I can defend?"}
+{"type":"start","user":"u1","session":"s149","ts":"2026-11-17T16:48:00"}
+{"type":"msg","user":"u1","session":"s149","ts":"2026-11-17T16:49:00","text":"Prep for Wednesday's intro with Mirela Stan, Litware's new vendor manager. Want to cover: the terms Leopold agreed, SOW signature by 13 March, Coupa invoicing from April, SOC 2 work starting 9 March. What will a new vendor manager want to prove in her first month?"}
+{"type":"end","user":"u1","session":"s149","ts":"2026-11-17T16:51:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s150","ts":"2026-11-18T09:50:00"}
+{"type":"msg","user":"u1","session":"s150","ts":"2026-11-18T09:51:00","text":"Adatum Feb numbers from Lourdes: FCR 66%, ASA 71s. Better, not there yet. Feb credit is $6,800. The portal took 22% of Columbus tickets on day 1. Bogdan wants the end-of-March ASA target kept at under 60s, no slack."}
+{"type":"msg","user":"u1","session":"s150","ts":"2026-11-18T10:15:00","text":"Northwind: Fatma accepted the 8%, $20,608/month for 3 years from 18 May, Wi-Fi refresh at Erie and Scranton by end of June. Samuel signs this week. Done, finally."}
+{"type":"msg","user":"u1","session":"s150","ts":"2026-11-18T10:30:00","text":"Delivery says $8,900 per cafe works if Fourth Coffee does the electrical prep themselves and we get 3 cafes per night per crew. Margin ~22%. OK to accept, but get the electrical prep in writing."}
+{"type":"msg","user":"u1","session":"s150","ts":"2026-11-18T10:40:00","text":"remind me what floor we agreed in the internal Proseware pricing review, and under what condition?"}
+{"type":"end","user":"u1","session":"s150","ts":"2026-11-18T10:42:00"}
+{"type":"start","user":"u1","session":"s151","ts":"2026-11-18T12:14:00"}
+{"type":"msg","user":"u1","session":"s151","ts":"2026-11-18T12:15:00","text":"what were the success targets on the Fourth Coffee kiosk pilot again? want them in front of me for Thursday"}
+{"type":"end","user":"u1","session":"s151","ts":"2026-11-18T12:17:00"}
+{"type":"start","user":"u1","session":"s152","ts":"2026-11-18T13:18:00"}
+{"type":"msg","user":"u1","session":"s152","ts":"2026-11-18T13:19:00","text":"Wingtip load test results: held 410 orders/min fine, fell over around 450 with DB locking in the inventory service. Jess has a fix, retest booked 10 March, before the 16 March freeze. Callum wants a call tonight."}
+{"type":"msg","user":"u1","session":"s152","ts":"2026-11-18T13:20:00","text":"Wilhelmina ok'd the 20 Apr cutover but wants a parallel run of the old system for the spring statements as a fallback. That's ~6 extra days from us ($8.4k) and she wants it absorbed inside the $16.8k CR. Pushing back."}
+{"type":"start","user":"u1","session":"s153","ts":"2026-11-18T15:09:00"}
+{"type":"msg","user":"u1","session":"s153","ts":"2026-11-18T15:10:00","text":"Trey's Research Cloud Ops renews 15 May. Build me a renewal strategy summary: $520k/yr today, the Jan overrun and the $6,500 credit, the new budget alerts, how Cornelius likes to approve things, Jasper new in seat, Shirin now CDO. What uplift can we justify?"}
+{"type":"end","user":"u1","session":"s153","ts":"2026-11-18T15:12:00"}
+{"type":"start","user":"u1","session":"s154","ts":"2026-11-18T15:57:00"}
+{"type":"msg","user":"u1","session":"s154","ts":"2026-11-18T15:58:00","text":"Give me 5 points for tonight's call with Callum on the load test. He's still raw about Black Friday, likes it straight, and always on the phone, never Teams. Facts: 410/min ok, 450 failed on inventory DB locks, fix ready, retest 10 March."}
+{"type":"end","user":"u1","session":"s154","ts":"2026-11-18T16:00:00"}
+{"type":"start","user":"u1","session":"s155","ts":"2026-11-18T16:54:00"}
+{"type":"msg","user":"u1","session":"s155","ts":"2026-11-18T16:55:00","text":"Investment committee approved the Woodgrove MDR in principle! But Augustin Valcourt wants a 2-yr term instead of 3 and a break clause after 12 months. Harriet wants it signed by end of March. Our deal desk says 2-yr is $299k/yr, negotiating."}
+{"type":"end","user":"u1","session":"s155","ts":"2026-11-18T16:57:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s156","ts":"2026-11-19T09:49:00"}
+{"type":"msg","user":"u1","session":"s156","ts":"2026-11-19T09:50:00","text":"WWI Memphis: Jolanta wants to push go-live from 9 Mar to Mon 16 Mar, spring garden season inbound is peaking and she won't risk it. Stavros agreed. Memphis wifi survey was clean, no extra APs needed this time."}
+{"type":"msg","user":"u1","session":"s156","ts":"2026-11-19T10:05:00","text":"Draft my reply to Evangeline on the Contoso risk-share: 30% of any lease extension, capped at $50k, our delays only, same dependency conditions. Cost of doing nothing first as always, $62k a month. Keep it short, it's a decision email."}
+{"type":"msg","user":"u1","session":"s156","ts":"2026-11-19T10:06:00","text":"Pilot mid-point review with Reggie and Ezra tmrw 2pm. Prep me: week 1 vs latest numbers, the reader freezes and the 24 Feb firmware patch (none since), and what we need from them to make a rollout call once the pilot ends 25 Mar."}
+{"type":"start","user":"u1","session":"s157","ts":"2026-11-19T11:01:00"}
+{"type":"msg","user":"u1","session":"s157","ts":"2026-11-19T11:02:00","text":"Intro with Mirela Stan went fine. Sharp, ex-procurement at a bank. She wants the SOW on Litware's paper, not ours, which means a legal review. Says signature by 13 March is 'unlikely'. Asked for our redlines by Friday."}
+{"type":"msg","user":"u1","session":"s157","ts":"2026-11-19T11:25:00","text":"Got sign-off on our side for Proseware: 2-yr at +2% ($418.2k/yr) with observability at $56k, so $474.2k/yr total. Meets Ottilie partway on observability. That's my final position."}
+{"type":"end","user":"u1","session":"s157","ts":"2026-11-19T11:27:00"}
+{"type":"start","user":"u1","session":"s158","ts":"2026-11-19T12:39:00"}
+{"type":"msg","user":"u1","session":"s158","ts":"2026-11-19T12:40:00","text":"Prep me for tomorrow with Samuel Osei on the Northwind rollout: 170 more trucks across Allentown, Scranton and Erie. Hardware $68k one-off, $11/truck/month for all 210, integration $65k. Pilot so far: 9 loads saved in week 1. Across all 4 depots, warm-delivery credits run about $140k/month. He'll want payback."}
+{"type":"end","user":"u1","session":"s158","ts":"2026-11-19T12:42:00"}
+{"type":"start","user":"u1","session":"s159","ts":"2026-11-19T15:04:00"}
+{"type":"msg","user":"u1","session":"s159","ts":"2026-11-19T15:05:00","text":"Lucerne metadata POC interim: 1,400 of 2,000 titles tagged, 81% accuracy vs the editors' 200-title benchmark. BISAC codes doing better than keywords. Felix pleased but wants to see 85% before he takes it to Margot."}
+{"type":"msg","user":"u1","session":"s159","ts":"2026-11-19T15:28:00","text":"Adatum: Wendell says Rosalind wants the SAP assessment under $130k. I offered $129k if they sign the service desk extension too, otherwise $145k stands. He'll take it to her. Board still 12 March."}
+{"type":"end","user":"u1","session":"s159","ts":"2026-11-19T15:30:00"}
+{"type":"start","user":"u1","session":"s160","ts":"2026-11-19T16:14:00"}
+{"type":"msg","user":"u1","session":"s160","ts":"2026-11-19T16:15:00","text":"Tailspin pilot started on Wed 4 Mar as planned. 38 of 40 warranty agents live on Connect by mid-morning, 2 headset issues. Abandonment on the warranty queue 3.9% so far today. Our first 4pm status to Kelsey goes out later."}
+{"type":"msg","user":"u1","session":"s160","ts":"2026-11-19T16:30:00","text":"Trey: Jasper says Cornelius wants the Cloud Ops renewal proposal by Fri 20 Mar and is hoping for 0% uplift on a 2-year term. We'd pencilled 5%. Jasper reckons 2-3% on a 2-year would fly."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s161","ts":"2026-11-20T09:54:00"}
+{"type":"msg","user":"u1","session":"s161","ts":"2026-11-20T09:55:00","text":"what's still open on Woodgrove before end of March? deadlines and owners pls"}
+{"type":"end","user":"u1","session":"s161","ts":"2026-11-20T09:57:00"}
+{"type":"start","user":"u1","session":"s162","ts":"2026-11-20T11:44:00"}
+{"type":"msg","user":"u1","session":"s162","ts":"2026-11-20T11:45:00","text":"Samuel meeting done. He likes the Northwind numbers but wants payback under 12 months on paper, and says the $65k integration is too high, he wants $40k. Otherwise ready to go. Leah Morgan joined for 10 mins, fine on the tech side."}
+{"type":"end","user":"u1","session":"s162","ts":"2026-11-20T11:47:00"}
+{"type":"start","user":"u1","session":"s163","ts":"2026-11-20T13:29:00"}
+{"type":"msg","user":"u1","session":"s163","ts":"2026-11-20T13:30:00","text":"Contoso: Evangeline accepted. 30% risk-share capped at $50k, our delays only, dependency conditions as written. Julia Kerrigan (procurement) will paper it as a change to the SOW and wants our draft wording by Wed 11 Mar."}
+{"type":"msg","user":"u1","session":"s163","ts":"2026-11-20T13:40:00","text":"Lucerne weekly cutover report #3 for Wilhelmina + Nkechi: data cleanup amber (1,900 of the 3,100 manual reviews done), cutover 20 Apr agreed, parallel run for the statements still being negotiated, statements 30 Apr amber, environments green."}
+{"type":"end","user":"u1","session":"s163","ts":"2026-11-20T13:42:00"}
+{"type":"start","user":"u1","session":"s164","ts":"2026-11-20T15:04:00"}
+{"type":"msg","user":"u1","session":"s164","ts":"2026-11-20T15:05:00","text":"How many agents are on the Tailspin pilot vs the full migration, and what are the remaining wave dates? Bettina wants it restated for her leadership team."}
+{"type":"msg","user":"u1","session":"s164","ts":"2026-11-20T15:20:00","text":"Northwind week 2 readout: with the new door threshold the alert noise is down 80%, drivers are on board. Warm-delivery credits at Harrisburg running 19% below the Jan rate so far. Gianna wants it on every truck."}
+{"type":"msg","user":"u1","session":"s164","ts":"2026-11-20T15:25:00","text":"Kiosk mid-point review: kiosks now 34% of orders, avg ticket +12%, peak queue time -21%, uptime 99.4%. All targets hit. Reggie wants the go/no-go on the 80-cafe rollout Thu 26 Mar, the day after the pilot ends. Told Fergus we accept $8,900 per cafe as long as they do the electrical prep."}
+{"type":"start","user":"u1","session":"s165","ts":"2026-11-20T16:34:00"}
+{"type":"msg","user":"u1","session":"s165","ts":"2026-11-20T16:35:00","text":"Draft the revised offer to Ottilie Marchbank (cc Bianca): 2-yr at +2% = $418.2k/yr, observability at $56k (between her $50k and our $65k), total $474.2k/yr, and the $18k pilot fee credited in month 1. Sending tonight so it's there for her 7am read."}
+{"type":"end","user":"u1","session":"s165","ts":"2026-11-20T16:37:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s166","ts":"2026-11-23T09:02:00"}
+{"type":"msg","user":"u1","session":"s166","ts":"2026-11-23T09:03:00","text":"Summarise Litware for my pipeline review at 11: renewal terms, where signature stands, Bartek leaving and the handover, the Quebec escape and what we changed after the post-mortem, SOC 2 SOW. Keep it to what my VP will actually ask about."}
+{"type":"msg","user":"u1","session":"s166","ts":"2026-11-23T09:10:00","text":"draft our WWI best-and-final cover letter to Maeve Abernathy: $262k fixed (down from $285k), parallel run cut to 2 weeks, 30% of the fee due at go-live, cap on change requests. Keep the letter to the commercial points, the cost breakdown by wave and DC goes in the Excel for Marguerite."}
+{"type":"end","user":"u1","session":"s166","ts":"2026-11-23T09:12:00"}
+{"type":"start","user":"u1","session":"s167","ts":"2026-11-23T10:09:00"}
+{"type":"msg","user":"u1","session":"s167","ts":"2026-11-23T10:10:00","text":"Contoso wave 1 go/no-go at 2pm with Ishani and Niamh, cutover tmrw (Sat 7 Mar), 32 VMs. Give me the go/no-go checklist I should walk them through, incl. rollback triggers."}
+{"type":"msg","user":"u1","session":"s167","ts":"2026-11-23T10:31:00","text":"Wingtip pilot midpoint readout: MAPE down to 27% on plush and 22% on puzzles, outdoor still 31% (weather-driven, Hugo wants to add a weather feed). Tobias very pleased. Beatrix wants rollout pricing for all 14 product lines by 20 March. Saskia's benchmarks came in too: one is 11% cheaper on hosting but has no 24x7 support."}
+{"type":"end","user":"u1","session":"s167","ts":"2026-11-23T10:33:00"}
+{"type":"start","user":"u1","session":"s168","ts":"2026-11-23T11:19:00"}
+{"type":"msg","user":"u1","session":"s168","ts":"2026-11-23T11:20:00","text":"Draft the revised Tailspin renewal offer to Derek, cc Lorraine. 3-yr at $29.9k/month incl. Connect support, Q4 seasonal add-on $6k/month Oct-Dec. Lorraine wants quarterly figures, so show it per quarter with Q4 including the add-on. Offer valid until 31 March."}
+{"type":"msg","user":"u1","session":"s168","ts":"2026-11-23T11:35:00","text":"WWI best-and-final submitted at $262k, with the Excel cost breakdown by wave and by DC for Marguerite. Maeve confirmed reciept. Decision still Fri 13 Mar."}
+{"type":"start","user":"u1","session":"s169","ts":"2026-11-23T12:45:00"}
+{"type":"msg","user":"u1","session":"s169","ts":"2026-11-23T12:46:00","text":"Rosalind wants a call Monday on the SAP assessment before the 12 March board. Help me prep: $129k bundled with the extension vs $145k standalone, start 6 April, team held 2 weeks. What will a CFO ask before taking this to her board?"}
+{"type":"end","user":"u1","session":"s169","ts":"2026-11-23T12:48:00"}
+{"type":"start","user":"u1","session":"s170","ts":"2026-11-23T15:19:00"}
+{"type":"msg","user":"u1","session":"s170","ts":"2026-11-23T15:20:00","text":"Trey Feb Azure bill: $46.2k, under the $48k budget. Alerts fired once at 80% on 24 Feb and their team shut an idle cluster within the hour. Nice story for the renewal."}
+{"type":"msg","user":"u1","session":"s170","ts":"2026-11-23T15:24:00","text":"draft the first monthly Azure spend summary Cornelius Ashdown asked for: Feb $46.2k vs $48k budget, Jan was $61k with the $6,500 credit applied on the Feb invoice, one alert fired and was handled. Keep it factual, no approvals in it."}
+{"type":"end","user":"u1","session":"s170","ts":"2026-11-23T15:26:00"}
+{"type":"start","user":"u1","session":"s171","ts":"2026-11-23T16:13:00"}
+{"type":"msg","user":"u1","session":"s171","ts":"2026-11-23T16:14:00","text":"When's Bartek's last day again, and how far along was the handover to Ola last time I logged it?"}
+{"type":"end","user":"u1","session":"s171","ts":"2026-11-23T16:16:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s172","ts":"2026-11-24T09:09:00"}
+{"type":"msg","user":"u1","session":"s172","ts":"2026-11-24T09:10:00","text":"Contoso wave 1 done over the weekend. 30 of 32 VMs live in Azure, 2 rolled back: the legacy claims reporting servers, a SQL 2012 dependency nobody had documented. They move into wave 2, now 60 VMs, still Sat 11 Apr. Ishani calm about it."}
+{"type":"msg","user":"u1","session":"s172","ts":"2026-11-24T09:15:00","text":"Woodgrove MDR closed on Fri: Augustin Valcourt's sign-off came through Harriet's office at $292k/yr (deal desk came down from $299k), 2-yr, break after 12 months with 90 days notice, $24k onboarding. Contract is with Josh's team for vendor risk review, 10 working days. Josh also confirmed our due diligence questionnaire is closed."}
+{"type":"start","user":"u1","session":"s173","ts":"2026-11-24T09:41:00"}
+{"type":"msg","user":"u1","session":"s173","ts":"2026-11-24T09:42:00","text":"Rosalind call. She'll back the SAP assessment at the board at $129k but won't tie it to the extension. On the extension she still wants flat for all 3 years, decision 17 April. Deal desk to look at flat year 1, then 2% in years 2 and 3."}
+{"type":"end","user":"u1","session":"s173","ts":"2026-11-24T09:44:00"}
+{"type":"start","user":"u1","session":"s174","ts":"2026-11-24T10:14:00"}
+{"type":"msg","user":"u1","session":"s174","ts":"2026-11-24T10:15:00","text":"Marguerite Castellano wants Wide World's app support contract ($310k/yr, renews 30 Jun) co-termed with their WMS licence on 31 May. So the current term ends a month early with June credited pro-rata, about $25.8k. She'd sign a 2-year renewal from 1 Jun if the rate holds."}
+{"type":"msg","user":"u1","session":"s174","ts":"2026-11-24T10:30:00","text":"Woodgrove Feb service desk numbers: FCR 71.2% (up from 68%), CSAT 4.3, 17,900 tickets. Knowledge push is working. Teodora asked us to keep the 2 extra L2 engineers 4 more weeks and offered to pay half."}
+{"type":"end","user":"u1","session":"s174","ts":"2026-11-24T10:32:00"}
+{"type":"start","user":"u1","session":"s175","ts":"2026-11-24T11:39:00"}
+{"type":"msg","user":"u1","session":"s175","ts":"2026-11-24T11:40:00","text":"Pricing desk on the Northwind rollout: integration can come down to $48k if Samuel signs by 31 Mar. Not $40k. Hardware and the $11/truck stay as quoted."}
+{"type":"end","user":"u1","session":"s175","ts":"2026-11-24T11:42:00"}
+{"type":"start","user":"u1","session":"s176","ts":"2026-11-24T12:29:00"}
+{"type":"msg","user":"u1","session":"s176","ts":"2026-11-24T12:30:00","text":"Lucerne: Margot Delacroix wants a review of every vendor contract over $100k by end of April. That includes our $312k retainer renewing 1 May. And Felix told me the Shopify agency has been asked for a formal quote. Retainer is at real risk."}
+{"type":"start","user":"u1","session":"s177","ts":"2026-11-24T13:11:00"}
+{"type":"msg","user":"u1","session":"s177","ts":"2026-11-24T13:12:00","text":"Litware SOC 2 evidence work kicked off today. Our analyst is onsite Tue/Thu, audit window opens 1 April. First RAG update goes in the Slack channel on Friday."}
+{"type":"end","user":"u1","session":"s177","ts":"2026-11-24T13:14:00"}
+{"type":"start","user":"u1","session":"s178","ts":"2026-11-24T14:09:00"}
+{"type":"msg","user":"u1","session":"s178","ts":"2026-11-24T14:10:00","text":"Wilhelmina replied Fri: she'll pay $4.2k for the parallel run, half of the $8.4k, we absorb the rest. Taking it. Cutover stays 20 Apr."}
+{"type":"msg","user":"u1","session":"s178","ts":"2026-11-24T14:30:00","text":"Fergus: Philippa signed off the Store Care renewal at 3.5% per year for 3 years, kiosk support included for the 12 pilot cafes. Contract to us by Mon 16 Mar, signature target Fri 27 Mar, well before the 17 Apr renewal. Rollout price of $8,900/cafe held to 30 Apr."}
+{"type":"msg","user":"u1","session":"s178","ts":"2026-11-24T14:45:00","text":"Prep me for the Tailspin QBR Wed 11 Mar: Bettina, Kelsey, Derek, and Lorraine joins for the commercial part. Cover Feb KPIs (abandonment 8.6% overall, down from 9.2%, now split by queue), the duplicate-case RCA and credit, the Connect pilot (started on 4 March, warranty team live), wave dates, and the renewal offer. Derek will want to close it in the room."}
+{"type":"end","user":"u1","session":"s178","ts":"2026-11-24T14:47:00"}
+{"type":"start","user":"u1","session":"s179","ts":"2026-11-24T15:43:00"}
+{"type":"msg","user":"u1","session":"s179","ts":"2026-11-24T15:44:00","text":"Draft an internal brief for Hugo: Wingtip rollout pricing has to be with Beatrix by 20 March. Scope is all 14 product lines, and the 10% discount applies if the pilot converts. Pull in the midpoint numbers by line. Remind him how Beatrix wants pricing shown."}
+{"type":"msg","user":"u1","session":"s179","ts":"2026-11-24T15:55:00","text":"Proseware pilot week 3 numbers posted in #proseware-ops: noise down 61%, MTTR 28 min (-40% vs 47). Both criteria met with 2+ weeks to go. Ottilie said yes in principle to the $474.2k/yr this morning, board is tomorrow. Yusuf wants the data retention settings in writing before full rollout."}
+{"type":"end","user":"u1","session":"s179","ts":"2026-11-24T15:57:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s180","ts":"2026-11-25T09:39:00"}
+{"type":"msg","user":"u1","session":"s180","ts":"2026-11-25T09:40:00","text":"Draft the Cloud Ops renewal proposal to Jasper, for Cornelius: 2-year option at 2.5% per year, or 1-year at 5%. Lead with the Feb bill under budget and the alerts working. Offer a quarterly cost-optimisation review. I'll take Cornelius through the numbers on a Thursday call, so the email just sets that up."}
+{"type":"start","user":"u1","session":"s181","ts":"2026-11-25T10:05:00"}
+{"type":"msg","user":"u1","session":"s181","ts":"2026-11-25T10:06:00","text":"Retest passed! 480 orders/min sustained for 40 min, the inventory DB fix holds. Callum happy for once. Nnamdi wants the written report before the 16 March code freeze, Jess is sending it Thursday."}
+{"type":"msg","user":"u1","session":"s181","ts":"2026-11-25T10:30:00","text":"Draft the Contoso wave 1 closure note to Ishani, cc Niamh: 30 of 32 live, 2 rolled back into wave 2 with a SQL 2019 upgrade first, wave 2 still 11 Apr, lessons learned (undocumented dependencies, longer smoke tests). Mark's on leave, don't cc him."}
+{"type":"end","user":"u1","session":"s181","ts":"2026-11-25T10:32:00"}
+{"type":"start","user":"u1","session":"s182","ts":"2026-11-25T13:04:00"}
+{"type":"msg","user":"u1","session":"s182","ts":"2026-11-25T13:05:00","text":"draft a thank-you + next steps email to Fergus Doyle: contract to us by 16 Mar, signature by 27 Mar, rollout rate $8,900 per cafe held until 30 Apr, electrical prep on their side confirmed in writing, go/no-go with Reggie Thu 26 Mar. Don't cc Philippa."}
+{"type":"msg","user":"u1","session":"s182","ts":"2026-11-25T13:10:00","text":"Draft the revised Northwind rollout offer to Samuel: integration $48k (was $65k) if signed by 31 Mar, hardware $68k, $11/truck/month for 210 trucks. Show the payback, he wants it under 12 months. Dollar amount next to every percentage. Don't cc Anton, I'll cover it at his Monday huddle."}
+{"type":"end","user":"u1","session":"s182","ts":"2026-11-25T13:12:00"}
+{"type":"start","user":"u1","session":"s183","ts":"2026-11-25T13:44:00"}
+{"type":"msg","user":"u1","session":"s183","ts":"2026-11-25T13:45:00","text":"prep for Thursday's 2pm Woodgrove renewal kickoff with Harriet and Teodora. Service desk is $1.15M, renews 30 Jun. FCR 71.2% now, the 26 Feb outage, MDR just closed at $292k. What's our position and what are they going to ask for?"}
+{"type":"end","user":"u1","session":"s183","ts":"2026-11-25T13:47:00"}
+{"type":"start","user":"u1","session":"s184","ts":"2026-11-25T14:38:00"}
+{"type":"msg","user":"u1","session":"s184","ts":"2026-11-25T14:39:00","text":"Mirela confirmed Litware legal has redlines on the IP indemnity clause. SOW signature moves from 13 March to 20 March. Rates and FTE unchanged. Leopold was copied, no comment from him."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s185","ts":"2026-11-26T15:00:00"}
+{"type":"probe","user":"u1","session":"s185","ts":"2026-11-26T15:01:00","text":"Send Fabrikam's COO a quick update on where the data migration stands.","expect":{"should":"A short update in three bullet points written as a text message, addressed to Marcus Webb","should_not":"An email format (subject line, greeting/sign-off paragraphs) or a long multi-paragraph update"}}
+{"type":"end","user":"u1","session":"s185","ts":"2026-11-26T15:05:00"}

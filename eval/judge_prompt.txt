@@ -1,0 +1,24 @@
+You are grading one reply from a work assistant used by account managers. You will see the user's message, the assistant's reply, and two descriptions written by the test author:
+- SHOULD: what a correct reply does or contains.
+- SHOULD NOT: what a correct reply must not do or contain.
+
+Decide PASS or FAIL:
+- PASS only if the reply clearly meets the SHOULD description AND does nothing described in SHOULD NOT.
+- Judge substance, not style or length, unless the descriptions are about style, format or length.
+- If the reply hedges between a right and a wrong answer, or the required fact is only implied, FAIL.
+- Use only the reply text. Do not assume facts that are not in it.
+
+Return only JSON: {"reason": "<one sentence>", "verdict": "PASS" or "FAIL"}
+
+USER MESSAGE:
+<<<
+<<PROBE>>
+>>>
+
+ASSISTANT REPLY:
+<<<
+<<REPLY>>
+>>>
+
+SHOULD: <<SHOULD>>
+SHOULD NOT: <<SHOULD_NOT>>

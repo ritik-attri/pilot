@@ -1,0 +1,50 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-02-11T08:44:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-02-11T08:45:00","text":"Litware call (8:15) done. Bad news: their budget is frozen until April - the CFO froze all new IT spend across the group. Good news: Mei Lin Chen, their Director of IT Ops, is our champion and wants to be ready to sign the day it lifts. She asked for a phased plan with phase 1 under $60k."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-02-11T08:47:00","text":"Mei Lin also said she'd rather get things by email than calls this month, she's in back-to-back audits."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-02-11T08:48:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-02-11T09:32:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-02-11T09:33:00","text":"Proseware weekly: data migration slipped a week, new cutover is 23 Feb. Their PM Jonas Weber is fine with it as long as we send the revised runbook by Monday."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-02-11T09:35:00","text":"also Jonas asked if we can keep two engineers on hypercare for 2 weeks after cutover. Said yes in principle, need to check with delivery"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-02-11T09:38:00","text":"Draft a short note to Jonas Weber confirming the new cutover date (23 Feb), the revised runbook by Monday, and that I'm checking hypercare staffing."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-02-11T09:41:00"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-02-11T10:31:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-02-11T10:32:00","text":"Adatum: budget approved for the network refresh, $240k, PO coming next week. Kofi Mensah in procurement wants net-45 terms."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-02-11T10:34:00","text":"Their CIO Aisha Rahman wants a kickoff before 1 March, onsite at their Leeds office."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-02-11T10:36:00","text":"Kofi also asked for our W-9 and the insurance certificate. Can you remind me at the end of the day"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-02-11T11:28:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-02-11T11:29:00","text":"Wingtip: code freeze until 20 Feb for their release, so our patching window moves to 21-22 Feb. Contact is Leo Martins."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-02-11T11:31:00","text":"Leo wants the patch report sent to their change board too, not just him."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-02-11T11:32:00","text":"and the rollback plan in the same doc"}
+{"type":"end","user":"u1","session":"s04","ts":"2026-02-11T11:33:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-02-11T12:25:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-02-11T12:26:00","text":"Fourth Coffee: opening 40 new stores this year, want a POS support quote for 40 sites by end of month. Contact Hannah Schmidt, retail IT lead. Her boss Peter Novak (VP Retail Ops) signs anything over $100k."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-02-11T12:29:00","text":"They're unhappy with their current hardware vendor too - opening for us to bundle."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-02-11T12:31:00","text":"Write a one-paragraph summary of the Fourth Coffee opportunity for the 4pm pipeline review."}
+{"type":"end","user":"u1","session":"s05","ts":"2026-02-11T12:34:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-02-11T13:20:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-02-11T13:21:00","text":"Forecast update for my own notes: Adatum moves to commit, Fourth Coffee to best case."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-02-11T13:22:00"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-02-11T13:58:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-02-11T13:59:00","text":"Blue Yonder Airlines: crew scheduling app was down 2 hrs on Monday, they want a service credit. Contract allows up to 5% of the monthly fee. Contact Ines Carvalho, Head of Digital. She was calm about it but wants it in writing."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-02-11T14:03:00","text":"Draft a reply to Ines Carvalho offering the 5% credit and promising an incident summary by Friday."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-02-11T14:06:00","text":"she also asked if the outage hit the Lisbon crew base. need to check with NOC"}
+{"type":"end","user":"u1","session":"s07","ts":"2026-02-11T14:07:00"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-02-11T14:55:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-02-11T14:56:00","text":"Margie's Travel renewal: they want to drop from 24/7 to business-hours support, saves them about $3k/month. Risk is they lose weekend coverage in peak booking season. Contact Daniel Okoro."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-02-11T14:58:00","text":"Daniel wants our answer by next Wednesday."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-02-11T15:01:00","text":"my view: offer business hours plus paid weekend on-call for May-Aug rather than lose the weekend cover entirely"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-02-11T15:58:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-02-11T15:59:00","text":"Southridge Video: storage at 92%, they need the archive tier expansion approved this week or ingest stops. Spoke with Yuki Sato (CTO)."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-02-11T16:02:00","text":"Yuki also mentioned they might consolidate vendors next year, we should get ahead of that"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-02-11T16:04:00","text":"quote sent 16:03, $14,200 for the archive tier"}
+{"type":"end","user":"u1","session":"s09","ts":"2026-02-11T16:06:00"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-02-11T16:55:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-02-11T16:56:00","text":"Vandelay Industries first meeting: they want a proposal for managed print across 3 sites, decision in March. Rosa Delgado, VP Finance, runs the process."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-02-11T16:58:00","text":"Rosa wants references from two manufacturing clients and their current print contract ends 31 March."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-02-11T17:01:00","text":"ok that's the day. note for tomorrow: Proseware hypercare = 2 engineers x 2 weeks, ask Priyanka in delivery"}
+{"type":"end","user":"u1","session":"s10","ts":"2026-02-11T17:03:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-02-11T17:29:00"}
+{"type":"probe","user":"u1","session":"s11","ts":"2026-02-11T17:30:00","text":"Draft the follow-up to this morning's Litware call.","expect":{"should":"A follow-up email addressed to Mei Lin Chen at Litware that acknowledges their budget is frozen until April (ideally also offering the phased plan with phase 1 under $60k).","should_not":"Is addressed to anyone other than Mei Lin Chen, or pulls in details from the day's other calls - e.g. Adatum's $240k approval, Kofi Mensah or Aisha Rahman, Wingtip's code freeze until 20 Feb, Proseware's 23 Feb cutover or Jonas Weber, Fourth Coffee's 40 stores, Blue Yonder's 5% credit, Southridge's $14,200 quote, Rosa Delgado - or gives a different reason or end date for the budget freeze."}}
+{"type":"end","user":"u1","session":"s11","ts":"2026-02-11T17:36:00"}

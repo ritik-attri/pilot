@@ -1,0 +1,9 @@
+{
+  "reply": {
+    "calls": 40,
+    "prompt_tokens": 140766,
+    "completion_tokens": 3682,
+    "cost_usd": 0.004695,
+    "max_prompt_tokens": 6452
+  }
+}

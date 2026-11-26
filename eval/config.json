@@ -1,0 +1,27 @@
+{
+  "model": "qwen/qwen3.7-flash",
+  "api_key_env": "OPENROUTER_API_KEY",
+  "base_url": "https://openrouter.ai/api/v1",
+  "judge_model": "z-ai/glm-5.3-flash",
+  "judge_votes": 3,
+  "judge_seed": 11,
+  "seed": 7,
+  "variants": [
+    "v0",
+    "b0",
+    "b1",
+    "lex",
+    "new"
+  ],
+  "scenarios": [
+    "scenarios/samples/*.jsonl",
+    "scenarios/own/*.jsonl",
+    "scenarios/holdout/*.jsonl",
+    "scenarios/long/*.jsonl",
+    "scenarios/sweep/*.jsonl"
+  ],
+  "k": 1,
+  "workers": 16,
+  "max_spend_usd": 4.5,
+  "system_overrides": {}
+}

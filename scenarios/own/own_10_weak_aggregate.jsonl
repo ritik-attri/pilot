@@ -1,0 +1,117 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-03-02T09:15:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-02T09:16:00","text":"Hooli: Tariq Hassan (IT Ops lead) wants a 6-month roadmap for the endpoint management rollout, 1,200 devices. He's under pressure from their security audit."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-02T09:19:00","text":"Draft a short reply to Tariq saying he'll have the roadmap by Friday and asking which sites go first."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-03-02T09:26:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-03-02T11:40:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-03-02T11:41:00","text":"Umbrella: Benedikt Weber (QA Director) sent two comments on the LIMS validation plan, wants v2 by Wednesday."}
+{"type":"start","user":"u1","session":"s03","ts":"2026-03-02T14:10:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-02T14:11:00","text":"Globex: Oksana Shevchenko (Programme Director) moved our April QBR to 21 April, their CFO wants to attend."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-03-03T10:00:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-03T10:01:00","text":"Contoso QBR done. Mateo García (Head of IT Services) is happy with the service desk, CSAT 4.6. Contract-wise, Contoso renews 15 April and he wants the renewal pack two weeks ahead. His one ask: keep P1 response under 30 minutes."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-03T10:05:00","text":"Draft a thank-you to Mateo confirming we'll get the renewal pack to him two weeks ahead and that P1 response stays under 30 min."}
+{"type":"end","user":"u1","session":"s04","ts":"2026-03-03T10:14:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-03-03T15:20:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-03T15:21:00","text":"Umbrella: Benedikt signed off validation plan v2. Execution starts 16 Mar, 3 of our engineers onsite."}
+{"type":"end","user":"u1","session":"s05","ts":"2026-03-03T15:23:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-03-04T09:40:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-04T09:41:00","text":"Lamna Healthcare: Grace Mwangi (Head of Clinical Apps) asked for an extra service desk analyst on night shifts during the EHR upgrade weekend, 14-15 Mar."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-04T09:44:00","text":"Draft a quick note to Grace confirming we'll staff a night-shift analyst for the EHR upgrade weekend."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-03-04T09:52:00"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-03-04T13:30:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-04T13:31:00","text":"Northwind: Aiko Yamamoto (Procurement Director) wants all our invoices consolidated into one monthly PDF, starting this month. Finance ops can do it."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-03-04T13:33:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-03-05T10:15:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-05T10:16:00","text":"Fabrikam: Sanne de Vries (Security Lead) confirmed the scope for the security assessment, it has to be finished by 10 April for their board. Our managed SOC contract with them renews end of June, so this is a good warm-up."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-05T10:20:00","text":"Prep a one-page plan for the Fabrikam assessment: phases, who we need from their side, and the 10 April deadline."}
+{"type":"end","user":"u1","session":"s08","ts":"2026-03-05T10:31:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-03-06T09:20:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-06T09:21:00","text":"Draft the Hooli endpoint roadmap email to Tariq: pilot 50 devices in March, wave 1 in April, wave 2 in May, full fleet by end of June. Mention the VPN client upgrade as a dependency."}
+{"type":"end","user":"u1","session":"s09","ts":"2026-03-06T09:33:00"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-03-06T14:45:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-06T14:46:00","text":"Globex: data warehouse migration is 2 weeks behind because their test data masking isn't ready. Not on us, but Oksana needs to hear it before the QBR."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-06T14:48:00","text":"Northwind: Aiko confirmed the consolidated invoice format, first one goes out at month end."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-03-09T09:05:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-03-09T09:06:00","text":"Woodgrove renewal: Femi Adebayo (CIO) wants 5% off and a 3-year term. Their current agreement renews 31 March, so not much time. Need a pricing call from our side this week."}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-03-09T09:10:00","text":"Draft an internal pricing request for Woodgrove: 5% discount, 3-year term, current annual value $640k, decision needed by Thursday."}
+{"type":"end","user":"u1","session":"s11","ts":"2026-03-09T09:20:00"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-03-09T16:00:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-03-09T16:01:00","text":"Contoso: Mateo asked for a quote to add 2 service desk agents for their Lisbon office, 8 to 5 local time."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-03-10T10:30:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-03-10T10:31:00","text":"Contoso: P1 response this month is averaging 22 minutes, comfortably under Mateo's 30."}
+{"type":"end","user":"u1","session":"s13","ts":"2026-03-10T10:33:00"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-03-10T11:30:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-03-10T11:31:00","text":"Lamna: night-shift cover for the EHR weekend is confirmed, Precious from our team is on it. Grace says thanks."}
+{"type":"end","user":"u1","session":"s14","ts":"2026-03-10T11:33:00"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-03-10T15:10:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-03-10T15:11:00","text":"Prep me for tomorrow's Wide World Importers call: what we run for them (WMS support, EDI, service desk), open issues (EDI mapping errors, about 2 a week), and what I want from Chen."}
+{"type":"end","user":"u1","session":"s15","ts":"2026-03-10T15:22:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s16","ts":"2026-03-11T10:20:00"}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-03-11T10:21:00","text":"Wide World Importers: Chen Wei says their new CIO, Rachel Goldberg, starts in April and will review all supplier contracts. Ours renews September 1, so there's time, but I want to get in front of her early."}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-03-11T10:25:00","text":"Write a short intro email from me to Rachel for when she starts, offering a 30-min intro and a one-paragraph summary of what we run for them."}
+{"type":"end","user":"u1","session":"s16","ts":"2026-03-11T10:36:00"}
+{"type":"start","user":"u1","session":"s17","ts":"2026-03-11T14:00:00"}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-03-11T14:01:00","text":"Umbrella: Benedikt asked for CVs of the 3 engineers going onsite, their site security needs them by Friday."}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-03-11T14:04:00","text":"Prep 3 talking points for tomorrow's call with Femi about the Woodgrove pricing."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s18","ts":"2026-03-12T09:50:00"}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-03-12T09:51:00","text":"Woodgrove: our finance approved 4%, not 5%, on a 3-year term. Femi will probably take it, need to tell him before 31 March."}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-03-12T09:55:00","text":"Draft the note to Femi: 4% on a 3-year term, explain it's the best we can do and keep the door open for a volume review next year."}
+{"type":"end","user":"u1","session":"s18","ts":"2026-03-12T10:06:00"}
+{"type":"start","user":"u1","session":"s19","ts":"2026-03-12T13:15:00"}
+{"type":"msg","user":"u1","session":"s19","ts":"2026-03-12T13:16:00","text":"hooli pilot kicked off, 50 devices, 2 tickets so far both about teh VPN client. tariq ok"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s20","ts":"2026-03-13T10:40:00"}
+{"type":"msg","user":"u1","session":"s20","ts":"2026-03-13T10:41:00","text":"Alpine Ski House renewal is 1 May. Lukas Brunner (IT Manager) wants the proposal by mid April so he can get it through their board before the summer season. They'll want the same team."}
+{"type":"end","user":"u1","session":"s20","ts":"2026-03-13T10:44:00"}
+{"type":"start","user":"u1","session":"s21","ts":"2026-03-13T15:30:00"}
+{"type":"msg","user":"u1","session":"s21","ts":"2026-03-13T15:31:00","text":"Globex QBR deck: Oksana wants it a week early, so 14 April. Draft an outline: migration status with the masking delay, 3 wins, and the ask for an extra sprint of their DBA time."}
+{"type":"end","user":"u1","session":"s21","ts":"2026-03-13T15:43:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s22","ts":"2026-03-16T09:10:00"}
+{"type":"msg","user":"u1","session":"s22","ts":"2026-03-16T09:11:00","text":"Umbrella: execution started today, 3 engineers onsite. Benedikt wants a daily 15-min stand-up at 8:45."}
+{"type":"start","user":"u1","session":"s23","ts":"2026-03-16T11:25:00"}
+{"type":"msg","user":"u1","session":"s23","ts":"2026-03-16T11:26:00","text":"Contoso Lisbon quote: Mateo wants it by 20 Mar. 2 agents, 8 to 5 local, Portuguese and English."}
+{"type":"msg","user":"u1","session":"s23","ts":"2026-03-16T11:29:00","text":"Draft the cover email for the Lisbon quote: 2 bilingual agents, 8 to 5 Lisbon time, start 4 weeks after PO."}
+{"type":"end","user":"u1","session":"s23","ts":"2026-03-16T11:38:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s24","ts":"2026-03-17T10:05:00"}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-03-17T10:06:00","text":"Northwind call w/ Aiko. Northwind renewal is April 30, she wants a 12-month extension at current rates with no SLA changes. Easy one if our finance agrees."}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-03-17T10:09:00","text":"Draft the extension confirmation to Aiko: 12 months at current rates, SLAs unchanged, paperwork to follow next week."}
+{"type":"end","user":"u1","session":"s24","ts":"2026-03-17T10:18:00"}
+{"type":"start","user":"u1","session":"s25","ts":"2026-03-17T14:50:00"}
+{"type":"msg","user":"u1","session":"s25","ts":"2026-03-17T14:51:00","text":"Fabrikam assessment: fieldwork 60% done, 2 high findings so far on their legacy VPN. Sanne wants a heads-up call Friday."}
+{"type":"msg","user":"u1","session":"s25","ts":"2026-03-17T14:53:00","text":"Globex: Oksana confirmed the extra DBA sprint, it starts 30 Mar."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s26","ts":"2026-03-18T09:35:00"}
+{"type":"msg","user":"u1","session":"s26","ts":"2026-03-18T09:36:00","text":"Hooli: pilot went well, Tariq approved wave 1 for April. 400 devices across London and Dublin."}
+{"type":"end","user":"u1","session":"s26","ts":"2026-03-18T09:38:00"}
+{"type":"start","user":"u1","session":"s27","ts":"2026-03-18T11:10:00"}
+{"type":"msg","user":"u1","session":"s27","ts":"2026-03-18T11:11:00","text":"Draft a short message to Sanne confirming Friday's heads-up call on the Fabrikam findings and asking who from her team will join."}
+{"type":"end","user":"u1","session":"s27","ts":"2026-03-18T11:16:00"}
+{"type":"start","user":"u1","session":"s28","ts":"2026-03-18T13:20:00"}
+{"type":"msg","user":"u1","session":"s28","ts":"2026-03-18T13:21:00","text":"WWI: Chen fixed the EDI mapping on their side, errors down to zero this week."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s29","ts":"2026-03-19T10:10:00"}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-03-19T10:11:00","text":"Lamna Healthcare: Grace flagged renewal risk, service desk CSAT dipped to 3.9 after the EHR upgrade. Lamna renews 18 November so there's time, but she wants a recovery plan before their April board meeting."}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-03-19T10:15:00","text":"Draft a recovery plan outline for Grace: likely root causes of the CSAT dip, 3 fixes, weekly check-ins until CSAT is back over 4.3."}
+{"type":"end","user":"u1","session":"s29","ts":"2026-03-19T10:27:00"}
+{"type":"start","user":"u1","session":"s30","ts":"2026-03-19T15:40:00"}
+{"type":"msg","user":"u1","session":"s30","ts":"2026-03-19T15:41:00","text":"Alpine Ski House: Lukas confirmed their board meets 22 April, so mid April for the proposal still stands."}
+{"type":"msg","user":"u1","session":"s30","ts":"2026-03-19T15:43:00","text":"WWI: Rachel Goldberg starts 6 April, Chen will set up the intro."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s31","ts":"2026-03-20T09:25:00"}
+{"type":"msg","user":"u1","session":"s31","ts":"2026-03-20T09:26:00","text":"Fabrikam call with Sanne: the 2 VPN findings are confirmed high, report still on track for 10 April."}
+{"type":"end","user":"u1","session":"s31","ts":"2026-03-20T09:29:00"}
+{"type":"start","user":"u1","session":"s32","ts":"2026-03-20T14:30:00"}
+{"type":"msg","user":"u1","session":"s32","ts":"2026-03-20T14:31:00","text":"Contoso: sent the Lisbon quote to Mateo. He'll take it to their budget meeting next week."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s33","ts":"2026-03-23T09:05:00"}
+{"type":"probe","user":"u1","session":"s33","ts":"2026-03-23T09:06:00","text":"Which of my accounts renew in April?","expect":{"should":"Lists exactly two accounts renewing in April: Contoso (15 April) and Northwind (30 April).","should_not":"Omits Contoso or Northwind, or lists any other account as renewing in April (for example Woodgrove, which renews 31 March; Alpine Ski House, which renews 1 May; or Fabrikam, Wide World Importers, Globex or Lamna Healthcare, whose April dates are not renewals)."}}
+{"type":"end","user":"u1","session":"s33","ts":"2026-03-23T09:10:00"}

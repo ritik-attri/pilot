@@ -1,0 +1,68 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-09-15T08:40:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-09-15T08:41:00","text":"Big day: eight client calls back to back. I'll log each one as I go. First up is Brennan Hale Partners at 9, the accounting firm that's opening a second office."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-09-15T08:44:00","text":"Prep me for it. Aoife Brennan is their COO. Last time we spoke she was worried about how long onboarding took at their first office."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-09-15T08:50:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-09-15T09:35:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-15T09:36:00","text":"Brennan Hale done. Aoife confirmed the expansion into the second office: 20 seats, starting 1 October."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-15T09:38:00","text":"Their IT lead, Declan Moss, needs sandbox logins by Friday so he can test SSO before go-live. Aoife also wants our SOC 2 report before she signs the order form."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-15T09:41:00","text":"And she asked for onboarding at the new office to be two half-day sessions rather than one full day."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-15T09:43:00","text":"Draft the follow-up email to Aoife covering all of that."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-09-15T09:49:00"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-09-15T09:52:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-09-15T09:53:00","text":"Larkspur Media at 10 with Nadia Petrov, their marketing ops lead. Last month they complained about API errors. What should I ask her?"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-09-15T10:40:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-15T10:41:00","text":"Larkspur: Nadia says they hit our API rate limit every Monday morning when their campaign sync runs. They're on the 600 requests per minute tier."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-15T10:44:00","text":"She wants either a fix or a temporary raise to 1,500 per minute before their autumn launch on 5 October."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-15T10:46:00","text":"Write a short internal note to our platform team with the details."}
+{"type":"end","user":"u1","session":"s04","ts":"2026-09-15T10:51:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-09-15T10:53:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-09-15T10:54:00","text":"Fenmore Labs at 11, it's their renewal. Tobias Kerr from finance and Ines Duarte, their research ops lead. They've been on 18 seats."}
+{"type":"end","user":"u1","session":"s05","ts":"2026-09-15T10:56:00"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-09-15T11:40:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-09-15T11:41:00","text":"Fenmore renewal agreed: 20 seats at $48 per seat per month, two-year term from 1 November. Tobias confirmed it on the call."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-09-15T11:43:00","text":"Tobias wants the invoice split 50/50 across two cost centres, R&D and Clinical. Ines wants the two new users set up before 1 November."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-09-15T11:46:00","text":"Draft the confirmation email to Tobias, cc Ines."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-09-15T11:52:00"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-09-15T12:20:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-09-15T12:21:00","text":"Quarry Point Hotels at 12:30. Gareth Lyle, the GM, emailed yesterday that their night staff never got proper onboarding. How should I open the call?"}
+{"type":"end","user":"u1","session":"s07","ts":"2026-09-15T12:24:00"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-09-15T13:05:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-09-15T13:06:00","text":"Quarry Point: Gareth calmed down. He wants a refresher training for the night shift, starting at 11pm or later, plus a one-page cheat sheet for the front desk."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-09-15T13:09:00","text":"Draft a reply offering two late sessions next week, Tuesday 22 and Thursday 24 September at 11pm."}
+{"type":"end","user":"u1","session":"s08","ts":"2026-09-15T13:14:00"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-09-15T13:25:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-09-15T13:26:00","text":"Aoife just texted about the expansion: it's 12 seats, not 20. I'd written down the whole floor's headcount, not the people who'll actually use it."}
+{"type":"start","user":"u1","session":"s10","ts":"2026-09-15T13:50:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-09-15T13:51:00","text":"Ostler Health at 2 with Dr Miriam Achebe, their clinical director. Their pilot at the Eastgate clinic ended last week."}
+{"type":"end","user":"u1","session":"s10","ts":"2026-09-15T13:53:00"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-09-15T14:40:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-09-15T14:41:00","text":"Ostler: Miriam says the Eastgate pilot cut no-shows by 22%. She wants a proposal to roll out to three more clinics: Northgate, Riverside and Holm Park."}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-09-15T14:44:00","text":"She presents to their board on 29 September, so she needs it by the 25th."}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-09-15T14:46:00","text":"Outline the proposal for me."}
+{"type":"end","user":"u1","session":"s11","ts":"2026-09-15T14:55:00"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-09-15T14:57:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-09-15T14:58:00","text":"Vireo Credit Union at 3 with Owen Price, their CIO. It's a security review call. What is he likely to ask?"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-09-15T15:40:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-09-15T15:41:00","text":"Vireo: Owen wants our latest pen-test report before their security committee meets on 2 October."}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-09-15T15:43:00","text":"He also asked if we can host their data in Canada. I said I'd check with engineering and come back to him by the end of next week."}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-09-15T15:45:00","text":"Draft a short reply to Owen confirming I'll send the pen-test report this week."}
+{"type":"end","user":"u1","session":"s13","ts":"2026-09-15T15:49:00"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-09-15T15:52:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-09-15T15:53:00","text":"Talbot Marine at 4 with Hamish Reid, their ops manager. I've heard their budget is being squeezed."}
+{"type":"end","user":"u1","session":"s14","ts":"2026-09-15T15:55:00"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-09-15T16:40:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-09-15T16:41:00","text":"Talbot is a real risk. Hamish says they might drop from 30 seats to 10 at their January renewal."}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-09-15T16:43:00","text":"He likes the product; it's purely budget. Give me three options to save the account."}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-09-15T16:50:00","text":"The second option sounds right. Draft a note to Hamish asking for a call next week to talk it through."}
+{"type":"end","user":"u1","session":"s15","ts":"2026-09-15T16:55:00"}
+{"type":"start","user":"u1","session":"s16","ts":"2026-09-15T17:35:00"}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-09-15T17:36:00","text":"Last one: Juniper Row Retail. Leah Moran says their renewal is on hold until their new CFO starts on 5 October."}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-09-15T17:38:00","text":"Draft a two-line note to Leah asking for an intro to the new CFO once they've started."}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-09-15T17:42:00","text":"OK, I'm fried. Give me my follow-up list from today, grouped by account."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s17","ts":"2026-09-16T08:50:00"}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-09-16T08:51:00","text":"Morning. Let's close the loops from yesterday."}
+{"type":"probe","user":"u1","session":"s17","ts":"2026-09-16T08:52:00","text":"First, draft the order confirmation email to Aoife for the Brennan Hale expansion.","expect":{"should":"An order confirmation to Aoife Brennan for 12 seats, starting 1 October","should_not":"Uses 20 seats as the order quantity"}}
+{"type":"probe","user":"u1","session":"s17","ts":"2026-09-16T08:58:00","text":"Who at Brennan Hale needs the sandbox logins, and by when?","expect":{"should":"Declan Moss, their IT lead, by this Friday, 18 September","should_not":"Names anyone other than Declan Moss, or gives a different deadline"}}
+{"type":"probe","user":"u1","session":"s17","ts":"2026-09-16T09:04:00","text":"Fenmore call at 10. Remind me what we agreed with them yesterday.","expect":{"should":"States the Fenmore renewal is 20 seats at $48 per seat per month and mentions the 50/50 invoice split across the R&D and Clinical cost centres","should_not":"Gives 12 seats for Fenmore, or mixes in another account's details such as Aoife, Declan or the 1 October expansion"}}
+{"type":"end","user":"u1","session":"s17","ts":"2026-09-16T09:10:00"}

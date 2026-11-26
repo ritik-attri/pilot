@@ -1,0 +1,4291 @@
+{
+  "tag": "final",
+  "fake": false,
+  "judge_model": "z-ai/glm-5.3-flash",
+  "status": {
+    "complete": true,
+    "finished": true,
+    "jobs_expected": 180,
+    "jobs_run": 180,
+    "jobs_missing": [],
+    "skipped_jobs": [],
+    "failed_jobs": [],
+    "interrupted_jobs": [],
+    "interrupted": false,
+    "provider_error_jobs": [],
+    "judge_errors": 0,
+    "probe_replies_expected": 245,
+    "probe_replies_judged": 245,
+    "probe_replies_provider_errors": 0
+  },
+  "variants": [
+    "v0",
+    "b0",
+    "b1",
+    "lex",
+    "new"
+  ],
+  "scenarios": [
+    "sample_01_preferences",
+    "sample_02_long_day",
+    "sample_03_unknowns",
+    "own_01_who_is_who",
+    "own_02_paste_old_chats",
+    "own_03_long_day_morning",
+    "own_04_contact_bleed",
+    "own_05_dates_known_unknown",
+    "own_06_role_change",
+    "own_07_two_users",
+    "own_08_no_end_restart",
+    "own_09_weak_paraphrase",
+    "own_10_weak_aggregate",
+    "own_11_weak_draft_recall",
+    "own_12_weak_two_accounts",
+    "gs_01_offhand_preference_three_weeks",
+    "gs_02_contact_moves_between_accounts",
+    "gs_03_long_day_correction_next_morning",
+    "gs_04_relative_date_and_unrecorded_facts",
+    "sib_01_preferences",
+    "sib_02_long_day",
+    "sib_03_unknowns",
+    "long_01_preference_6wk",
+    "long_02_who_is_who_6wk",
+    "long_03_contact_bleed_6wk",
+    "long_04_heavy_day",
+    "long_05_dates_6wk",
+    "long_06_role_change_6wk",
+    "sweep_00",
+    "sweep_06",
+    "sweep_080",
+    "sweep_14",
+    "sweep_160",
+    "sweep_24",
+    "sweep_320",
+    "sweep_40"
+  ],
+  "scenarios_changed": [],
+  "k": 1,
+  "headline": {
+    "label": "All suites except sweep",
+    "excludes": [
+      "sweep"
+    ],
+    "probes": 41,
+    "by_variant": {
+      "v0": {
+        "passed": 4,
+        "judged": 41,
+        "missing": 0,
+        "errors": 0
+      },
+      "b0": {
+        "passed": 31,
+        "judged": 41,
+        "missing": 0,
+        "errors": 0
+      },
+      "b1": {
+        "passed": 26,
+        "judged": 41,
+        "missing": 0,
+        "errors": 0
+      },
+      "lex": {
+        "passed": 30,
+        "judged": 41,
+        "missing": 0,
+        "errors": 0
+      },
+      "new": {
+        "passed": 32,
+        "judged": 41,
+        "missing": 0,
+        "errors": 0
+      }
+    }
+  },
+  "per_suite": {
+    "samples": {
+      "files": 3,
+      "probes": 3,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own": {
+      "files": 12,
+      "probes": 17,
+      "by_variant": {
+        "v0": {
+          "passed": 2,
+          "judged": 17,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 15,
+          "judged": 17,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 13,
+          "judged": 17,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 13,
+          "judged": 17,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 12,
+          "judged": 17,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "holdout": {
+      "files": 7,
+      "probes": 14,
+      "by_variant": {
+        "v0": {
+          "passed": 2,
+          "judged": 14,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 12,
+          "judged": 14,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 12,
+          "judged": 14,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 10,
+          "judged": 14,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 11,
+          "judged": 14,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long": {
+      "files": 6,
+      "probes": 7,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 7,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 7,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 7,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 4,
+          "judged": 7,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 6,
+          "judged": 7,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep": {
+      "files": 8,
+      "probes": 8,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 8,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 4,
+          "judged": 8,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 2,
+          "judged": 8,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 7,
+          "judged": 8,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 6,
+          "judged": 8,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    }
+  },
+  "per_scenario": {
+    "sample_01_preferences": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sample_02_long_day": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sample_03_unknowns": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_01_who_is_who": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_02_paste_old_chats": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_03_long_day_morning": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_04_contact_bleed": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_05_dates_known_unknown": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_06_role_change": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_07_two_users": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_08_no_end_restart": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_09_weak_paraphrase": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_10_weak_aggregate": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_11_weak_draft_recall": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "own_12_weak_two_accounts": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "gs_01_offhand_preference_three_weeks": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "gs_02_contact_moves_between_accounts": {
+      "probes": 3,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "gs_03_long_day_correction_next_morning": {
+      "probes": 3,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 2,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "gs_04_relative_date_and_unrecorded_facts": {
+      "probes": 3,
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 3,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 3,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sib_01_preferences": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sib_02_long_day": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sib_03_unknowns": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_01_preference_6wk": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_02_who_is_who_6wk": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_03_contact_bleed_6wk": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_04_heavy_day": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_05_dates_6wk": {
+      "probes": 2,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 2,
+          "judged": 2,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "long_06_role_change_6wk": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_00": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_06": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_080": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_14": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_160": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_24": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_320": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    "sweep_40": {
+      "probes": 1,
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    }
+  },
+  "per_probe": [
+    {
+      "scenario": "sample_01_preferences",
+      "probe_index": 0,
+      "probe": "Outline the renewal proposal for Acme's CFO.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sample_02_long_day",
+      "probe_index": 0,
+      "probe": "Before I log off, what per-seat price did I agree with Adatum this morning?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sample_03_unknowns",
+      "probe_index": 0,
+      "probe": "When did the Globex pilot start?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_01_who_is_who",
+      "probe_index": 0,
+      "probe": "Prep me for today's Northwind steering meeting - who's who on their side and what does each of them care about?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_02_paste_old_chats",
+      "probe_index": 0,
+      "probe": "When is the Globex renewal?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_02_paste_old_chats",
+      "probe_index": 1,
+      "probe": "Who's the CTO at Tailspin again?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_03_long_day_morning",
+      "probe_index": 0,
+      "probe": "Draft the follow-up to this morning's Litware call.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_04_contact_bleed",
+      "probe_index": 0,
+      "probe": "Who should I loop in on the Contoso budget conversation?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_04_contact_bleed",
+      "probe_index": 1,
+      "probe": "Remind me what Sam cares about at Alpine Ski House.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_05_dates_known_unknown",
+      "probe_index": 0,
+      "probe": "When did the Globex pilot start?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_05_dates_known_unknown",
+      "probe_index": 1,
+      "probe": "And when is the Globex pilot scheduled to end?",
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_06_role_change",
+      "probe_index": 0,
+      "probe": "Who's our exec sponsor at Initech, and what's Lena's role now?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_07_two_users",
+      "probe_index": 0,
+      "probe": "Who is Acme's CFO and how do they like proposals?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_07_two_users",
+      "probe_index": 1,
+      "probe": "Remind me how Acme's CFO likes proposals.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_08_no_end_restart",
+      "probe_index": 0,
+      "probe": "When is Litware going live and who signs off?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_09_weak_paraphrase",
+      "probe_index": 0,
+      "probe": "Is Proseware relocating anywhere?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_10_weak_aggregate",
+      "probe_index": 0,
+      "probe": "Which of my accounts renew in April?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_11_weak_draft_recall",
+      "probe_index": 0,
+      "probe": "Resend yesterday's Tailspin email, but make the second paragraph shorter.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_12_weak_two_accounts",
+      "probe_index": 0,
+      "probe": "How often does Contoso want status updates?",
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "own_12_weak_two_accounts",
+      "probe_index": 1,
+      "probe": "What's the budget situation at Acme?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_01_offhand_preference_three_weeks",
+      "probe_index": 0,
+      "probe": "Draft my recap email to Odile from today's QBR, with Pascal on cc. Points: they approved extending the housekeeping tablets to the two Marseille hotels, they want the revised SOW by Friday 15 May, status calls move from biweekly to weekly, and they'd like Sven on the next call.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_01_offhand_preference_three_weeks",
+      "probe_index": 1,
+      "probe": "Kestrel wants to go ahead with the Snowflake connector now and leave HubSpot for later. Who do I send the PO to for sign-off this week?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_02_contact_moves_between_accounts",
+      "probe_index": 0,
+      "probe": "Prep me for the Pinecrest demo at 2 today. Who's my lead on their side, and what do they need from us?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_02_contact_moves_between_accounts",
+      "probe_index": 1,
+      "probe": "Harbourline renewal call is tomorrow. Who's on their side now, and what do they care about?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_02_contact_moves_between_accounts",
+      "probe_index": 2,
+      "probe": "I'm sending the invite for the Calder forecasting pilot kickoff. Who should be on it from their side?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_03_long_day_correction_next_morning",
+      "probe_index": 0,
+      "probe": "First, draft the order confirmation email to Aoife for the Brennan Hale expansion.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_03_long_day_correction_next_morning",
+      "probe_index": 1,
+      "probe": "Who at Brennan Hale needs the sandbox logins, and by when?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_03_long_day_correction_next_morning",
+      "probe_index": 2,
+      "probe": "Fenmore call at 10. Remind me what we agreed with them yesterday.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_04_relative_date_and_unrecorded_facts",
+      "probe_index": 0,
+      "probe": "When did the Marlow Dental pilot kick off?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_04_relative_date_and_unrecorded_facts",
+      "probe_index": 1,
+      "probe": "And when did the Cinderford Labs pilot start?",
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "gs_04_relative_date_and_unrecorded_facts",
+      "probe_index": 2,
+      "probe": "Imogen wants Stroud added. Draft a short note to whoever signs off budget at Cinderford, asking them to approve adding the Stroud lab to the pilot.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sib_01_preferences",
+      "probe_index": 0,
+      "probe": "Draft a note to Lamna's head of IT: the EHR interface go-live moves from 27 Apr to 11 May because the lab vendor's HL7 test feed still isn't ready, and we need her OK on the new date by Thursday.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sib_02_long_day",
+      "probe_index": 0,
+      "probe": "One thing before I sign off: on my first call this morning, what did the client promise to send us, and by when?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sib_03_unknowns",
+      "probe_index": 0,
+      "probe": "Relecloud: when is their renewal due? Want to start prepping this week.",
+      "by_variant": {
+        "v0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_01_preference_6wk",
+      "probe_index": 0,
+      "probe": "Put together the quote for Coho Winery's procurement lead for the 40-seat expansion.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_02_who_is_who_6wk",
+      "probe_index": 0,
+      "probe": "Quick refresher before today's Umbrella call: who's who there and what does each of them care about?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_03_contact_bleed_6wk",
+      "probe_index": 0,
+      "probe": "Who's the CFO at Hooli and what matters most to her?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_04_heavy_day",
+      "probe_index": 0,
+      "probe": "Before I log off - what term and price did Blue Yonder agree to this morning?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_05_dates_6wk",
+      "probe_index": 0,
+      "probe": "When did the Vandelay pilot start?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_05_dates_6wk",
+      "probe_index": 1,
+      "probe": "And when did the Relecloud pilot start?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "long_06_role_change_6wk",
+      "probe_index": 0,
+      "probe": "Who's our exec sponsor at Southridge Video now?",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_00",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_06",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_080",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_14",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_160",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_24",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_320",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    },
+    {
+      "scenario": "sweep_40",
+      "probe_index": 0,
+      "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+      "by_variant": {
+        "v0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b0": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "b1": {
+          "passed": 0,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "lex": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        },
+        "new": {
+          "passed": 1,
+          "judged": 1,
+          "missing": 0,
+          "errors": 0
+        }
+      }
+    }
+  ],
+  "totals": {
+    "v0": {
+      "pass": {
+        "passed": 4,
+        "judged": 49,
+        "missing": 0,
+        "errors": 0
+      },
+      "chat_calls": 2896,
+      "chat_exceptions": 0,
+      "provider_errors": 0,
+      "max_input_tokens": 7646,
+      "replies_over_budget": 0,
+      "input_tokens_sum": 1142726,
+      "reply_calls": 2896,
+      "reply_input_tokens": 1142726,
+      "reply_input_tokens_mean": 394.6,
+      "reply_input_tokens_max": 7646,
+      "reply_output_tokens": 291553,
+      "helper_calls": 0,
+      "helper_input_tokens": 0,
+      "helper_output_tokens": 0,
+      "reply_cost_usd": 0.072181,
+      "helper_cost_usd": 0.0,
+      "total_cost_usd": 0.072181,
+      "judge_cost_usd": 0.016088,
+      "latency_median_s": 1.1298,
+      "latency_p90_s": 3.2746,
+      "probe_latency_median_s": 1.2952
+    },
+    "b0": {
+      "pass": {
+        "passed": 35,
+        "judged": 49,
+        "missing": 0,
+        "errors": 0
+      },
+      "chat_calls": 2896,
+      "chat_exceptions": 0,
+      "provider_errors": 0,
+      "max_input_tokens": 7646,
+      "replies_over_budget": 0,
+      "input_tokens_sum": 16340064,
+      "reply_calls": 2896,
+      "reply_input_tokens": 16340064,
+      "reply_input_tokens_mean": 5642.3,
+      "reply_input_tokens_max": 7646,
+      "reply_output_tokens": 317166,
+      "helper_calls": 0,
+      "helper_input_tokens": 0,
+      "helper_output_tokens": 0,
+      "reply_cost_usd": 0.531257,
+      "helper_cost_usd": 0.0,
+      "total_cost_usd": 0.531257,
+      "judge_cost_usd": 0.027424,
+      "latency_median_s": 1.5278,
+      "latency_p90_s": 3.5752,
+      "probe_latency_median_s": 1.3199
+    },
+    "b1": {
+      "pass": {
+        "passed": 28,
+        "judged": 49,
+        "missing": 0,
+        "errors": 0
+      },
+      "chat_calls": 2896,
+      "chat_exceptions": 0,
+      "provider_errors": 0,
+      "max_input_tokens": 7666,
+      "replies_over_budget": 0,
+      "input_tokens_sum": 16674524,
+      "reply_calls": 2896,
+      "reply_input_tokens": 16674524,
+      "reply_input_tokens_mean": 5757.8,
+      "reply_input_tokens_max": 7666,
+      "reply_output_tokens": 335213,
+      "helper_calls": 0,
+      "helper_input_tokens": 0,
+      "helper_output_tokens": 0,
+      "reply_cost_usd": 0.543804,
+      "helper_cost_usd": 0.0,
+      "total_cost_usd": 0.543804,
+      "judge_cost_usd": 0.033847,
+      "latency_median_s": 1.5289,
+      "latency_p90_s": 3.6924,
+      "probe_latency_median_s": 1.1515
+    },
+    "lex": {
+      "pass": {
+        "passed": 37,
+        "judged": 49,
+        "missing": 0,
+        "errors": 0
+      },
+      "chat_calls": 2896,
+      "chat_exceptions": 0,
+      "provider_errors": 0,
+      "max_input_tokens": 3346,
+      "replies_over_budget": 0,
+      "input_tokens_sum": 5016305,
+      "reply_calls": 2896,
+      "reply_input_tokens": 5016305,
+      "reply_input_tokens_mean": 1732.1,
+      "reply_input_tokens_max": 3346,
+      "reply_output_tokens": 377384,
+      "helper_calls": 0,
+      "helper_input_tokens": 0,
+      "helper_output_tokens": 0,
+      "reply_cost_usd": 0.197641,
+      "helper_cost_usd": 0.0,
+      "total_cost_usd": 0.197641,
+      "judge_cost_usd": 0.024377,
+      "latency_median_s": 1.2525,
+      "latency_p90_s": 4.313,
+      "probe_latency_median_s": 1.0937
+    },
+    "new": {
+      "pass": {
+        "passed": 38,
+        "judged": 49,
+        "missing": 0,
+        "errors": 0
+      },
+      "chat_calls": 2896,
+      "chat_exceptions": 0,
+      "provider_errors": 0,
+      "max_input_tokens": 5404,
+      "replies_over_budget": 0,
+      "input_tokens_sum": 7321773,
+      "reply_calls": 2896,
+      "reply_input_tokens": 7321773,
+      "reply_input_tokens_mean": 2528.2,
+      "reply_input_tokens_max": 5404,
+      "reply_output_tokens": 391952,
+      "helper_calls": 2896,
+      "helper_input_tokens": 4145539,
+      "helper_output_tokens": 662572,
+      "reply_cost_usd": 0.270322,
+      "helper_cost_usd": 0.210452,
+      "total_cost_usd": 0.480774,
+      "judge_cost_usd": 0.031294,
+      "latency_median_s": 3.8414,
+      "latency_p90_s": 6.8526,
+      "probe_latency_median_s": 2.0247
+    }
+  },
+  "head_to_head": [
+    {
+      "a": "b0",
+      "b": "new",
+      "a_better": [
+        {
+          "scenario": "own_05_dates_known_unknown",
+          "probe_index": 0,
+          "probe": "When did the Globex pilot start?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_06_role_change",
+          "probe_index": 0,
+          "probe": "Who's our exec sponsor at Initech, and what's Lena's role now?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_09_weak_paraphrase",
+          "probe_index": 0,
+          "probe": "Is Proseware relocating anywhere?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_10_weak_aggregate",
+          "probe_index": 0,
+          "probe": "Which of my accounts renew in April?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_11_weak_draft_recall",
+          "probe_index": 0,
+          "probe": "Resend yesterday's Tailspin email, but make the second paragraph shorter.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_02_contact_moves_between_accounts",
+          "probe_index": 1,
+          "probe": "Harbourline renewal call is tomorrow. Who's on their side now, and what do they care about?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 0,
+          "probe": "First, draft the order confirmation email to Aoife for the Brennan Hale expansion.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_04_relative_date_and_unrecorded_facts",
+          "probe_index": 2,
+          "probe": "Imogen wants Stroud added. Draft a short note to whoever signs off budget at Cinderford, asking them to approve adding the Stroud lab to the pilot.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "sweep_00",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "sweep_24",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        }
+      ],
+      "b_better": [
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 0,
+          "probe": "When is the Globex renewal?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 1,
+          "probe": "Who's the CTO at Tailspin again?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "gs_01_offhand_preference_three_weeks",
+          "probe_index": 0,
+          "probe": "Draft my recap email to Odile from today's QBR, with Pascal on cc. Points: they approved extending the housekeeping tablets to the two Marseille hotels, they want the revised SOW by Friday 15 May, status calls move from biweekly to weekly, and they'd like Sven on the next call.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sib_01_preferences",
+          "probe_index": 0,
+          "probe": "Draft a note to Lamna's head of IT: the EHR interface go-live moves from 27 Apr to 11 May because the lab vendor's HL7 test feed still isn't ready, and we need her OK on the new date by Thursday.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_01_preference_6wk",
+          "probe_index": 0,
+          "probe": "Put together the quote for Coho Winery's procurement lead for the 40-seat expansion.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_02_who_is_who_6wk",
+          "probe_index": 0,
+          "probe": "Quick refresher before today's Umbrella call: who's who there and what does each of them care about?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_03_contact_bleed_6wk",
+          "probe_index": 0,
+          "probe": "Who's the CFO at Hooli and what matters most to her?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_04_heavy_day",
+          "probe_index": 0,
+          "probe": "Before I log off - what term and price did Blue Yonder agree to this morning?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 0,
+          "probe": "When did the Vandelay pilot start?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_080",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_160",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_320",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_40",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        }
+      ]
+    },
+    {
+      "a": "b1",
+      "b": "new",
+      "a_better": [
+        {
+          "scenario": "own_05_dates_known_unknown",
+          "probe_index": 0,
+          "probe": "When did the Globex pilot start?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_09_weak_paraphrase",
+          "probe_index": 0,
+          "probe": "Is Proseware relocating anywhere?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "own_11_weak_draft_recall",
+          "probe_index": 0,
+          "probe": "Resend yesterday's Tailspin email, but make the second paragraph shorter.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_02_contact_moves_between_accounts",
+          "probe_index": 1,
+          "probe": "Harbourline renewal call is tomorrow. Who's on their side now, and what do they care about?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 0,
+          "probe": "First, draft the order confirmation email to Aoife for the Brennan Hale expansion.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_04_relative_date_and_unrecorded_facts",
+          "probe_index": 2,
+          "probe": "Imogen wants Stroud added. Draft a short note to whoever signs off budget at Cinderford, asking them to approve adding the Stroud lab to the pilot.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        }
+      ],
+      "b_better": [
+        {
+          "scenario": "sample_01_preferences",
+          "probe_index": 0,
+          "probe": "Outline the renewal proposal for Acme's CFO.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sample_03_unknowns",
+          "probe_index": 0,
+          "probe": "When did the Globex pilot start?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 0,
+          "probe": "When is the Globex renewal?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 1,
+          "probe": "Who's the CTO at Tailspin again?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "gs_01_offhand_preference_three_weeks",
+          "probe_index": 0,
+          "probe": "Draft my recap email to Odile from today's QBR, with Pascal on cc. Points: they approved extending the housekeeping tablets to the two Marseille hotels, they want the revised SOW by Friday 15 May, status calls move from biweekly to weekly, and they'd like Sven on the next call.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sib_02_long_day",
+          "probe_index": 0,
+          "probe": "One thing before I sign off: on my first call this morning, what did the client promise to send us, and by when?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_01_preference_6wk",
+          "probe_index": 0,
+          "probe": "Put together the quote for Coho Winery's procurement lead for the 40-seat expansion.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_02_who_is_who_6wk",
+          "probe_index": 0,
+          "probe": "Quick refresher before today's Umbrella call: who's who there and what does each of them care about?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_03_contact_bleed_6wk",
+          "probe_index": 0,
+          "probe": "Who's the CFO at Hooli and what matters most to her?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_04_heavy_day",
+          "probe_index": 0,
+          "probe": "Before I log off - what term and price did Blue Yonder agree to this morning?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 0,
+          "probe": "When did the Vandelay pilot start?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 1,
+          "probe": "And when did the Relecloud pilot start?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_080",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_160",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_320",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sweep_40",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        }
+      ]
+    },
+    {
+      "a": "lex",
+      "b": "new",
+      "a_better": [
+        {
+          "scenario": "own_05_dates_known_unknown",
+          "probe_index": 0,
+          "probe": "When did the Globex pilot start?",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 0,
+          "probe": "First, draft the order confirmation email to Aoife for the Brennan Hale expansion.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "gs_04_relative_date_and_unrecorded_facts",
+          "probe_index": 2,
+          "probe": "Imogen wants Stroud added. Draft a short note to whoever signs off budget at Cinderford, asking them to approve adding the Stroud lab to the pilot.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        },
+        {
+          "scenario": "sweep_24",
+          "probe_index": 0,
+          "probe": "Send Fabrikam's COO a quick update on where the data migration stands.",
+          "a_result": "1/1",
+          "b_result": "0/1"
+        }
+      ],
+      "b_better": [
+        {
+          "scenario": "gs_01_offhand_preference_three_weeks",
+          "probe_index": 0,
+          "probe": "Draft my recap email to Odile from today's QBR, with Pascal on cc. Points: they approved extending the housekeeping tablets to the two Marseille hotels, they want the revised SOW by Friday 15 May, status calls move from biweekly to weekly, and they'd like Sven on the next call.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 2,
+          "probe": "Fenmore call at 10. Remind me what we agreed with them yesterday.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "sib_01_preferences",
+          "probe_index": 0,
+          "probe": "Draft a note to Lamna's head of IT: the EHR interface go-live moves from 27 Apr to 11 May because the lab vendor's HL7 test feed still isn't ready, and we need her OK on the new date by Thursday.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_01_preference_6wk",
+          "probe_index": 0,
+          "probe": "Put together the quote for Coho Winery's procurement lead for the 40-seat expansion.",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 0,
+          "probe": "When did the Vandelay pilot start?",
+          "a_result": "0/1",
+          "b_result": "1/1"
+        }
+      ]
+    }
+  ],
+  "funnel": {
+    "b0": {
+      "failed": 14,
+      "counts": {
+        "all": 2,
+        "some": 0,
+        "none": 12,
+        "no data": 0
+      },
+      "cases": [
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "15 July 2026"
+          ]
+        },
+        {
+          "scenario": "own_02_paste_old_chats",
+          "probe_index": 1,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Omar Haddad"
+          ]
+        },
+        {
+          "scenario": "gs_01_offhand_preference_three_weeks",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Two or three short paragraphs, that's it.",
+            "she can't stand bullet points"
+          ]
+        },
+        {
+          "scenario": "sib_01_preferences",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "long_01_preference_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Elena Rossi",
+            "one total price"
+          ]
+        },
+        {
+          "scenario": "long_02_who_is_who_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Daniel Ortega",
+            "Grace Liu",
+            "Viktor Petrov"
+          ]
+        },
+        {
+          "scenario": "long_03_contact_bleed_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Priya Raman"
+          ]
+        },
+        {
+          "scenario": "long_04_heavy_day",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "$52,000",
+            "14-month term"
+          ]
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "kicked off yesterday"
+          ]
+        },
+        {
+          "scenario": "long_06_role_change_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Aisha Khan"
+          ]
+        },
+        {
+          "scenario": "sweep_080",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Marcus Webb",
+            "three bullets by text message"
+          ]
+        },
+        {
+          "scenario": "sweep_160",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Marcus Webb",
+            "three bullets by text message"
+          ]
+        },
+        {
+          "scenario": "sweep_320",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "Marcus Webb",
+            "three bullets by text message"
+          ]
+        },
+        {
+          "scenario": "sweep_40",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        }
+      ]
+    },
+    "lex": {
+      "failed": 12,
+      "counts": {
+        "all": 8,
+        "some": 2,
+        "none": 2,
+        "no data": 0
+      },
+      "cases": [
+        {
+          "scenario": "own_06_role_change",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "own_09_weak_paraphrase",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "head office to Denver"
+          ]
+        },
+        {
+          "scenario": "own_10_weak_aggregate",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "own_11_weak_draft_recall",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "gs_01_offhand_preference_three_weeks",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "gs_02_contact_moves_between_accounts",
+          "probe_index": 1,
+          "rep": 0,
+          "state": "some",
+          "missing_needles": [
+            "Leon is still the one approving spend",
+            "Rachel Adeyemi takes over as operations director from 15 June",
+            "Tomasz is leaving"
+          ]
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 2,
+          "rep": 0,
+          "state": "some",
+          "missing_needles": [
+            "split 50/50 across two cost centres, R&D and Clinical"
+          ]
+        },
+        {
+          "scenario": "sib_01_preferences",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "5 sentences max",
+            "Amara Nwosu"
+          ]
+        },
+        {
+          "scenario": "long_01_preference_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "long_05_dates_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "long_06_role_change_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "sweep_00",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        }
+      ]
+    },
+    "new": {
+      "failed": 11,
+      "counts": {
+        "all": 9,
+        "some": 0,
+        "none": 1,
+        "no data": 1
+      },
+      "cases": [
+        {
+          "scenario": "own_05_dates_known_unknown",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "own_06_role_change",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "own_09_weak_paraphrase",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "none",
+          "missing_needles": [
+            "head office to Denver"
+          ]
+        },
+        {
+          "scenario": "own_10_weak_aggregate",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "own_11_weak_draft_recall",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "gs_02_contact_moves_between_accounts",
+          "probe_index": 1,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "gs_03_long_day_correction_next_morning",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "gs_04_relative_date_and_unrecorded_facts",
+          "probe_index": 2,
+          "rep": 0,
+          "state": "no data",
+          "missing_needles": []
+        },
+        {
+          "scenario": "long_06_role_change_6wk",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "sweep_00",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        },
+        {
+          "scenario": "sweep_24",
+          "probe_index": 0,
+          "rep": 0,
+          "state": "all",
+          "missing_needles": []
+        }
+      ]
+    }
+  },
+  "needle_reach": {
+    "v0": {
+      "with_data": 43,
+      "all_in_prompt": 0,
+      "share": 0.0
+    },
+    "b0": {
+      "with_data": 43,
+      "all_in_prompt": 31,
+      "share": 0.7209
+    },
+    "b1": {
+      "with_data": 43,
+      "all_in_prompt": 30,
+      "share": 0.6977
+    },
+    "lex": {
+      "with_data": 43,
+      "all_in_prompt": 39,
+      "share": 0.907
+    },
+    "new": {
+      "with_data": 43,
+      "all_in_prompt": 42,
+      "share": 0.9767
+    }
+  },
+  "judge_cost_usd": 0.13303,
+  "spend": {
+    "systems_usd": 1.825657,
+    "judge_usd": 0.13303,
+    "judge_failed_usd": 0.003586,
+    "discarded_usd": 0.0,
+    "total_usd": 1.962273
+  }
+}

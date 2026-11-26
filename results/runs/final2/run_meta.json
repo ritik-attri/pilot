@@ -1,0 +1,1022 @@
+{
+  "tag": "final2",
+  "config": {
+    "model": "qwen/qwen3.7-flash",
+    "api_key_env": "OPENROUTER_API_KEY",
+    "base_url": "https://openrouter.ai/api/v1",
+    "judge_model": "z-ai/glm-5.3-flash",
+    "judge_votes": 3,
+    "judge_seed": 11,
+    "seed": 7,
+    "variants": [
+      "b1",
+      "lex",
+      "new"
+    ],
+    "scenarios": [
+      "scenarios/samples/*.jsonl",
+      "scenarios/own/*.jsonl",
+      "scenarios/holdout/*.jsonl",
+      "scenarios/long/*.jsonl",
+      "scenarios/sweep/*.jsonl"
+    ],
+    "k": 1,
+    "workers": 16,
+    "max_spend_usd": 1.8,
+    "system_overrides": {},
+    "fake": false,
+    "tag": "final2"
+  },
+  "variants": [
+    "b1",
+    "lex",
+    "new"
+  ],
+  "scenarios": [
+    "scenarios/samples/sample_01_preferences.jsonl",
+    "scenarios/samples/sample_02_long_day.jsonl",
+    "scenarios/samples/sample_03_unknowns.jsonl",
+    "scenarios/own/own_01_who_is_who.jsonl",
+    "scenarios/own/own_02_paste_old_chats.jsonl",
+    "scenarios/own/own_03_long_day_morning.jsonl",
+    "scenarios/own/own_04_contact_bleed.jsonl",
+    "scenarios/own/own_05_dates_known_unknown.jsonl",
+    "scenarios/own/own_06_role_change.jsonl",
+    "scenarios/own/own_07_two_users.jsonl",
+    "scenarios/own/own_08_no_end_restart.jsonl",
+    "scenarios/own/own_09_weak_paraphrase.jsonl",
+    "scenarios/own/own_10_weak_aggregate.jsonl",
+    "scenarios/own/own_11_weak_draft_recall.jsonl",
+    "scenarios/own/own_12_weak_two_accounts.jsonl",
+    "scenarios/holdout/gs_01_offhand_preference_three_weeks.jsonl",
+    "scenarios/holdout/gs_02_contact_moves_between_accounts.jsonl",
+    "scenarios/holdout/gs_03_long_day_correction_next_morning.jsonl",
+    "scenarios/holdout/gs_04_relative_date_and_unrecorded_facts.jsonl",
+    "scenarios/holdout/sib_01_preferences.jsonl",
+    "scenarios/holdout/sib_02_long_day.jsonl",
+    "scenarios/holdout/sib_03_unknowns.jsonl",
+    "scenarios/long/long_01_preference_6wk.jsonl",
+    "scenarios/long/long_02_who_is_who_6wk.jsonl",
+    "scenarios/long/long_03_contact_bleed_6wk.jsonl",
+    "scenarios/long/long_04_heavy_day.jsonl",
+    "scenarios/long/long_05_dates_6wk.jsonl",
+    "scenarios/long/long_06_role_change_6wk.jsonl",
+    "scenarios/sweep/sweep_00.jsonl",
+    "scenarios/sweep/sweep_06.jsonl",
+    "scenarios/sweep/sweep_080.jsonl",
+    "scenarios/sweep/sweep_14.jsonl",
+    "scenarios/sweep/sweep_160.jsonl",
+    "scenarios/sweep/sweep_24.jsonl",
+    "scenarios/sweep/sweep_320.jsonl",
+    "scenarios/sweep/sweep_40.jsonl"
+  ],
+  "scenario_sha256": {
+    "scenarios/samples/sample_01_preferences.jsonl": "9377ef48b0bb48e83b987c72f5c13d70d76cd94606e32a65d39207819969e2d5",
+    "scenarios/samples/sample_02_long_day.jsonl": "0e108bb29c3e793cf0dd06bf919904f0be7eb3648a2840a63e7a92351c0116e4",
+    "scenarios/samples/sample_03_unknowns.jsonl": "d35a9b0b6d28a6954125cf4f4d3324e2ad5e160fe2c5aa4ff529bb33697eac5e",
+    "scenarios/own/own_01_who_is_who.jsonl": "71262d5070f6ea5f7b36ec02fd5a583ef203222cc44d6b69611fa9d16b409500",
+    "scenarios/own/own_02_paste_old_chats.jsonl": "058130e830da2b31e95dadb6f03ae928191aee442f29f0176bfebdfdea75d3c0",
+    "scenarios/own/own_03_long_day_morning.jsonl": "dd54e5b17a8ff6ffebf68693dd555c61291e39e434a246858ef291ba6d72098e",
+    "scenarios/own/own_04_contact_bleed.jsonl": "75e54343b1f67995512b2eb37eb630fbaab71cae2bf4597f62f1251fc6937562",
+    "scenarios/own/own_05_dates_known_unknown.jsonl": "dd8bfe21772ce440b57382951e2212b082f8be49baaaff84c801478ccb577587",
+    "scenarios/own/own_06_role_change.jsonl": "c4d97672b1f6926244bd5e8822ef1125a8b88210057591ba876307b55e28f576",
+    "scenarios/own/own_07_two_users.jsonl": "055e416e34d0de41511a5784c64c3c8f0615b901fc0bd060e95c302ca3bbe85b",
+    "scenarios/own/own_08_no_end_restart.jsonl": "d52732fa1c9def4f5b9aa42a73cba5fc4125c81daf71022dcbd44322182b4993",
+    "scenarios/own/own_09_weak_paraphrase.jsonl": "ebe86b513327d1795e92a55f616ccaa4fd836f8b671a660196460d863d24c885",
+    "scenarios/own/own_10_weak_aggregate.jsonl": "bb239893549b7741f87438f6d912818616ce2394ac5b33801cc6dbd295d98cd6",
+    "scenarios/own/own_11_weak_draft_recall.jsonl": "31ccf216325b7e16e714598e067ac21b5a553fc727b002afbf5babf83681adb3",
+    "scenarios/own/own_12_weak_two_accounts.jsonl": "f33c5efd21194fe41dd411f1f1c23e529115e20c5340c2aa851bdeecf97ebf63",
+    "scenarios/holdout/gs_01_offhand_preference_three_weeks.jsonl": "8404df27a64f112de98690f454aa82d15a2c70a3c1e914cd7491fadc8626df98",
+    "scenarios/holdout/gs_02_contact_moves_between_accounts.jsonl": "c398e0a8d4aef00cf8d4c4ac51369635a5ea8a417f84542f16a2586f6da6ea8b",
+    "scenarios/holdout/gs_03_long_day_correction_next_morning.jsonl": "cb2bea2ac2a3f2f13eec8f23d4c92016362f6e3c25c4ca030d5660f42951fc7c",
+    "scenarios/holdout/gs_04_relative_date_and_unrecorded_facts.jsonl": "3e0a294b783aa9a1f339a42dd847f2a626883b4a26dc4446c5b83f5a7cf51dba",
+    "scenarios/holdout/sib_01_preferences.jsonl": "0f53a668e5b669c082b2c7b3c8eb06dc9e38e6aab33935194d4f5e1bb56127dc",
+    "scenarios/holdout/sib_02_long_day.jsonl": "67d35c4dab8ea89ca36ca87eb85ba0465f6c6ace99f83974d761e4cfdbf47bce",
+    "scenarios/holdout/sib_03_unknowns.jsonl": "d833bdd59ac14cc62052cbc0875a55e3b5506a3fdfdcddf0bd3b095d0456a31b",
+    "scenarios/long/long_01_preference_6wk.jsonl": "f575a8f464d814de62acf667630069d19f7678420314dd76b1b050c1790db4f6",
+    "scenarios/long/long_02_who_is_who_6wk.jsonl": "9d827870a05e7f2b138179120fde7a19c805f37e41c4a119955e2a80c570b813",
+    "scenarios/long/long_03_contact_bleed_6wk.jsonl": "d6674c996def7404976f36c40aa1fd47233efbace8473bdf707c39a59d88a1b1",
+    "scenarios/long/long_04_heavy_day.jsonl": "20f0fd1bbe937761a435f10f7112b9bbd3fbaca425f648f32177ed0c92fb2abf",
+    "scenarios/long/long_05_dates_6wk.jsonl": "2060ad01dacf466f2c2f5bffeb848c8306d0452da2e20da274a8d3da4873c843",
+    "scenarios/long/long_06_role_change_6wk.jsonl": "d63441925513eaa3c45b4d614185e52e6938f410496b5ec330a73a4da768317f",
+    "scenarios/sweep/sweep_00.jsonl": "42d9a4c3251fa619525116f41da7996023e23ab3cac637c327107bf1e1ef5eb3",
+    "scenarios/sweep/sweep_06.jsonl": "f83fc2f8567d61d8fa72d5906d02a1138eb1a82354865a7a0057e8a2e993137e",
+    "scenarios/sweep/sweep_080.jsonl": "f12a0349b169ae9d3fba2e6354687df42f23ceccbe78da2f7ca9814f24689386",
+    "scenarios/sweep/sweep_14.jsonl": "99411c66cbc1a533ad1d5434ba37c066ea8f57bb5072e481b3aab632ccd20e9c",
+    "scenarios/sweep/sweep_160.jsonl": "5114828b7a9f3df73bb9a6aaca35219e2036e7d419250b788583e0f1d3735e82",
+    "scenarios/sweep/sweep_24.jsonl": "cfcc6dd66fdb21a91a6468b28874c6fd222c9b7d800143c4a8d9403972307cbc",
+    "scenarios/sweep/sweep_320.jsonl": "d99f0b875ca84be34b569b694758895d5709d6590a0fd3ef103c286540326db8",
+    "scenarios/sweep/sweep_40.jsonl": "2377ea1f633029cc3097ec77799a64d609d7ebf8be2a42858bbf3e3b4ec6a0c5"
+  },
+  "k": 1,
+  "seeds": [
+    7
+  ],
+  "fake": false,
+  "code_sha256": {
+    "pilot/__init__.py": "be8192b43c713b723c728d8956644e30b78752989aa18686d2058d5512be8c7e",
+    "pilot/assistant.py": "72cc656cf9b635b5a6041989f79f633b3e501812d17508b580b5639679ef900e",
+    "pilot/baselines.py": "263cf3914943ea0b3f9d45a57c669e67aedbdbdaa0ed0bbb970ffdf5fcfe05b7",
+    "pilot/config.py": "85aafb75eaa6dc4e0e62d22e30bf76fda0b98ac123f6dfa46adef2bf1114702e",
+    "pilot/context.py": "da3475a419f7664e535e51508afecd6a6d818ededf3c259cd496629f7299efef",
+    "pilot/extract.py": "9862ff39ea818a96161330f213f8620950064b5d518d8c68befc4c221b030757",
+    "pilot/llm.py": "d2f4552df2469c75fae02bdba8db6a8841da6493e31ca8584e005992058a0811",
+    "pilot/store.py": "84e25ad133f325c95bf30df54e1a3bc8451723f57fb7c48c70f9572e1f2863e6",
+    "pilot/text.py": "76272345a3581da2b57250979e7225a7804543d3e20ec9ed2bc9a7ef43197348",
+    "pilot/timeutil.py": "84fd20380a9e533dbca5398e3f82e5b41954c5eb5b805a785eadc736b4db2b97",
+    "pilot/tokens.py": "d32438a7bf35b5d703947796360337d23fe24f123e3dd4f53b896e387a3c5c11",
+    "pilot/prompts/extract.txt": "b6a04894b3e72348a296f7e22cec128a74b7ea11e44d1056d9c5d9c9bcf5251c",
+    "pilot/prompts/grounding.txt": "120bb83cb40317f0d3aeff049205909b27bb0c52fa4bfc7cda39b7167760da87",
+    "pilot/prompts/memory_guide.txt": "df96151e4750c03f2492d9714d2f0eebc953256b815e738c745732bea77e8667",
+    "pilot/prompts/persona.txt": "514c8bcbae0c9b3dff47d0da62fe829b127643ae1c9f985b9b313c2697d4b692",
+    "eval/__init__.py": "d17ca90cdbaf8781478dfaed5683b62c13ecc2f2075ecf4a5f01f2a648d0879a",
+    "eval/audit.py": "8de8035120180b3a881294cbe49dc03f6fa18673b726c655f1cd46e9a833ba8b",
+    "eval/factory.py": "efcb67bd7d36b7a6cdcac14063d032923fef2174511ea87df4eba9789dd05695",
+    "eval/judge.py": "adbe025c17c1d8e70e8a145a01e3d05c46cf38fa907387657d209c76ebdd89f7",
+    "eval/longgen.py": "608f56733237353b3e1b9ccc6981a43afa872d98869fb81ea747f1c54eda74d3",
+    "eval/report.py": "45687c455d0a7cf6e582a4995f93398821045f7432c08af455c49435e64b49ba",
+    "eval/run.py": "db28c383c8076259eb1e6e8c804e8be2f4594b2a5c494344cabe6fc6fa5b06ca",
+    "eval/scenario.py": "1c92e7672fa5529ac6c80e1792cd9045a813806fa58b3b5cb9da69d008f0c2b6",
+    "eval/judge_prompt.txt": "557f418d4925fd98a3d1a9ea91e3925c8012a249b8e15604bb6553580783094c"
+  },
+  "python": "3.11.17 (main, Oct 21 2026, 17:46:24) [MSC v.1944 64 bit (AMD64)]",
+  "started": "2026-11-26T08:47:48",
+  "finished": "2026-11-26T09:30:57",
+  "openrouter_usage_before": 2.318933864,
+  "openrouter_usage_after": 3.632805147,
+  "incomplete": false,
+  "interrupted": false,
+  "skipped_jobs": [],
+  "failed_jobs": [],
+  "interrupted_jobs": [],
+  "provider_error_jobs": [],
+  "judge_errors": 0,
+  "discarded_cost_usd": 0.0,
+  "resumes": [],
+  "jobs": [
+    {
+      "job": "b1__gs_01_offhand_preference_three_weeks__r0",
+      "status": "done",
+      "chat_calls": 54,
+      "provider_errors": 0,
+      "seconds": 110.09,
+      "cost_usd": 0.00899
+    },
+    {
+      "job": "b1__gs_02_contact_moves_between_accounts__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 59.11,
+      "cost_usd": 0.003903
+    },
+    {
+      "job": "b1__gs_03_long_day_correction_next_morning__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 69.03,
+      "cost_usd": 0.004259
+    },
+    {
+      "job": "b1__gs_04_relative_date_and_unrecorded_facts__r0",
+      "status": "done",
+      "chat_calls": 27,
+      "provider_errors": 0,
+      "seconds": 35.64,
+      "cost_usd": 0.001878
+    },
+    {
+      "job": "b1__long_01_preference_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 733.47,
+      "cost_usd": 0.070554
+    },
+    {
+      "job": "b1__long_02_who_is_who_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 725.9,
+      "cost_usd": 0.070268
+    },
+    {
+      "job": "b1__long_03_contact_bleed_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 701.73,
+      "cost_usd": 0.069913
+    },
+    {
+      "job": "b1__long_04_heavy_day__r0",
+      "status": "done",
+      "chat_calls": 72,
+      "provider_errors": 0,
+      "seconds": 134.66,
+      "cost_usd": 0.013003
+    },
+    {
+      "job": "b1__long_05_dates_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 730.79,
+      "cost_usd": 0.07083
+    },
+    {
+      "job": "b1__long_06_role_change_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 702.91,
+      "cost_usd": 0.070342
+    },
+    {
+      "job": "b1__own_01_who_is_who__r0",
+      "status": "done",
+      "chat_calls": 20,
+      "provider_errors": 0,
+      "seconds": 33.27,
+      "cost_usd": 0.001505
+    },
+    {
+      "job": "b1__own_02_paste_old_chats__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 10.36,
+      "cost_usd": 0.000494
+    },
+    {
+      "job": "b1__own_03_long_day_morning__r0",
+      "status": "done",
+      "chat_calls": 28,
+      "provider_errors": 0,
+      "seconds": 29.62,
+      "cost_usd": 0.001775
+    },
+    {
+      "job": "b1__own_04_contact_bleed__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 22.38,
+      "cost_usd": 0.000973
+    },
+    {
+      "job": "b1__own_05_dates_known_unknown__r0",
+      "status": "done",
+      "chat_calls": 19,
+      "provider_errors": 0,
+      "seconds": 25.74,
+      "cost_usd": 0.00111
+    },
+    {
+      "job": "b1__own_06_role_change__r0",
+      "status": "done",
+      "chat_calls": 18,
+      "provider_errors": 0,
+      "seconds": 23.32,
+      "cost_usd": 0.000993
+    },
+    {
+      "job": "b1__own_07_two_users__r0",
+      "status": "done",
+      "chat_calls": 21,
+      "provider_errors": 0,
+      "seconds": 31.28,
+      "cost_usd": 0.001052
+    },
+    {
+      "job": "b1__own_08_no_end_restart__r0",
+      "status": "done",
+      "chat_calls": 24,
+      "provider_errors": 0,
+      "seconds": 34.01,
+      "cost_usd": 0.001808
+    },
+    {
+      "job": "b1__own_09_weak_paraphrase__r0",
+      "status": "done",
+      "chat_calls": 25,
+      "provider_errors": 0,
+      "seconds": 47.09,
+      "cost_usd": 0.002598
+    },
+    {
+      "job": "b1__own_10_weak_aggregate__r0",
+      "status": "done",
+      "chat_calls": 47,
+      "provider_errors": 0,
+      "seconds": 79.94,
+      "cost_usd": 0.006309
+    },
+    {
+      "job": "b1__own_11_weak_draft_recall__r0",
+      "status": "done",
+      "chat_calls": 11,
+      "provider_errors": 0,
+      "seconds": 12.08,
+      "cost_usd": 0.000451
+    },
+    {
+      "job": "b1__own_12_weak_two_accounts__r0",
+      "status": "done",
+      "chat_calls": 13,
+      "provider_errors": 0,
+      "seconds": 13.48,
+      "cost_usd": 0.00053
+    },
+    {
+      "job": "b1__sample_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 34,
+      "provider_errors": 0,
+      "seconds": 52.03,
+      "cost_usd": 0.003243
+    },
+    {
+      "job": "b1__sample_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 40,
+      "provider_errors": 0,
+      "seconds": 80.19,
+      "cost_usd": 0.005321
+    },
+    {
+      "job": "b1__sample_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 29.81,
+      "cost_usd": 0.001148
+    },
+    {
+      "job": "b1__sib_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 35,
+      "provider_errors": 0,
+      "seconds": 49.7,
+      "cost_usd": 0.003316
+    },
+    {
+      "job": "b1__sib_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 38,
+      "provider_errors": 0,
+      "seconds": 70.06,
+      "cost_usd": 0.004806
+    },
+    {
+      "job": "b1__sib_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 18.46,
+      "cost_usd": 0.000795
+    },
+    {
+      "job": "b1__sweep_00__r0",
+      "status": "done",
+      "chat_calls": 2,
+      "provider_errors": 0,
+      "seconds": 2.66,
+      "cost_usd": 5e-05
+    },
+    {
+      "job": "b1__sweep_06__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 8.11,
+      "cost_usd": 0.000254
+    },
+    {
+      "job": "b1__sweep_080__r0",
+      "status": "done",
+      "chat_calls": 82,
+      "provider_errors": 0,
+      "seconds": 148.13,
+      "cost_usd": 0.013145
+    },
+    {
+      "job": "b1__sweep_14__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 21.96,
+      "cost_usd": 0.000802
+    },
+    {
+      "job": "b1__sweep_160__r0",
+      "status": "done",
+      "chat_calls": 162,
+      "provider_errors": 0,
+      "seconds": 333.91,
+      "cost_usd": 0.032484
+    },
+    {
+      "job": "b1__sweep_24__r0",
+      "status": "done",
+      "chat_calls": 26,
+      "provider_errors": 0,
+      "seconds": 34.21,
+      "cost_usd": 0.001784
+    },
+    {
+      "job": "b1__sweep_320__r0",
+      "status": "done",
+      "chat_calls": 322,
+      "provider_errors": 0,
+      "seconds": 764.53,
+      "cost_usd": 0.070026
+    },
+    {
+      "job": "b1__sweep_40__r0",
+      "status": "done",
+      "chat_calls": 42,
+      "provider_errors": 0,
+      "seconds": 65.91,
+      "cost_usd": 0.004267
+    },
+    {
+      "job": "lex__gs_01_offhand_preference_three_weeks__r0",
+      "status": "done",
+      "chat_calls": 54,
+      "provider_errors": 0,
+      "seconds": 97.21,
+      "cost_usd": 0.002682
+    },
+    {
+      "job": "lex__gs_02_contact_moves_between_accounts__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 54.78,
+      "cost_usd": 0.001653
+    },
+    {
+      "job": "lex__gs_03_long_day_correction_next_morning__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 67.47,
+      "cost_usd": 0.002105
+    },
+    {
+      "job": "lex__gs_04_relative_date_and_unrecorded_facts__r0",
+      "status": "done",
+      "chat_calls": 27,
+      "provider_errors": 0,
+      "seconds": 33.26,
+      "cost_usd": 0.001053
+    },
+    {
+      "job": "lex__long_01_preference_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 776.26,
+      "cost_usd": 0.025661
+    },
+    {
+      "job": "lex__long_02_who_is_who_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 779.8,
+      "cost_usd": 0.024577
+    },
+    {
+      "job": "lex__long_03_contact_bleed_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 772.08,
+      "cost_usd": 0.023876
+    },
+    {
+      "job": "lex__long_04_heavy_day__r0",
+      "status": "done",
+      "chat_calls": 72,
+      "provider_errors": 0,
+      "seconds": 133.79,
+      "cost_usd": 0.006743
+    },
+    {
+      "job": "lex__long_05_dates_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 803.48,
+      "cost_usd": 0.024579
+    },
+    {
+      "job": "lex__long_06_role_change_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 791.97,
+      "cost_usd": 0.024335
+    },
+    {
+      "job": "lex__own_01_who_is_who__r0",
+      "status": "done",
+      "chat_calls": 20,
+      "provider_errors": 0,
+      "seconds": 35.94,
+      "cost_usd": 0.000966
+    },
+    {
+      "job": "lex__own_02_paste_old_chats__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 9.33,
+      "cost_usd": 0.000445
+    },
+    {
+      "job": "lex__own_03_long_day_morning__r0",
+      "status": "done",
+      "chat_calls": 28,
+      "provider_errors": 0,
+      "seconds": 29.54,
+      "cost_usd": 0.001312
+    },
+    {
+      "job": "lex__own_04_contact_bleed__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 24.13,
+      "cost_usd": 0.00069
+    },
+    {
+      "job": "lex__own_05_dates_known_unknown__r0",
+      "status": "done",
+      "chat_calls": 19,
+      "provider_errors": 0,
+      "seconds": 25.17,
+      "cost_usd": 0.000754
+    },
+    {
+      "job": "lex__own_06_role_change__r0",
+      "status": "done",
+      "chat_calls": 18,
+      "provider_errors": 0,
+      "seconds": 21.46,
+      "cost_usd": 0.000647
+    },
+    {
+      "job": "lex__own_07_two_users__r0",
+      "status": "done",
+      "chat_calls": 21,
+      "provider_errors": 0,
+      "seconds": 45.64,
+      "cost_usd": 0.001034
+    },
+    {
+      "job": "lex__own_08_no_end_restart__r0",
+      "status": "done",
+      "chat_calls": 24,
+      "provider_errors": 0,
+      "seconds": 40.63,
+      "cost_usd": 0.001153
+    },
+    {
+      "job": "lex__own_09_weak_paraphrase__r0",
+      "status": "done",
+      "chat_calls": 25,
+      "provider_errors": 0,
+      "seconds": 49.04,
+      "cost_usd": 0.001299
+    },
+    {
+      "job": "lex__own_10_weak_aggregate__r0",
+      "status": "done",
+      "chat_calls": 47,
+      "provider_errors": 0,
+      "seconds": 73.53,
+      "cost_usd": 0.002202
+    },
+    {
+      "job": "lex__own_11_weak_draft_recall__r0",
+      "status": "done",
+      "chat_calls": 11,
+      "provider_errors": 0,
+      "seconds": 13.72,
+      "cost_usd": 0.00041
+    },
+    {
+      "job": "lex__own_12_weak_two_accounts__r0",
+      "status": "done",
+      "chat_calls": 13,
+      "provider_errors": 0,
+      "seconds": 14.78,
+      "cost_usd": 0.000458
+    },
+    {
+      "job": "lex__sample_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 34,
+      "provider_errors": 0,
+      "seconds": 54.38,
+      "cost_usd": 0.001671
+    },
+    {
+      "job": "lex__sample_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 40,
+      "provider_errors": 0,
+      "seconds": 76.24,
+      "cost_usd": 0.002772
+    },
+    {
+      "job": "lex__sample_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 30.89,
+      "cost_usd": 0.000774
+    },
+    {
+      "job": "lex__sib_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 35,
+      "provider_errors": 0,
+      "seconds": 58.66,
+      "cost_usd": 0.001664
+    },
+    {
+      "job": "lex__sib_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 38,
+      "provider_errors": 0,
+      "seconds": 77.49,
+      "cost_usd": 0.002404
+    },
+    {
+      "job": "lex__sib_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 24.26,
+      "cost_usd": 0.000663
+    },
+    {
+      "job": "lex__sweep_00__r0",
+      "status": "done",
+      "chat_calls": 2,
+      "provider_errors": 0,
+      "seconds": 2.7,
+      "cost_usd": 5.9e-05
+    },
+    {
+      "job": "lex__sweep_06__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 9.94,
+      "cost_usd": 0.000276
+    },
+    {
+      "job": "lex__sweep_080__r0",
+      "status": "done",
+      "chat_calls": 82,
+      "provider_errors": 0,
+      "seconds": 152.97,
+      "cost_usd": 0.004913
+    },
+    {
+      "job": "lex__sweep_14__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 24.9,
+      "cost_usd": 0.0006
+    },
+    {
+      "job": "lex__sweep_160__r0",
+      "status": "done",
+      "chat_calls": 162,
+      "provider_errors": 0,
+      "seconds": 338.2,
+      "cost_usd": 0.010992
+    },
+    {
+      "job": "lex__sweep_24__r0",
+      "status": "done",
+      "chat_calls": 26,
+      "provider_errors": 0,
+      "seconds": 39.63,
+      "cost_usd": 0.001035
+    },
+    {
+      "job": "lex__sweep_320__r0",
+      "status": "done",
+      "chat_calls": 322,
+      "provider_errors": 0,
+      "seconds": 783.97,
+      "cost_usd": 0.024098
+    },
+    {
+      "job": "lex__sweep_40__r0",
+      "status": "done",
+      "chat_calls": 42,
+      "provider_errors": 0,
+      "seconds": 65.42,
+      "cost_usd": 0.00168
+    },
+    {
+      "job": "new__gs_01_offhand_preference_three_weeks__r0",
+      "status": "done",
+      "chat_calls": 54,
+      "provider_errors": 0,
+      "seconds": 180.28,
+      "cost_usd": 0.005355
+    },
+    {
+      "job": "new__gs_02_contact_moves_between_accounts__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 115.97,
+      "cost_usd": 0.003448
+    },
+    {
+      "job": "new__gs_03_long_day_correction_next_morning__r0",
+      "status": "done",
+      "chat_calls": 37,
+      "provider_errors": 0,
+      "seconds": 116.74,
+      "cost_usd": 0.003622
+    },
+    {
+      "job": "new__gs_04_relative_date_and_unrecorded_facts__r0",
+      "status": "done",
+      "chat_calls": 27,
+      "provider_errors": 0,
+      "seconds": 72.5,
+      "cost_usd": 0.002147
+    },
+    {
+      "job": "new__long_01_preference_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 1569.75,
+      "cost_usd": 0.063663
+    },
+    {
+      "job": "new__long_02_who_is_who_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 1585.96,
+      "cost_usd": 0.063095
+    },
+    {
+      "job": "new__long_03_contact_bleed_6wk__r0",
+      "status": "done",
+      "chat_calls": 315,
+      "provider_errors": 0,
+      "seconds": 1557.51,
+      "cost_usd": 0.063179
+    },
+    {
+      "job": "new__long_04_heavy_day__r0",
+      "status": "done",
+      "chat_calls": 72,
+      "provider_errors": 0,
+      "seconds": 273.98,
+      "cost_usd": 0.011856
+    },
+    {
+      "job": "new__long_05_dates_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 1552.25,
+      "cost_usd": 0.062916
+    },
+    {
+      "job": "new__long_06_role_change_6wk__r0",
+      "status": "done",
+      "chat_calls": 316,
+      "provider_errors": 0,
+      "seconds": 1601.78,
+      "cost_usd": 0.06468
+    },
+    {
+      "job": "new__own_01_who_is_who__r0",
+      "status": "done",
+      "chat_calls": 20,
+      "provider_errors": 0,
+      "seconds": 72.3,
+      "cost_usd": 0.001973
+    },
+    {
+      "job": "new__own_02_paste_old_chats__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 28.62,
+      "cost_usd": 0.000941
+    },
+    {
+      "job": "new__own_03_long_day_morning__r0",
+      "status": "done",
+      "chat_calls": 28,
+      "provider_errors": 0,
+      "seconds": 78.25,
+      "cost_usd": 0.002582
+    },
+    {
+      "job": "new__own_04_contact_bleed__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 55.34,
+      "cost_usd": 0.001483
+    },
+    {
+      "job": "new__own_05_dates_known_unknown__r0",
+      "status": "done",
+      "chat_calls": 19,
+      "provider_errors": 0,
+      "seconds": 62.57,
+      "cost_usd": 0.001643
+    },
+    {
+      "job": "new__own_06_role_change__r0",
+      "status": "done",
+      "chat_calls": 18,
+      "provider_errors": 0,
+      "seconds": 51.85,
+      "cost_usd": 0.001385
+    },
+    {
+      "job": "new__own_07_two_users__r0",
+      "status": "done",
+      "chat_calls": 21,
+      "provider_errors": 0,
+      "seconds": 80.53,
+      "cost_usd": 0.001915
+    },
+    {
+      "job": "new__own_08_no_end_restart__r0",
+      "status": "done",
+      "chat_calls": 24,
+      "provider_errors": 0,
+      "seconds": 85.46,
+      "cost_usd": 0.002301
+    },
+    {
+      "job": "new__own_09_weak_paraphrase__r0",
+      "status": "done",
+      "chat_calls": 25,
+      "provider_errors": 0,
+      "seconds": 93.89,
+      "cost_usd": 0.002838
+    },
+    {
+      "job": "new__own_10_weak_aggregate__r0",
+      "status": "done",
+      "chat_calls": 47,
+      "provider_errors": 0,
+      "seconds": 159.16,
+      "cost_usd": 0.004535
+    },
+    {
+      "job": "new__own_11_weak_draft_recall__r0",
+      "status": "done",
+      "chat_calls": 11,
+      "provider_errors": 0,
+      "seconds": 33.5,
+      "cost_usd": 0.00087
+    },
+    {
+      "job": "new__own_12_weak_two_accounts__r0",
+      "status": "done",
+      "chat_calls": 13,
+      "provider_errors": 0,
+      "seconds": 35.95,
+      "cost_usd": 0.000989
+    },
+    {
+      "job": "new__sample_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 34,
+      "provider_errors": 0,
+      "seconds": 114.53,
+      "cost_usd": 0.003289
+    },
+    {
+      "job": "new__sample_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 40,
+      "provider_errors": 0,
+      "seconds": 136.37,
+      "cost_usd": 0.004626
+    },
+    {
+      "job": "new__sample_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 17,
+      "provider_errors": 0,
+      "seconds": 60.96,
+      "cost_usd": 0.001555
+    },
+    {
+      "job": "new__sib_01_preferences__r0",
+      "status": "done",
+      "chat_calls": 35,
+      "provider_errors": 0,
+      "seconds": 115.68,
+      "cost_usd": 0.003219
+    },
+    {
+      "job": "new__sib_02_long_day__r0",
+      "status": "done",
+      "chat_calls": 38,
+      "provider_errors": 0,
+      "seconds": 141.77,
+      "cost_usd": 0.004177
+    },
+    {
+      "job": "new__sib_03_unknowns__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 50.47,
+      "cost_usd": 0.001345
+    },
+    {
+      "job": "new__sweep_00__r0",
+      "status": "done",
+      "chat_calls": 2,
+      "provider_errors": 0,
+      "seconds": 4.42,
+      "cost_usd": 0.000115
+    },
+    {
+      "job": "new__sweep_06__r0",
+      "status": "done",
+      "chat_calls": 8,
+      "provider_errors": 0,
+      "seconds": 26.08,
+      "cost_usd": 0.000651
+    },
+    {
+      "job": "new__sweep_080__r0",
+      "status": "done",
+      "chat_calls": 82,
+      "provider_errors": 0,
+      "seconds": 323.96,
+      "cost_usd": 0.010303
+    },
+    {
+      "job": "new__sweep_14__r0",
+      "status": "done",
+      "chat_calls": 16,
+      "provider_errors": 0,
+      "seconds": 51.6,
+      "cost_usd": 0.001313
+    },
+    {
+      "job": "new__sweep_160__r0",
+      "status": "done",
+      "chat_calls": 162,
+      "provider_errors": 0,
+      "seconds": 724.12,
+      "cost_usd": 0.025033
+    },
+    {
+      "job": "new__sweep_24__r0",
+      "status": "done",
+      "chat_calls": 26,
+      "provider_errors": 0,
+      "seconds": 84.95,
+      "cost_usd": 0.002152
+    },
+    {
+      "job": "new__sweep_320__r0",
+      "status": "done",
+      "chat_calls": 322,
+      "provider_errors": 0,
+      "seconds": 1570.52,
+      "cost_usd": 0.060907
+    },
+    {
+      "job": "new__sweep_40__r0",
+      "status": "done",
+      "chat_calls": 42,
+      "provider_errors": 0,
+      "seconds": 133.61,
+      "cost_usd": 0.003562
+    }
+  ]
+}

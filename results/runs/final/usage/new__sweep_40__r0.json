@@ -1,0 +1,16 @@
+{
+  "extract": {
+    "calls": 42,
+    "prompt_tokens": 29588,
+    "completion_tokens": 6195,
+    "cost_usd": 0.001693,
+    "max_prompt_tokens": 819
+  },
+  "reply": {
+    "calls": 42,
+    "prompt_tokens": 46683,
+    "completion_tokens": 3413,
+    "cost_usd": 0.001823,
+    "max_prompt_tokens": 1422
+  }
+}

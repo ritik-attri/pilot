@@ -1,0 +1,45 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-06-01T09:30:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-06-01T09:31:00","text":"Initech QBR prep: Lena Ortiz is Initech's COO and our exec sponsor. She likes a one-slide summary up front and hates surprises on cost."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-06-01T09:34:00","text":"Prep me 3 talking points for Lena on the support renewal - uptime was 99.95% this quarter and ticket backlog is down 30%."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-06-01T09:40:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-06-02T10:15:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-06-02T10:16:00","text":"Litware: Felipe Ramos confirmed the 25 extra seats go live 15 June. Billing starts the same day."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-06-02T10:21:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-06-04T15:00:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-06-04T15:01:00","text":"Initech QBR went well. Lena signed off the support extension to December and wants a roadmap session in July."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-06-04T15:04:00","text":"Hooli: Chloe Dubois asked for a cost breakdown per site for the Q3 expansion, by next Friday."}
+{"type":"end","user":"u1","session":"s03","ts":"2026-06-04T15:07:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-06-08T09:10:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-06-08T09:11:00","text":"Coho Winery wants to add the bottling plant to the support contract, 40 more devices. Isabel Moreau asked for a quote."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-06-08T09:13:00","text":"Draft a quote cover email to Isabel Moreau at Coho Winery for adding the bottling plant (40 devices) to the existing contract, same SLA."}
+{"type":"end","user":"u1","session":"s04","ts":"2026-06-08T09:18:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-06-10T11:05:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-06-10T11:06:00","text":"Big change at Initech: Ravi Menon replaced Lena as COO; Lena moved to their board. Ravi is our sponsor now."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-06-10T11:08:00","text":"He wants a 30-min intro next week, his EA is Joanne Price."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-06-10T14:00:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-06-10T14:01:00","text":"Blue Yonder Airlines: Ines Carvalho approved the incident report, credit applied on the June invoice."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-06-10T14:03:00","text":"Adatum kickoff is booked for 22 June in Leeds, Aisha Rahman attending with 3 of her team."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-06-10T14:06:00","text":"Draft the kickoff agenda for Adatum, 90 minutes: intros, scope of the network refresh, timeline, risks, comms plan."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-06-10T14:12:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-06-11T10:40:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-06-11T10:41:00","text":"Trey Research is late on payment again, 45 days overdue on $22k. Finance wants me to raise it with their controller, Oskar Lind."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-06-11T10:43:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-06-12T16:20:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-06-12T16:21:00","text":"Wide World Importers: Farah Siddiqui says the customs-export bug fix works, closing the ticket."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-06-12T16:23:00","text":"Draft a polite but firm email to Oskar Lind at Trey Research about the $22k invoice that is 45 days overdue."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-06-15T09:20:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-06-15T09:21:00","text":"Margie's Travel signed the 2-year renewal. Daniel Okoro wants a kickoff for the new reporting dashboards in July."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-06-15T09:24:00","text":"Summarise my open items for Hooli and Contoso in a few bullets for today's pipeline call."}
+{"type":"end","user":"u1","session":"s09","ts":"2026-06-15T09:30:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-06-16T08:55:00"}
+{"type":"probe","user":"u1","session":"s10","ts":"2026-06-16T08:56:00","text":"Who's our exec sponsor at Initech, and what's Lena's role now?","expect":{"should":"Says Ravi Menon is now Initech's COO and our exec sponsor (he replaced Lena), and that Lena Ortiz moved to Initech's board.","should_not":"Presents Lena Ortiz as Initech's current COO or as our current exec sponsor, or hedges between Lena and Ravi as sponsor."}}
+{"type":"end","user":"u1","session":"s10","ts":"2026-06-16T09:00:00"}

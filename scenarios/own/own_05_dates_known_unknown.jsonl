@@ -1,0 +1,45 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-03-10T09:20:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-10T09:21:00","text":"Globex pilot kicked off yesterday with 12 seats; Priya Shah runs it on their side."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-10T09:23:00","text":"She wants a check-in call every Friday at 2pm while it runs."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-03-10T09:25:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-03-10T14:05:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-03-10T14:06:00","text":"Fourth Coffee pilot update: it runs 2 Mar to 27 Mar at 3 stores, Tom Fischer is the sponsor. Week 1 feedback good, one store had printer issues."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-03-10T14:08:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-03-12T10:10:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-12T10:11:00","text":"Tailspin: SOW for the warehouse scanners signed, $86k, kickoff 6 April. Elena Kowalski is the sponsor."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-12T10:14:00","text":"Draft a 60-minute kickoff agenda for Tailspin - intros, scope, rollout plan for the 4 warehouses, risks, next steps."}
+{"type":"end","user":"u1","session":"s03","ts":"2026-03-12T10:20:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-03-13T14:35:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-13T14:36:00","text":"Globex check-in with Priya: 9 of 12 seats active, two users stuck on SSO. She asked for a training session next week."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-13T14:38:00","text":"Also Globex's master services contract renews 30 September - separate from the pilot, but Priya's boss Martin Kruger owns that one."}
+{"type":"end","user":"u1","session":"s04","ts":"2026-03-13T14:40:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-03-16T09:40:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-16T09:41:00","text":"Margie's Travel is a churn risk - they're getting quotes from two other providers. Daniel Okoro hinted price is the issue, not service."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-16T09:45:00","text":"Prep me for a retention call with Daniel Okoro on Wednesday. I can offer up to 8% off for a 2-year term, nothing more."}
+{"type":"end","user":"u1","session":"s05","ts":"2026-03-16T09:50:00"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-03-16T15:10:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-16T15:11:00","text":"Woodgrove: security questionnaire returned, 4 follow-up questions on encryption at rest. Due back by the 20th."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-03-18T11:00:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-18T11:01:00","text":"Globex: SSO training done for the two stuck users, Priya is happy. She said they'll decide on a full rollout after the pilot."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-18T11:04:00","text":"Margie's call went ok - Daniel will take the 2-year term at 6% off, paperwork next week."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-18T11:06:00","text":"Draft a confirmation email to Daniel Okoro: 2-year renewal at 6% off, same service levels, contract to follow next week."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-03-18T11:12:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-03-19T13:15:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-19T13:16:00","text":"Lamna Healthcare: they want a quote for after-hours support for 2 clinics, about 150 users. Contact Dr. Femi Adebayo."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-19T13:20:00","text":"Summarise this week's Woodgrove and Lamna items in 4 bullets for my 1:1 tomorrow."}
+{"type":"end","user":"u1","session":"s08","ts":"2026-03-19T13:26:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-03-23T09:30:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-23T09:31:00","text":"Fourth Coffee pilot is going well, Tom wants to extend to 10 stores after it ends."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-23T09:34:00","text":"Draft a short note to Tom Fischer proposing a call next week to scope the 10-store extension."}
+{"type":"end","user":"u1","session":"s09","ts":"2026-03-23T09:39:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-03-24T10:14:00"}
+{"type":"probe","user":"u1","session":"s10","ts":"2026-03-24T10:15:00","text":"When did the Globex pilot start?","expect":{"should":"Says the Globex pilot started on Monday 9 March 2026 (the user said on Tue 10 Mar that it had kicked off the day before).","should_not":"Gives any other start date (e.g. 10 March, or 2 March borrowed from the Fourth Coffee pilot) or hedges between dates."}}
+{"type":"probe","user":"u1","session":"s10","ts":"2026-03-24T10:18:00","text":"And when is the Globex pilot scheduled to end?","expect":{"should":"Says plainly that no end date for the Globex pilot is on record (it was never mentioned) and/or asks the user for it.","should_not":"States or estimates an end date or duration for the Globex pilot - e.g. a specific date, 'four weeks', 27 March (Fourth Coffee's pilot end) or 30 September (Globex's master contract renewal) presented as the pilot's end."}}
+{"type":"end","user":"u1","session":"s10","ts":"2026-03-24T10:22:00"}

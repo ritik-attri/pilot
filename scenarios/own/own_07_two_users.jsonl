@@ -1,0 +1,57 @@
+{"type":"start","user":"u2","session":"s01","ts":"2026-03-09T09:04:00"}
+{"type":"msg","user":"u2","session":"s01","ts":"2026-03-09T09:05:00","text":"Acme kickoff call done. Their CFO is Carlos Mendes and he was very clear: every proposal comes with detailed appendices, full cost breakdown, rate card, every assumption written out. His words: 'I read the appendices first.' He also owns the budget for the analytics programme."}
+{"type":"end","user":"u2","session":"s01","ts":"2026-03-09T09:09:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-03-09T09:15:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-03-09T09:16:00","text":"Globex migration status: wave 2 cutover went fine on Saturday, 41 of 46 VMs moved. The last 5 are the Oracle boxes and Kwame Asante (their infra lead) wants those after month-end close. Risk: the Oracle licence true-up is still unresolved."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-03-09T09:19:00","text":"Draft a short status email to Kwame confirming wave 2 and proposing 23 Mar for the Oracle wave, pending the licence answer."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-03-09T09:25:00"}
+{"type":"start","user":"u2","session":"s03","ts":"2026-03-09T10:32:00"}
+{"type":"msg","user":"u2","session":"s03","ts":"2026-03-09T10:33:00","text":"Initech: Priya Natarajan (VP Engineering) confirmed they want 2 more devs on the modernisation squad from April. Needs a change request, same rates as the current SOW."}
+{"type":"end","user":"u2","session":"s03","ts":"2026-03-09T10:36:00"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-03-09T11:40:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-09T11:41:00","text":"fabrikam call - Henrik Larsen their CISO wants a walkthrough of the pen test report next week, prefers tues or weds afternoon. also asked if we can quote a 24/7 SOC, ballpark only for now"}
+{"type":"start","user":"u2","session":"s05","ts":"2026-03-09T14:05:00"}
+{"type":"msg","user":"u2","session":"s05","ts":"2026-03-09T14:06:00","text":"Draft a follow-up to Lucerne Publishing's Head of Digital, Sofia Marchetti, recapping today's CMS migration workshop: content freeze from 1 Apr, three sites go first, and we owe her a cutover runbook by Friday."}
+{"type":"end","user":"u2","session":"s05","ts":"2026-03-09T14:16:00"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-03-09T15:30:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-09T15:31:00","text":"Woodgrove: Mei Lin (Head of Data) says the dashboard pilot is getting traction, 120 weekly users already. She wants to talk phase 2 scope in April."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-03-09T15:34:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-03-10T09:08:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-10T09:09:00","text":"Acme steering meeting this morning, finally met their CFO Dana Ruiz properly. She wants every proposal as a one-page summary, pricing options in a small table on that page. Anything longer comes straight back to us, apparently."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-03-10T09:13:00"}
+{"type":"start","user":"u2","session":"s08","ts":"2026-03-10T09:30:00"}
+{"type":"msg","user":"u2","session":"s08","ts":"2026-03-10T09:31:00","text":"Fourth Coffee: POS outage on Sunday at 14 stores, about 3 hrs. Root cause was the payment gateway cert expiring on their side, not ours, but Tom Okafor (Ops Director) is still annoyed. He wants an incident summary he can forward to his CEO."}
+{"type":"start","user":"u1","session":"s09","ts":"2026-03-10T09:33:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T09:34:00","text":"Hooli renewal check: managed service desk contract ends 30 Jun. CSAT 4.4 this quarter, P1 response 100% in SLA. Ana Costa (IT Director) hinted they want a cheaper tier for the London office."}
+{"type":"msg","user":"u2","session":"s08","ts":"2026-03-10T09:36:00","text":"Draft that incident summary for Tom: timeline, root cause (their expired gateway cert), what we did, and two prevention steps, cert expiry monitoring and a runbook update. Plain English, no blame."}
+{"type":"end","user":"u2","session":"s08","ts":"2026-03-10T09:45:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T09:47:00","text":"Prep me 3 talking points for the Hooli renewal call on Thursday."}
+{"type":"end","user":"u1","session":"s09","ts":"2026-03-10T09:55:00"}
+{"type":"start","user":"u2","session":"s10","ts":"2026-03-10T11:15:00"}
+{"type":"msg","user":"u2","session":"s10","ts":"2026-03-10T11:16:00","text":"Tailspin network refresh: site surveys done for 6 of 9 branches. Lead time on the switches slipped to 8 weeks, which pushes the last 3 branches into June. Need to tell Rui Fernandes (IT Manager) before he hears it from the vendor."}
+{"type":"end","user":"u2","session":"s10","ts":"2026-03-10T11:19:00"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-03-10T13:50:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-03-10T13:51:00","text":"Globex: Oracle confirmed they'll count the DR boxes in the true-up. Kwame is escalating internally, could be ~$60k. Not our cost but it may push the Oracle wave again."}
+{"type":"start","user":"u2","session":"s12","ts":"2026-03-10T16:10:00"}
+{"type":"msg","user":"u2","session":"s12","ts":"2026-03-10T16:11:00","text":"initech procurement needs the change request by 18 Mar or the April start slips. priya is chasign them"}
+{"type":"end","user":"u2","session":"s12","ts":"2026-03-10T16:13:00"}
+{"type":"restart"}
+{"type":"start","user":"u2","session":"s13","ts":"2026-03-11T09:12:00"}
+{"type":"msg","user":"u2","session":"s13","ts":"2026-03-11T09:13:00","text":"Draft a short note to Rui at Tailspin explaining the switch lead-time slip: 6 of 9 surveys done, switches now 8 weeks out, last 3 branches move to June. Offer a call this week."}
+{"type":"end","user":"u2","session":"s13","ts":"2026-03-11T09:20:00"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-03-11T09:40:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-03-11T09:41:00","text":"Fabrikam: pen test walkthrough booked for Tue 17 Mar 2pm with Henrik. Gave him the SOC ballpark, 18-22k a month, he didn't flinch."}
+{"type":"end","user":"u1","session":"s14","ts":"2026-03-11T09:44:00"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-03-11T11:05:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-03-11T11:06:00","text":"Woodgrove phase 2: Mei Lin wants a proposal before their April steering committee. Give me a skeleton: scope options, team shape, timeline, rough cost bands."}
+{"type":"end","user":"u1","session":"s15","ts":"2026-03-11T11:16:00"}
+{"type":"start","user":"u2","session":"s16","ts":"2026-03-11T14:20:00"}
+{"type":"msg","user":"u2","session":"s16","ts":"2026-03-11T14:21:00","text":"Lucerne: Sofia approved the cutover runbook, content freeze still 1 Apr. She asked if we can add a fourth site to wave 1, told her I'd check capacity."}
+{"type":"restart"}
+{"type":"start","user":"u2","session":"s17","ts":"2026-03-11T15:40:00"}
+{"type":"probe","user":"u2","session":"s17","ts":"2026-03-11T15:41:00","text":"Who is Acme's CFO and how do they like proposals?","expect":{"should":"Names Carlos Mendes as Acme's CFO and says he wants proposals with detailed appendices.","should_not":"Mentions Dana Ruiz, or says Acme's CFO wants a one-page summary or short proposals."}}
+{"type":"end","user":"u2","session":"s17","ts":"2026-03-11T15:45:00"}
+{"type":"start","user":"u1","session":"s18","ts":"2026-03-11T16:05:00"}
+{"type":"probe","user":"u1","session":"s18","ts":"2026-03-11T16:06:00","text":"Remind me how Acme's CFO likes proposals.","expect":{"should":"Says Acme's CFO is Dana Ruiz and that she wants every proposal as a one-page summary.","should_not":"Mentions Carlos Mendes, or says the CFO wants detailed appendices or a long, detailed proposal."}}
+{"type":"end","user":"u1","session":"s18","ts":"2026-03-11T16:10:00"}

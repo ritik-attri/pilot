@@ -1,0 +1,84 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-06-01T09:20:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-06-01T09:21:00","text":"Just finished the monthly call with Harbourline Logistics. Tomasz Wierzbicki, their operations director, confirmed they're going from two depots to three. The new Reno depot comes online on 15 July."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-06-01T09:25:00","text":"Their renewal is 31 July. Tomasz is our champion there, but Leon Marsh, their finance controller, signs off anything over $25k."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-06-01T09:28:00","text":"Tomasz also asked for the weekly KPI export as a CSV instead of the dashboard link. Can you note that?"}
+{"type":"end","user":"u1","session":"s01","ts":"2026-06-01T09:31:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-06-01T14:30:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-06-01T14:31:00","text":"Brackenridge Motors: Ada Mensah, their service director, wants to roll the booking module out to their four remaining dealerships in August. Draft a short rollout plan I can send her."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-06-01T14:40:00","text":"Shorter please, five lines max."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-06-01T14:44:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-06-02T10:05:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-06-02T10:06:00","text":"Calder Foods call this morning with two people: Sam Okoro, their finance manager, and Hannah Lindqvist, their IT lead."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-06-02T10:09:00","text":"Sam wants payment terms moved from net 30 to net 45 at renewal. Hannah needs SSO through Okta live by 19 June, before their audit."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-06-02T10:12:00","text":"They also want to run a demand forecasting pilot in July, but nobody on their side owns it yet."}
+{"type":"end","user":"u1","session":"s03","ts":"2026-06-02T10:15:00"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-06-02T16:20:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-06-02T16:21:00","text":"Draft a follow-up to Hannah at Calder with the Okta SSO steps and the 19 June target."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-06-03T09:45:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-06-03T09:46:00","text":"Intro call with Pinecrest School District; they run 11 schools. My contacts are Sam Reyes, their IT director, and Gwen Hollis, head of procurement."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-06-03T09:50:00","text":"Sam wants a demo of the parent portal for his principals, and they'd need SSO through Google Workspace, not Microsoft."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-06-03T09:53:00","text":"Gwen can't issue a contract until she has our certificate of insurance."}
+{"type":"end","user":"u1","session":"s05","ts":"2026-06-03T09:56:00"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-06-03T13:10:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-06-03T13:11:00","text":"Rowan & Pike: Felix Arden says the partners signed the contract last night. 25 seats, starting 1 July."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-06-03T13:13:00","text":"Draft a thank-you to Felix and propose an onboarding call in the week of 22 June."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-06-03T13:18:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-06-04T11:00:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-06-04T11:01:00","text":"Quick Harbourline one: Tomasz confirmed Reno is still on for 15 July, and Leon approved the $28k for the third depot's licences."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-06-04T11:03:00"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-06-04T15:40:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-06-04T15:41:00","text":"Asked our finance team about Calder's net 45 request. They'll accept it if Calder commits to a two-year term. How do I pitch that to Sam?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-06-05T09:30:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-06-05T09:31:00","text":"Big news from Harbourline: Tomasz is leaving. His last day is Friday 12 June. Rachel Adeyemi takes over as operations director from 15 June; she's coming from a retail logistics firm, so she's new to us."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-06-05T09:35:00","text":"Small world: Tomasz is joining Calder Foods as Head of Supply Chain from 22 June, and he's told them he wants to sponsor the forecasting pilot there."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-06-05T09:38:00","text":"So I'm losing my champion at Harbourline right before their renewal, but gaining one at Calder. What should I do on each account over the next two weeks?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-06-08T10:15:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-06-08T10:16:00","text":"Pinecrest: Sam Reyes confirmed the parent portal demo for Tuesday 23 June at 2pm, with five of their principals."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-06-08T10:19:00","text":"Gwen has our insurance certificate now, so the contract can move."}
+{"type":"end","user":"u1","session":"s10","ts":"2026-06-08T10:21:00"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-06-08T14:45:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-06-08T14:46:00","text":"Brackenridge: Ada approved the August rollout plan. The first dealership is Kettering, on 3 August."}
+{"type":"end","user":"u1","session":"s11","ts":"2026-06-08T14:48:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-06-09T11:30:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-06-09T11:31:00","text":"Calder: Hannah says Okta SSO is configured on their side, testing on Thursday."}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-06-09T11:33:00","text":"Sam Okoro agreed to the two-year term in exchange for net 45. Draft a short confirmation to Sam."}
+{"type":"end","user":"u1","session":"s12","ts":"2026-06-09T11:38:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-06-11T16:00:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-06-11T16:01:00","text":"Had a goodbye call with Tomasz. He's handing the KPI CSV and the Reno plan over to Rachel."}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-06-11T16:04:00","text":"Draft a short farewell note to Tomasz from me, and say I'm looking forward to working with him at Calder."}
+{"type":"end","user":"u1","session":"s13","ts":"2026-06-11T16:09:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-06-15T10:00:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-06-15T10:01:00","text":"Intro call with Rachel Adeyemi at Harbourline, her first day. She wants to revisit the depot rollout: Reno might slip to September because of a lease problem."}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-06-15T10:05:00","text":"She'd also like a monthly in-person review instead of the monthly call. Leon is still the one approving spend."}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-06-15T10:08:00","text":"Draft a welcome email to Rachel proposing the first in-person review in early July."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-06-17T09:40:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-06-17T09:41:00","text":"Calder's Okta SSO passed testing; Hannah says they're live in time for the audit."}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-06-17T09:43:00","text":"Rowan & Pike onboarding call is booked for Wednesday 24 June at 11."}
+{"type":"end","user":"u1","session":"s15","ts":"2026-06-17T09:45:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s16","ts":"2026-06-22T15:10:00"}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-06-22T15:11:00","text":"Tomasz started at Calder today. Quick call: he wants the forecasting pilot to kick off in the week of 6 July, starting with their two chilled-goods sites."}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-06-22T15:15:00","text":"Hannah will sort out data access on the IT side. Draft me a one-paragraph pilot summary I can share internally."}
+{"type":"end","user":"u1","session":"s16","ts":"2026-06-22T15:21:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s17","ts":"2026-06-23T10:30:00"}
+{"type":"probe","user":"u1","session":"s17","ts":"2026-06-23T10:31:00","text":"Prep me for the Pinecrest demo at 2 today. Who's my lead on their side, and what do they need from us?","expect":{"should":"Identifies Sam Reyes, Pinecrest's IT director, as the lead and notes the demo is of the parent portal for their principals, with SSO through Google Workspace; any other Pinecrest contact named is Gwen Hollis in procurement","should_not":"Names people or details from other accounts as Pinecrest's, such as Sam Okoro, Hannah Lindqvist, Okta SSO or net 45 terms"}}
+{"type":"end","user":"u1","session":"s17","ts":"2026-06-23T10:37:00"}
+{"type":"start","user":"u1","session":"s18","ts":"2026-06-23T16:10:00"}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-06-23T16:11:00","text":"Pinecrest demo went well. Sam wants pricing for all 11 schools by next Friday."}
+{"type":"end","user":"u1","session":"s18","ts":"2026-06-23T16:13:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s19","ts":"2026-06-24T09:30:00"}
+{"type":"probe","user":"u1","session":"s19","ts":"2026-06-24T09:31:00","text":"Harbourline renewal call is tomorrow. Who's on their side now, and what do they care about?","expect":{"should":"Names Rachel Adeyemi as the new operations director and Leon Marsh as the finance controller who approves spend; Tomasz Wierzbicki is mentioned, if at all, only as having left (he moved to Calder Foods)","should_not":"Presents Tomasz Wierzbicki as a current Harbourline contact or expected attendee"}}
+{"type":"end","user":"u1","session":"s19","ts":"2026-06-24T09:38:00"}
+{"type":"start","user":"u1","session":"s20","ts":"2026-06-24T14:50:00"}
+{"type":"probe","user":"u1","session":"s20","ts":"2026-06-24T14:51:00","text":"I'm sending the invite for the Calder forecasting pilot kickoff. Who should be on it from their side?","expect":{"should":"Includes Tomasz Wierzbicki as Calder's Head of Supply Chain and the pilot sponsor; including Hannah Lindqvist for data access or Sam Okoro is fine","should_not":"Leaves Tomasz out, describes him as working at Harbourline, or lists Harbourline people such as Rachel Adeyemi or Leon Marsh"}}

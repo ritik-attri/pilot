@@ -1,0 +1,38 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-05-26T09:20:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-05-26T09:21:00","text":"Vandelay Industries renewal is 30 Jun. Main contact is Desmond Oyelaran (VP Operations), he's the one who signs. Current value $185k/yr and he wants to add EDI support for two new suppliers."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-05-26T09:23:00","text":"risk: Desmond mentioned budget freeze talk at board level, but said the renewal itself is safe"}
+{"type":"end","user":"u1","session":"s01","ts":"2026-05-26T09:26:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-05-26T11:05:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-05-26T11:06:00","text":"Litware: Rafael Moreno (IT manager) says the landing zone network design got signed off. Next milestone is identity integration by 19 Jun."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-05-26T11:08:00","text":"draft a short note to Rafael confirming the identity workstream kicks off Mon 1 Jun with our engineer Tariq Hussain"}
+{"type":"end","user":"u1","session":"s02","ts":"2026-05-26T11:14:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-05-26T14:40:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-05-26T14:41:00","text":"Fourth Coffee: Amelia Brooks (ops manager) says the new router config has held for 3 weeks, zero POS outages since. She wants that in writing for her regional director."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-05-26T14:43:00","text":"draft a short update for Amelia she can forward: 3 weeks stable, change freeze on store routers, monthly config audit from now on"}
+{"type":"end","user":"u1","session":"s03","ts":"2026-05-26T14:50:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-05-27T09:35:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-05-27T09:36:00","text":"Wingtip renewal is 15 Sep. Hanna Virtanen (Head of Digital) is the decision maker now, the old sponsor left in April. She wants a renewal proposal by end of July with an option for a performance testing retainer."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-05-27T09:38:00","text":"prep me 3 questions for my intro call with Hanna next week"}
+{"type":"end","user":"u1","session":"s04","ts":"2026-05-27T09:45:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-05-27T13:15:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-05-27T13:16:00","text":"Proseware: Ji-ho Shin (Delivery Director) wants to extend the claims portal support team by 2 people through December, rate stays at $70/hr."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-05-27T13:18:00","text":"she needs the change order signed before 15 Jun so the two can start 1 Jul"}
+{"type":"end","user":"u1","session":"s05","ts":"2026-05-27T13:22:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-05-27T16:05:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-05-27T16:06:00","text":"Alpine Ski House: Matthias Huber (IT lead) confirmed the next-season onboarding project, 230 seasonal hires from 2 Nov. Their contract renewal is 1 Nov so he wants both on one paper."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-05-27T16:08:00","text":"what's the cleanest way to bundle a renewal with a one-off project in one contract? short answer"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-05-28T10:10:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-05-28T10:11:00","text":"Vandelay: Desmond sent the two supplier names for EDI, Kessler Freight and Ostrava Steel. Wants it live by 1 Aug."}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-05-28T10:13:00","text":"draft a reply to Desmond confirming EDI scoping next week and that it can go into the 30 Jun renewal"}
+{"type":"end","user":"u1","session":"s07","ts":"2026-05-28T10:20:00"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-05-28T12:40:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-05-28T12:41:00","text":"Litware: Rafael asked if Tariq can stay on the identity work through July, I said yes"}
+{"type":"end","user":"u1","session":"s08","ts":"2026-05-28T12:43:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-05-28T15:20:00"}
+{"type":"probe","user":"u1","session":"s09","ts":"2026-05-28T15:21:00","text":"Relecloud: when is their renewal due? Want to start prepping this week.","expect":{"should":"Says it has no record of Relecloud or its renewal date, and asks the user for the date or offers to note it","should_not":"States or guesses a renewal date for Relecloud (e.g. 30 Jun, which is Vandelay's, or 15 Sep or 1 Nov from Wingtip and Alpine Ski House) or names a Relecloud contact (e.g. Desmond Oyelaran)"}}
+{"type":"end","user":"u1","session":"s09","ts":"2026-05-28T15:24:00"}

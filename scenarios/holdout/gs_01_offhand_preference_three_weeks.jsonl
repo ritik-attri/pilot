@@ -1,0 +1,125 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-04-13T09:05:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-04-13T09:06:00","text":"Morning. Prep me for my 10:00 with Pellbrook Clinics. It's Harriet Osei, their practice manager. They renew at the end of June and she's been unhappy about the sync lag between our scheduling module and their patient records system."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-04-13T09:10:00","text":"What I want out of the call is a committed fix date for the sync lag before we get anywhere near renewal pricing. Give me three talking points."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-04-13T09:14:00"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-04-13T11:20:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-04-13T11:21:00","text":"Pellbrook call done. Harriet accepted 8 May as the fix date for the sync lag. She wants a 10% discount on the renewal if we miss it. I told her I'd check with Sven."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-04-13T11:24:00","text":"Draft a short follow-up to Harriet confirming 8 May and saying I'm checking the discount request internally."}
+{"type":"end","user":"u1","session":"s02","ts":"2026-04-13T11:29:00"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-04-13T15:40:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-04-13T15:41:00","text":"Ferrand Hotels wants their quarterly review sometime in the week of 4 May. Usage is up 18% since the January rollout, mostly thanks to the housekeeping tablets. Suggest an agenda for a 60-minute session."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-04-13T15:48:00","text":"Good, I'll send a version of that to their ops team. Side note for anything I write to Odile Marchetti, their head of ops: she can't stand bullet points, says they read like a machine wrote them. Two or three short paragraphs, that's it. Anyway, which usage numbers should I pull before the review?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-04-14T09:30:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-04-14T09:31:00","text":"Prep me for the Kestrel Analytics weekly at 2pm. Bram Visser, their VP Data, runs it. Open items: the dashboard latency fix we shipped on Friday, and the data-retention sign-off they still owe us."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-04-14T09:35:00","text":"I also want to raise the change request for two extra connectors, Snowflake and HubSpot. The quote is $18,400 one-off for both."}
+{"type":"end","user":"u1","session":"s04","ts":"2026-04-14T09:38:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-04-14T14:55:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-04-14T14:56:00","text":"Kestrel done. Bram is happy with the latency fix and will get the retention sign-off to us by the 24th. On the connector change request, he wants it split into two POs, one per connector, so each can be approved separately."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-04-14T15:00:00","text":"Draft a quick note to Bram summarising that."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-04-15T10:00:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-04-15T10:01:00","text":"New contact at Dunmore Shipping: Yusuf Demir, their CTO since March. He's taking over the integration project from Anke Vos, who moved to their Rotterdam office."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-04-15T10:04:00","text":"He was blunt on the intro call: he skims everything, so bullets only, no prose, and put the ask in the first line."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-04-15T10:06:00","text":"Draft an intro email from me to Yusuf with the integration status: phase 1 (booking sync) is live, phase 2 (customs data feed) starts 4 May, and I need him to name a technical owner on his side."}
+{"type":"end","user":"u1","session":"s06","ts":"2026-04-15T10:12:00"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-04-15T16:10:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-04-15T16:11:00","text":"Saltmarsh Brewing wants 3 more seats for their new taproom staff. Lars Eklund, the founder, asked for a price. List is $45 per seat per month. Is there anything sensible I can offer without discounting?"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-04-15T16:15:00","text":"OK, I'll hold list price and waive the $300 onboarding fee. Draft a two-line reply to Lars."}
+{"type":"end","user":"u1","session":"s07","ts":"2026-04-15T16:18:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-04-16T09:15:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-04-16T09:16:00","text":"Tidewell Insurance renews on 30 June. Marcus Feld in procurement says they're running a formal tender this year and want quotes from three vendors by mid-May."}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-04-16T09:20:00","text":"We're at 40 seats at $52 per seat per month with them today. What should I be preparing for the tender?"}
+{"type":"end","user":"u1","session":"s08","ts":"2026-04-16T09:26:00"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-04-16T13:30:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-04-16T13:31:00","text":"Orrin & Vale Architects: Celia Brandt, their office manager, asked if we can run a training session for their 6 new hires. Tuesday 28 April works for her, any time."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-04-16T13:34:00","text":"Draft a reply proposing 10:00 to 11:30 on the 28th, on Teams."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-04-17T11:00:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-04-17T11:01:00","text":"Bram from Kestrel called. The retention sign-off is with their legal team, still on track for the 24th."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-04-17T11:04:00","text":"Also, he's off on paternity leave from Monday the 20th until 18 May. While he's out, anything that needs a decision goes to Noor Haddad, their director of analytics ops; he said she can sign off POs."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-04-17T11:07:00","text":"What else is still open with Kestrel apart from the retention sign-off?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-04-20T09:40:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-04-20T09:41:00","text":"Pellbrook update: engineering says the sync lag fix is on track for 8 May, maybe even the 6th."}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-04-20T09:44:00","text":"Sven approved a 5% renewal discount if we miss the date, not the 10% Harriet asked for. Draft a note to Harriet explaining that. Keep it warm."}
+{"type":"end","user":"u1","session":"s11","ts":"2026-04-20T09:50:00"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-04-20T15:05:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-04-20T15:06:00","text":"Dunmore pushed their phase 2 kickoff to 11 May because their customs broker is switching systems."}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-04-20T15:08:00","text":"Draft a short heads-up to Yusuf confirming the new date and asking again for the technical owner."}
+{"type":"end","user":"u1","session":"s12","ts":"2026-04-20T15:12:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-04-21T10:20:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-04-21T10:21:00","text":"Tidewell sent the RFP template: 14 sections, due Friday 15 May. Sections 6 to 9 are security questionnaires."}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-04-21T10:25:00","text":"How should I split the work between me, Sven and our security team? I want a full draft by 8 May so we have a week to review."}
+{"type":"end","user":"u1","session":"s13","ts":"2026-04-21T10:31:00"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-04-21T14:10:00"}
+{"type":"msg","user":"u1","session":"s14","ts":"2026-04-21T14:11:00","text":"Lars at Saltmarsh accepted the 3 extra seats with the onboarding fee waived. They start on 1 May."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s15","ts":"2026-04-22T09:00:00"}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-04-22T09:01:00","text":"Ferrand Hotels QBR is confirmed for Wednesday 6 May at 15:00 at their head office."}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-04-22T09:03:00","text":"I'll bring Sven. On their side it's Odile and Pascal Girard, their finance controller. Pascal will want cost-per-room numbers."}
+{"type":"msg","user":"u1","session":"s15","ts":"2026-04-22T09:06:00","text":"What should I pull together for Pascal?"}
+{"type":"end","user":"u1","session":"s15","ts":"2026-04-22T09:12:00"}
+{"type":"start","user":"u1","session":"s16","ts":"2026-04-22T16:30:00"}
+{"type":"msg","user":"u1","session":"s16","ts":"2026-04-22T16:31:00","text":"Celia at Orrin & Vale confirmed the training on the 28th, 10:00 to 11:30. She'll send the attendee names on Monday."}
+{"type":"end","user":"u1","session":"s16","ts":"2026-04-22T16:33:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s17","ts":"2026-04-23T11:15:00"}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-04-23T11:16:00","text":"Help me write the intro to the security section of the Tidewell RFP. Two paragraphs on how we handle client data: EU hosting, encryption at rest and in transit, SOC 2 Type II renewed in February."}
+{"type":"msg","user":"u1","session":"s17","ts":"2026-04-23T11:22:00","text":"Make it a bit less salesy."}
+{"type":"end","user":"u1","session":"s17","ts":"2026-04-23T11:27:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s18","ts":"2026-04-24T10:00:00"}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-04-24T10:01:00","text":"Kestrel's legal team sent the signed data-retention policy this morning, so that one's closed."}
+{"type":"msg","user":"u1","session":"s18","ts":"2026-04-24T10:03:00","text":"And Harriet at Pellbrook replied, she's fine with the 5%."}
+{"type":"end","user":"u1","session":"s18","ts":"2026-04-24T10:05:00"}
+{"type":"start","user":"u1","session":"s19","ts":"2026-04-24T15:30:00"}
+{"type":"msg","user":"u1","session":"s19","ts":"2026-04-24T15:31:00","text":"Yusuf finally named a technical owner at Dunmore: Pieter Smit, their integration lead. Draft a short intro from me to Pieter and say I'll send the phase 2 checklist on Monday."}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s20","ts":"2026-04-27T09:30:00"}
+{"type":"msg","user":"u1","session":"s20","ts":"2026-04-27T09:31:00","text":"Tidewell pricing: Sven wants to go in at 40 seats at $49 on a two-year term, down from $52. Is that sensible for a tender where they're comparing three vendors?"}
+{"type":"msg","user":"u1","session":"s20","ts":"2026-04-27T09:37:00","text":"OK, draft the pricing summary paragraph for section 10 on that basis."}
+{"type":"end","user":"u1","session":"s20","ts":"2026-04-27T09:44:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s21","ts":"2026-04-28T09:10:00"}
+{"type":"msg","user":"u1","session":"s21","ts":"2026-04-28T09:11:00","text":"Orrin & Vale training is at 10. Celia sent the names; one of them, Jonah Pryce, is their new IT admin and will own the account day to day."}
+{"type":"end","user":"u1","session":"s21","ts":"2026-04-28T09:13:00"}
+{"type":"start","user":"u1","session":"s22","ts":"2026-04-28T12:05:00"}
+{"type":"msg","user":"u1","session":"s22","ts":"2026-04-28T12:06:00","text":"Training went well. Jonah wants admin rights and SSO set up by the end of next week."}
+{"type":"msg","user":"u1","session":"s22","ts":"2026-04-28T12:09:00","text":"What do I need from Jonah to set up SSO?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s23","ts":"2026-04-29T10:40:00"}
+{"type":"msg","user":"u1","session":"s23","ts":"2026-04-29T10:41:00","text":"Pellbrook: the sync lag fix moved up, it now ships on 6 May. Draft a quick heads-up to Harriet."}
+{"type":"end","user":"u1","session":"s23","ts":"2026-04-29T10:45:00"}
+{"type":"start","user":"u1","session":"s24","ts":"2026-04-29T16:00:00"}
+{"type":"msg","user":"u1","session":"s24","ts":"2026-04-29T16:01:00","text":"Tidewell RFP status: sections 1 to 5 done, Sven has 10 to 14, and the security team is on 6 to 9. Anything I'm missing before our 8 May internal deadline?"}
+{"type":"end","user":"u1","session":"s24","ts":"2026-04-29T16:06:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s25","ts":"2026-04-30T09:20:00"}
+{"type":"msg","user":"u1","session":"s25","ts":"2026-04-30T09:21:00","text":"Kestrel's dashboards were down for about 40 minutes this morning. Help me write a short incident summary for their team: root cause was an expired certificate on our side, fixed at 08:55, no data lost."}
+{"type":"end","user":"u1","session":"s25","ts":"2026-04-30T09:28:00"}
+{"type":"start","user":"u1","session":"s26","ts":"2026-04-30T11:30:00"}
+{"type":"msg","user":"u1","session":"s26","ts":"2026-04-30T11:31:00","text":"Saltmarsh's three new users need logins before tomorrow; Lars sent their emails over. Remind me what we agreed on price so I get the order form right."}
+{"type":"end","user":"u1","session":"s26","ts":"2026-04-30T11:35:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s27","ts":"2026-05-01T10:50:00"}
+{"type":"msg","user":"u1","session":"s27","ts":"2026-05-01T10:51:00","text":"Yusuf wants a status from me every Friday by noon. Draft today's: phase 1 stable, phase 2 on track for 11 May, Pieter has the checklist."}
+{"type":"end","user":"u1","session":"s27","ts":"2026-05-01T10:56:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s28","ts":"2026-05-04T09:30:00"}
+{"type":"msg","user":"u1","session":"s28","ts":"2026-05-04T09:31:00","text":"Ferrand QBR is on Wednesday. Build me a one-page prep sheet: usage up 18% since January, housekeeping tablets as the main win, and Pascal's cost-per-room numbers."}
+{"type":"msg","user":"u1","session":"s28","ts":"2026-05-04T09:38:00","text":"Add a line about the two Marseille hotels; Odile hinted they want to extend the rollout there."}
+{"type":"end","user":"u1","session":"s28","ts":"2026-05-04T09:42:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s29","ts":"2026-05-05T14:20:00"}
+{"type":"msg","user":"u1","session":"s29","ts":"2026-05-05T14:21:00","text":"Jonah at Orrin & Vale sent the SSO metadata; their identity provider is Microsoft Entra ID. Anything else I should ask him for?"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s30","ts":"2026-05-06T16:45:00"}
+{"type":"msg","user":"u1","session":"s30","ts":"2026-05-06T16:46:00","text":"Ferrand QBR done, it went well. Sven was great with Pascal."}
+{"type":"probe","user":"u1","session":"s30","ts":"2026-05-06T16:48:00","text":"Draft my recap email to Odile from today's QBR, with Pascal on cc. Points: they approved extending the housekeeping tablets to the two Marseille hotels, they want the revised SOW by Friday 15 May, status calls move from biweekly to weekly, and they'd like Sven on the next call.","expect":{"should":"An email to Odile Marchetti written as two or three short prose paragraphs, with no bullet points or numbered lists, covering the Marseille extension, the revised SOW by 15 May, weekly status calls and Sven joining the next call","should_not":"Bullet points, a numbered list or headed sections in the email, or more than three body paragraphs"}}
+{"type":"end","user":"u1","session":"s30","ts":"2026-05-06T16:55:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s31","ts":"2026-05-07T09:15:00"}
+{"type":"probe","user":"u1","session":"s31","ts":"2026-05-07T09:16:00","text":"Kestrel wants to go ahead with the Snowflake connector now and leave HubSpot for later. Who do I send the PO to for sign-off this week?","expect":{"should":"Send the PO to Noor Haddad, Kestrel's director of analytics ops, because Bram Visser is on paternity leave until 18 May","should_not":"Tells the user to send the PO to Bram Visser for sign-off, or names anyone other than Noor Haddad as the approver"}}

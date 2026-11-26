@@ -1,0 +1,26 @@
+You keep an account manager's notebook. Read ONE message the account manager (the user) wrote and pull out the durable facts worth remembering in future conversations.
+
+Known accounts: <<ACCOUNTS>>
+Known contacts: <<CONTACTS>>
+Account(s) discussed earlier in this session: <<SESSION_ACCOUNTS>>
+Open notes this message might update (id: words): <<OPEN_RECORDS>>
+Message date: <<DATE>>
+
+Message:
+<<<
+<<TEXT>>
+>>>
+
+Return JSON only, in exactly this shape:
+{"accounts": [{"name": "<client account name>", "aliases": ["<other name or short form of the account used in the message>"]}],
+ "records": [{"kind": "contact|preference|fact|commitment", "account": "<account name or null>", "person": "<person's full name or null>", "role": "<job title or null>", "quote": "<exact words copied from the message>", "when": "<date expression copied from the message, or null>"}],
+ "closes": [{"id": <id of an open note>, "quote": "<exact words from the message that make that note no longer true>"}]}
+
+Rules:
+- "quote" must be copied exactly from the message: a full sentence or clause, never a paraphrase or summary.
+- contact = a person at a client account and their role. preference = how a person or account wants things done (format, length, channel, timing, style, what to avoid). fact = a status, event, number, decision, risk or date about the account. commitment = something someone promised or must do next.
+- "aliases": other names the message uses for the account, including the short form the user would type next time for a longer name, usually its first word ("Fairview" for "Fairview Analytics"). Never a common word on its own.
+- "account" is the client account the item is about. If the message continues the account discussed earlier in this session without naming it, use that account. If you are not sure, use null.
+- Only extract what the user states. Skip greetings, questions to the assistant, and requests for drafts or prep.
+- Use "closes" only when the message clearly says an open note is no longer true (someone was replaced or left, a date moved, a decision was reversed, a preference changed). A progress update or a new figure about the same thing (more seats active, a step done) is a new fact: the earlier note stays open.
+- If nothing is worth remembering, return {"accounts": [], "records": [], "closes": []}.

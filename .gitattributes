@@ -1,0 +1,11 @@
+# Every text file is stored and checked out with LF line endings, whatever core.autocrlf
+# says on the machine that clones the repository. eval/run.py records the sha256 of the
+# code, prompt and scenario files in each run's run_meta.json. On a CRLF checkout (the Git
+# for Windows default) every one of those hashes would differ, and the committed results
+# would look as if they came from changed code.
+* text=auto eol=lf
+
+# Binary: stored byte for byte, never converted. One changed byte corrupts a gzip file
+# (the vendored tokenizer, pilot/data/qwen3_tokenizer.json.gz) or a SQLite database.
+*.gz binary
+*.sqlite binary

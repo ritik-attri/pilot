@@ -1,0 +1,1 @@
+{"variant": "new", "scenario": "gs_01_offhand_preference_three_weeks", "rep": 0, "probe_index": 0, "error": "JudgeError: vote 1: the judge's output held no verdict, twice (empty or cut off)", "cost_usd": 0.003099, "judge_model": "z-ai/glm-5.3-flash"}

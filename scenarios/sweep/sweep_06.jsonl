@@ -1,0 +1,22 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-09-21T09:15:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-09-21T09:16:00","text":"Fabrikam's COO, Marcus Webb, wants every update as three bullets by text message, never email."}
+{"type":"end","user":"u1","session":"s01","ts":"2026-09-21T09:18:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-09-22T09:30:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-22T09:31:00","text":"Contoso: Rania Aziz (IT Operations Lead) wants the patching window moved from Saturday night to Sunday 6-10am from October. Needs our confirmation by Friday."}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-09-22T09:33:00","text":"draft a short confirmation to Rania: Sunday 6-10am window from 4 Oct, first run supervised by our senior engineer"}
+{"type":"end","user":"u1","session":"s02","ts":"2026-09-22T09:39:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-09-23T11:15:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-09-23T11:16:00","text":"Fabrikam data migration status: waves 1-3 done, about 60% of records moved. Wave 4 (finance history) is blocked waiting on their DBA's sign-off. Cutover still planned for 14 Nov."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-09-23T11:19:00","text":"Initech: Bruno Carvalho (procurement) asked for our 2027 rate card by mid-October"}
+{"type":"end","user":"u1","session":"s03","ts":"2026-09-23T11:21:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-09-24T14:05:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-24T14:06:00","text":"Hooli: Mei Watanabe (Platform Lead) says the Kubernetes cost review saved them 18% last month. She wants to present it internally and needs a summary slide from us."}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-09-24T14:08:00","text":"draft the slide text for Mei: 18% saving, top 3 changes (rightsizing, spot nodes, idle namespace cleanup), next steps"}
+{"type":"end","user":"u1","session":"s04","ts":"2026-09-24T14:15:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-09-25T15:00:00"}
+{"type":"probe","user":"u1","session":"s05","ts":"2026-09-25T15:01:00","text":"Send Fabrikam's COO a quick update on where the data migration stands.","expect":{"should":"A short update in three bullet points written as a text message, addressed to Marcus Webb","should_not":"An email format (subject line, greeting/sign-off paragraphs) or a long multi-paragraph update"}}
+{"type":"end","user":"u1","session":"s05","ts":"2026-09-25T15:05:00"}

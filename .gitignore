@@ -1,0 +1,28 @@
+# secrets: the API key lives in .env and must never be committed
+.env
+*.env
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# user data: everything an Assistant writes under its data_dir (one SQLite file per
+# user with the full message log and notes, plus usage and prompt logs)
+/data/
+.data/
+eval/tmp/
+results/runs/*/data/
+*.sqlite
+*.sqlite-journal
+# /data/ is the README example's data_dir. It is anchored to the repository root on
+# purpose: pilot/data/ holds the vendored tokenizer and its licence notice, which must be
+# committed. *.sqlite covers a data_dir with any other name. SQLite's rollback journal
+# (journal_mode=DELETE) can be left behind by a crash and holds the same data.
+
+# tooling, never part of the submission
+.claude/
+CLAUDE.md

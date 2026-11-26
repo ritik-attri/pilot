@@ -1,0 +1,74 @@
+{"type":"start","user":"u1","session":"s01","ts":"2026-03-10T08:31:00"}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-10T08:32:00","text":"First call of the day done: Adatum. Kofi Mensah (Head of IT) and Lena Fischer from finance on the line. Managed desktop renewal: they'll sign for 2 years if we come down from $42 to $38 per seat per month. I agreed to $38 per seat on condition they sign by 31 Mar. Seat count goes from 850 to 1,000 in June when the Leeds office opens. Kofi wants the revised order form by Thursday."}
+{"type":"msg","user":"u1","session":"s01","ts":"2026-03-10T08:36:00","text":"Lena also wants quarterly invoicing instead of monthly from the renewal, with their PO number on every invoice"}
+{"type":"end","user":"u1","session":"s01","ts":"2026-03-10T08:38:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s02","ts":"2026-03-10T08:52:00"}
+{"type":"msg","user":"u1","session":"s02","ts":"2026-03-10T08:53:00","text":"Proseware in 10 min with Elena Popescu (delivery lead). Last week she hinted UAT on the claims portal might slip. Give me 3 sharp questions to pin down a real date"}
+{"type":"start","user":"u1","session":"s03","ts":"2026-03-10T09:47:00"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-10T09:48:00","text":"Proseware: UAT slips a week, now starts 24 Mar, because their test data refresh was late. Elena wants 2 extra testers from us for 3 weeks at $65/hr to catch up. Go-live 14 Apr stays. She needs written confirmation today."}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-10T09:49:00","text":"her steering committee meets next Tuesday, she'll present the revised plan there"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-10T09:51:00","text":"draft the confirmation email to Elena: 2 testers, 3 weeks from 24 Mar, $65/hr, go-live unchanged"}
+{"type":"msg","user":"u1","session":"s03","ts":"2026-03-10T09:56:00","text":"add that our test lead Marco Bianchi will run their daily defect triage at 9:30"}
+{"type":"end","user":"u1","session":"s03","ts":"2026-03-10T09:58:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s04","ts":"2026-03-10T10:18:00"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-10T10:19:00","text":"Lucerne Publishing at 10:30, first proper call with Grace Okonkwo (CTO). They're looking at moving CMS hosting out of their own data centre. What do I need to find out on a first call like this?"}
+{"type":"msg","user":"u1","session":"s04","ts":"2026-03-10T10:21:00","text":"oh and they're still on Drupal 7 which is end of life, so they're under some pressure. factor that in"}
+{"type":"end","user":"u1","session":"s04","ts":"2026-03-10T10:25:00"}
+{"type":"start","user":"u1","session":"s05","ts":"2026-03-10T11:14:00"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-10T11:15:00","text":"Lucerne: Grace is serious. Three vendors in the running including us, budget around $180k/yr for hosting plus support, decision by 15 Apr. They publish 40+ journals so uptime around issue release dates is everything. She asked for 2 references in publishing and our security questionnaire answers by 20 Mar. Their head of digital, Tomasz Wójcik, will run the technical evaluation."}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-10T11:18:00","text":"also hosting has to stay in the EU, a lot of their authors are in Germany and France"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-10T11:19:00","text":"risk: one competitor is their current print vendor who already bundles hosting. Grace called them 'cheap and comfortable'"}
+{"type":"msg","user":"u1","session":"s05","ts":"2026-03-10T11:21:00","text":"write me a short pitch paragraph for Grace on why us vs a bundled print vendor. no fluff"}
+{"type":"end","user":"u1","session":"s05","ts":"2026-03-10T11:27:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s06","ts":"2026-03-10T11:58:00"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-10T11:59:00","text":"Fourth Coffee call was rough. POS outages at 3 stores on Saturday, about 4 hours each. Diego Fernández (Ops Director) is furious, they lost weekend trade. SLA credit is 5% of the monthly fee and he wants it on the March invoice. RCA due Fri 13 Mar."}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-10T12:01:00","text":"root cause so far: a bad config push to the store routers from our side. sigh"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-10T12:02:00","text":"their monthly fee is $46k, what's the 5% credit in dollars?"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-10T12:04:00","text":"draft the apology email to Diego with the RCA timeline. own it, no weasel words"}
+{"type":"msg","user":"u1","session":"s06","ts":"2026-03-10T12:11:00","text":"less corporate please, he hates that tone. and say I'll call him Friday once the RCA is done"}
+{"type":"end","user":"u1","session":"s06","ts":"2026-03-10T12:15:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s07","ts":"2026-03-10T12:48:00"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-10T12:49:00","text":"not a call but Tailspin's redlines came back early, our legal will look tomorrow"}
+{"type":"msg","user":"u1","session":"s07","ts":"2026-03-10T12:50:00","text":"and Contoso asked to move Thursday's check-in to Friday 10am, I said fine"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s08","ts":"2026-03-10T13:38:00"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-10T13:39:00","text":"Wide World Importers renewal call at 1:45. Expecting a discount push from procurement. Give me 3 ways to defend price without sounding defensive"}
+{"type":"msg","user":"u1","session":"s08","ts":"2026-03-10T13:41:00","text":"the procurement lead is new, came over from a big retailer last year, people say she's tough"}
+{"type":"end","user":"u1","session":"s08","ts":"2026-03-10T13:44:00"}
+{"type":"start","user":"u1","session":"s09","ts":"2026-03-10T14:22:00"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T14:23:00","text":"WWI renewal call done. Anjali Rao (procurement) and Peter Novak (IT manager). Renewal is 1 May, contract is $520k/yr. Anjali opened with 'we want 15% off or we go to RFP'. Their usage is down about 20% since they closed the Rotterdam warehouse, so she has a point. Peter is happy with the service and doesn't want an RFP, he told me so after Anjali dropped off."}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T14:25:00","text":"Peter also mentioned a new WMS rollout in Q3, they might need integration help. upsell?"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T14:27:00","text":"what are my options here? I don't want to give 15% flat"}
+{"type":"msg","user":"u1","session":"s09","ts":"2026-03-10T14:36:00","text":"ok go with right-sizing plus 7% off for a 3-year term. draft the email to Anjali, cc Peter"}
+{"type":"end","user":"u1","session":"s09","ts":"2026-03-10T14:42:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s10","ts":"2026-03-10T15:31:00"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-10T15:32:00","text":"Alpine Ski House: Henrik Lindqvist (IT manager). End of season, they need 200 seasonal staff accounts offboarded and laptops wiped by 20 Apr. Next season they expect 250 hires, onboarding starts 2 Nov. He wants a quote for both by end of March."}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-10T15:33:00","text":"Henrik wants it all on one quote with two line items"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-10T15:34:00","text":"last season they paid about $18k for onboarding through another vendor and weren't happy with it"}
+{"type":"msg","user":"u1","session":"s10","ts":"2026-03-10T15:35:00","text":"he also asked about MFA for seasonal staff who don't have company phones. what are the cheap options? quick comparison"}
+{"type":"end","user":"u1","session":"s10","ts":"2026-03-10T15:41:00"}
+{"type":"start","user":"u1","session":"s11","ts":"2026-03-10T15:52:00"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-03-10T15:53:00","text":"Blue Yonder Airlines next, Fatima Al-Sayed (VP Digital), about their app modernisation discovery. Give me a quick agenda for a 30 min scoping call"}
+{"type":"msg","user":"u1","session":"s11","ts":"2026-03-10T15:55:00","text":"she's ex-consulting so expect detailed questions on method"}
+{"type":"end","user":"u1","session":"s11","ts":"2026-03-10T15:58:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s12","ts":"2026-03-10T16:44:00"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-03-10T16:45:00","text":"Blue Yonder: discovery workshop confirmed for 24-25 Mar on site at their Dublin office, fixed fee $25k. Fatima wants our architect Wei Zhang there both days. If discovery goes well there's an app modernisation RFP in Q3, she thinks $1-1.5M."}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-03-10T16:47:00","text":"their CIO, Robert Kim, joins day 2 for the readout. she wants the pre-read list a week before, so by 17 Mar"}
+{"type":"msg","user":"u1","session":"s12","ts":"2026-03-10T16:50:00","text":"draft the workshop confirmation to Fatima: dates, fee, Wei attending both days, pre-read list by 17 Mar"}
+{"type":"end","user":"u1","session":"s12","ts":"2026-03-10T16:57:00"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s13","ts":"2026-03-10T17:20:00"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-03-10T17:21:00","text":"Wei confirmed he can do both Blue Yonder days, booking flights tomorrow"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-03-10T17:22:00","text":"Fourth Coffee: Diego replied, calmer now. RCA call set for 3pm Friday"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-03-10T17:23:00","text":"Proseware sent the PO for the 2 testers"}
+{"type":"msg","user":"u1","session":"s13","ts":"2026-03-10T17:24:00","text":"Alpine: Henrik sent the offboarding list, it's 212 accounts not 200"}
+{"type":"restart"}
+{"type":"start","user":"u1","session":"s14","ts":"2026-03-10T17:55:00"}
+{"type":"probe","user":"u1","session":"s14","ts":"2026-03-10T17:56:00","text":"Before I log off, what per-seat price did I agree with Adatum this morning?","expect":{"should":"States $38 per seat per month as the price agreed with Adatum (down from $42); mentioning the sign-by-31-Mar condition or Kofi Mensah is fine","should_not":"Gives $42 as the agreed price, any figure from the other calls ($65/hr, $46k, 5%, 7%, 15%, $18k, $25k), an invented price, or says there is no record of the Adatum call"}}
+{"type":"end","user":"u1","session":"s14","ts":"2026-03-10T17:59:00"}

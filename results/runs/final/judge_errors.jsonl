@@ -1,0 +1,2 @@
+{"variant": "b1", "scenario": "own_04_contact_bleed", "rep": 0, "probe_index": 0, "error": "JudgeError: vote 1: the judge's output held no verdict, twice (empty or cut off)", "cost_usd": 0.001614, "judge_model": "z-ai/glm-5.3-flash"}
+{"variant": "b1", "scenario": "sample_03_unknowns", "rep": 0, "probe_index": 0, "error": "JudgeError: vote 1: the judge's output held no verdict, twice (empty or cut off)", "cost_usd": 0.001972, "judge_model": "z-ai/glm-5.3-flash"}

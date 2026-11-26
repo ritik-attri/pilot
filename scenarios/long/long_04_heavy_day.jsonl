@@ -1,0 +1,109 @@
+{"type":"start","user":"u1","session":"s001","ts":"2026-02-10T08:39:00"}
+{"type":"msg","user":"u1","session":"s001","ts":"2026-02-10T08:40:00","text":"Blue Yonder Airlines call done: they agreed to a 14-month term at $52,000 total, and their ops director countersigns by Friday."}
+{"type":"msg","user":"u1","session":"s001","ts":"2026-02-10T08:43:00","text":"Contoso is next at 9:00, then Northwind 10:00, Tailspin 11:00, Wingtip 12:15, Litware 1:30, Adatum 2:30 and Proseware at 3:45. Back to back all day, I'll dump notes in here between calls, keep up pls"}
+{"type":"msg","user":"u1","session":"s001","ts":"2026-02-10T08:47:00","text":"Contoso renewal at 9. Managed service desk, 1,150 seats at $43/seat/month, current term ends 31 Mar. Julia Kerrigan (procurement mgr) will push hard on price, she did last year too and got 4% off. Mark Ellison (IT director) mostly cares about P1 response times, January was bad. Give me 3 opening questions and where I can give a bit of ground without going under $41"}
+{"type":"msg","user":"u1","session":"s001","ts":"2026-02-10T08:52:00","text":"fyi Ben Whitaker on the deal desk cleared me to go as low as $40.50/seat, but only with a 24 month commitment. nothing below that without his sign off"}
+{"type":"end","user":"u1","session":"s001","ts":"2026-02-10T08:54:00"}
+{"type":"start","user":"u1","session":"s002","ts":"2026-02-10T09:42:00"}
+{"type":"msg","user":"u1","session":"s002","ts":"2026-02-10T09:43:00","text":"Contoso done. Julia opened at $39, I held. Landed at $41/seat/month on a 24-month renewal starting 1 Apr. Seats go from 1,150 to 1,240 in April when their Bristol office moves onto our desk. Julia wants the revised order form by Fri 13 Feb"}
+{"type":"msg","user":"u1","session":"s002","ts":"2026-02-10T09:45:00","text":"Mark's gripe: 3 P1 tickets in Jan, first response took 47, 61 and 38 min vs our 30 min SLA. He wants a service credit for January and a named P1 escalation contact on our side. I offered Gemma Rhodes (our service delivery mgr), he's ok with that"}
+{"type":"msg","user":"u1","session":"s002","ts":"2026-02-10T09:47:00","text":"on signatures: Mark approves technically but Paula Greene, their finance director, signs anything over $500k, so this one goes to her. Julia is aiming for signature by 6 Mar"}
+{"type":"msg","user":"u1","session":"s002","ts":"2026-02-10T09:48:00","text":"quick math pls: 1,240 seats x $41 x 24 months, what's the total contract value? and what's that per month"}
+{"type":"end","user":"u1","session":"s002","ts":"2026-02-10T09:50:00"}
+{"type":"start","user":"u1","session":"s003","ts":"2026-02-10T09:51:00"}
+{"type":"msg","user":"u1","session":"s003","ts":"2026-02-10T09:52:00","text":"Draft the follow-up to Julia, cc Mark: $41/seat/month, 24 months from 1 Apr, 1,240 seats from April, revised order form by Fri 13 Feb, Gemma as the named P1 escalation contact. Don't mention the Jan service credit yet, I need to check with Gemma first"}
+{"type":"msg","user":"u1","session":"s003","ts":"2026-02-10T09:56:00","text":"Northwind at 10 with Samuel Osei (CFO) and Leah Morgan (head of IT). It's the phase 2 SOW for the data platform, we quoted $186,000 fixed fee for 16 weeks and Samuel already said it's high. How do I defend fixed fee vs T&M in 2 minutes?"}
+{"type":"end","user":"u1","session":"s003","ts":"2026-02-10T09:58:00"}
+{"type":"start","user":"u1","session":"s004","ts":"2026-02-10T10:47:00"}
+{"type":"msg","user":"u1","session":"s004","ts":"2026-02-10T10:48:00","text":"Northwind: Samuel wnats phase 2 split in two. 2a = ingestion + data model, 9 weeks, $104,000. 2b = dashboards + training, 7 weeks, $82,000, only if 2a is accepted. Same $186k overall but he can fund 2a from this year's budget"}
+{"type":"msg","user":"u1","session":"s004","ts":"2026-02-10T10:50:00","text":"2a starts 2 Mar. Leah wants Rohan Iyer (our data architect) full time on it, not shared with another client. Samuel signs the 2a SOW by Thu 19 Feb, his board meets 24 Feb and he wants it done before that"}
+{"type":"msg","user":"u1","session":"s004","ts":"2026-02-10T10:52:00","text":"risk: their only in-house BI developer leaves end of March, so 2b becomes more of a handover. Leah hinted at a support retainer after go-live, maybe 40 hrs/month. worth a proposal in April"}
+{"type":"msg","user":"u1","session":"s004","ts":"2026-02-10T10:55:00","text":"Draft a short email to Samuel confirming the split: 2a 9 weeks $104k starting 2 Mar, 2b 7 weeks $82k subject to 2a acceptance. Ask for the signed 2a SOW by 19 Feb. Under 150 words, he's a numbers guy, no fluff"}
+{"type":"start","user":"u1","session":"s005","ts":"2026-02-10T10:58:00"}
+{"type":"msg","user":"u1","session":"s005","ts":"2026-02-10T10:59:00","text":"Tailspin in 2 min. Kai Nakamura (VP engineering). Their mobile app release slipped and I think he'll ask for more QA people. Our QA rate is $95/hr. Give me 3 questions to scope it properly before I agree to anything"}
+{"type":"end","user":"u1","session":"s005","ts":"2026-02-10T11:01:00"}
+{"type":"start","user":"u1","session":"s006","ts":"2026-02-10T11:41:00"}
+{"type":"msg","user":"u1","session":"s006","ts":"2026-02-10T11:42:00","text":"Tailspin: release 4.2 moves from 2 Mar to 16 Mar. Kai wants 3 more QA engineers full time for 6 weeks starting 16 Feb. At $95/hr that's about $68k, he asked for $90/hr and I said I'd check with Ben"}
+{"type":"msg","user":"u1","session":"s006","ts":"2026-02-10T11:44:00","text":"Nora Quinlan (their head of ops) joined late. She wants a defect report every Monday by 9am and a go/no-go meeting on 12 Mar. Their PO for the extra QA has to be raised by 13 Feb or it slips into the March cycle"}
+{"type":"msg","user":"u1","session":"s006","ts":"2026-02-10T11:46:00","text":"Rohan just confirmed for Northwind from 2 Mar, full time. He rolls off his current project on 27 Feb so no overlap"}
+{"type":"msg","user":"u1","session":"s006","ts":"2026-02-10T11:47:00","text":"what time is the Wingtip call again? want to grab food before it if I can"}
+{"type":"end","user":"u1","session":"s006","ts":"2026-02-10T11:49:00"}
+{"type":"start","user":"u1","session":"s007","ts":"2026-02-10T11:50:00"}
+{"type":"msg","user":"u1","session":"s007","ts":"2026-02-10T11:51:00","text":"Draft the change request for Tailspn: 3 QA engineers, 6 weeks from 16 Feb, 40 hrs/week each. Leave the rate as TBC, I'm checking $90 vs $95 with Ben. Include the Monday 9am defect report and the 12 Mar go/no-go"}
+{"type":"msg","user":"u1","session":"s007","ts":"2026-02-10T11:58:00","text":"Ben says $92/hr is the floor for Tailspin QA. $90 only if they commit to 12 weeks, which they won't"}
+{"type":"msg","user":"u1","session":"s007","ts":"2026-02-10T12:05:00","text":"Wingtip at 12:15 with Callum Fraser and Nnamdi Eze. Renewal talk, the managed platform is $612k/yr, renews 30 April and anything has to be agreed by 1 March. Callum will bring up Black Friday again. Prep me: what to own, what to push back on, and what to ask about Easter"}
+{"type":"end","user":"u1","session":"s007","ts":"2026-02-10T12:07:00"}
+{"type":"start","user":"u1","session":"s008","ts":"2026-02-10T12:56:00"}
+{"type":"msg","user":"u1","session":"s008","ts":"2026-02-10T12:57:00","text":"Wingtip: Callum and Nnamdi on, no Beatrix. Callum would go 3 years if the uplift is well under the 6% rate card, but knows Beatrix wants flat. Nnamdi wants to review the 2025 incident log himself before it goes to Saskia on Friday"}
+{"type":"msg","user":"u1","session":"s008","ts":"2026-02-10T12:59:00","text":"Easter is 5 April. Callum wants a load test before their 16 March code freeze, target 405 orders/min, 3x last Easter's peak. Pencilled 24 Feb, Jess Morland needs to confirm we can staff it"}
+{"type":"msg","user":"u1","session":"s008","ts":"2026-02-10T13:01:00","text":"sorry, typo: the Wingtip load test target is 450 orders/min, not 405. last Easter peaked at about 150"}
+{"type":"msg","user":"u1","session":"s008","ts":"2026-02-10T13:02:00","text":"Black Friday came up as expected: 47 min checkout outage, we paid the $18k credit in December. Callum says the money isn't the point, he wants every RCA action shown as closed in the incident log, not in progress"}
+{"type":"start","user":"u1","session":"s009","ts":"2026-02-10T13:05:00"}
+{"type":"msg","user":"u1","session":"s009","ts":"2026-02-10T13:06:00","text":"Draft my request to the deal desk for 2 Wingtip renewal options before I go anywhere near Beatrix: a 3-year term with uplift well under the 6% rate card, and a 2-year flat option if they drop 24x7 phone support to business hours. Base is $612k/yr, has to be agreed by 1 March"}
+{"type":"msg","user":"u1","session":"s009","ts":"2026-02-10T13:09:00","text":"shorter pls, the deal desk only reads the first few lines. lead with the 2 options and the 1 March deadline"}
+{"type":"msg","user":"u1","session":"s009","ts":"2026-02-10T13:14:00","text":"Adatum just pushed to 2:45, Lourdes is stuck in their ops review. Litware still at 1:30"}
+{"type":"msg","user":"u1","session":"s009","ts":"2026-02-10T13:16:00","text":"Gemma checked Contoso's Jan P1s: 2 of the 3 were on us, the third was their own firewall change. She's ok with a 5% service credit against the Jan fee"}
+{"type":"end","user":"u1","session":"s009","ts":"2026-02-10T13:18:00"}
+{"type":"start","user":"u1","session":"s010","ts":"2026-02-10T13:19:00"}
+{"type":"msg","user":"u1","session":"s010","ts":"2026-02-10T13:20:00","text":"Jan fee was 1,150 seats at $43. what's 5% of that in dollars?"}
+{"type":"msg","user":"u1","session":"s010","ts":"2026-02-10T13:21:00","text":"add the credit to the Julia email: 5% of the Jan fee, credited on the March invoice. send me the whole email again so I can paste it straight in"}
+{"type":"msg","user":"u1","session":"s010","ts":"2026-02-10T13:24:00","text":"Litware at 1:30 with Annika Holm and Gareth Pryce. QA automation SOW renews 31 March, ~$1.19M/yr for 12 FTE, and Leopold wants 15% off. Options go to him Friday. Annika also wants help with SOC 2 evidence. Give me a plan for the 30 min, what I need from each of them"}
+{"type":"end","user":"u1","session":"s010","ts":"2026-02-10T13:26:00"}
+{"type":"start","user":"u1","session":"s011","ts":"2026-02-10T14:12:00"}
+{"type":"msg","user":"u1","session":"s011","ts":"2026-02-10T14:13:00","text":"Litware: Annika can live with 10 FTE if we keep capacity for performance testing before the April payroll peak. Deal desk ok'd 2 options, both 2-year: A = 12 FTE at $50/hr, B = 10 FTE at $51/hr. Gareth says Leopold will only look at the annual cost"}
+{"type":"msg","user":"u1","session":"s011","ts":"2026-02-10T14:15:00","text":"SOC 2 evidence work: 1 analyst for 8 weeks, I'd ballparked $36k. Gareth wants a short SOW by 18 Feb, start 9 March, their audit window opens 1 April. Decision still due 20 Feb"}
+{"type":"msg","user":"u1","session":"s011","ts":"2026-02-10T14:16:00","text":"Playwright migration update from Bartek: 40 of the 1,400 tests moved after day 1, payroll module first, benefits module still planned for 2 March"}
+{"type":"msg","user":"u1","session":"s011","ts":"2026-02-10T14:18:00","text":"remind me what exactly Leopold asked for on the renewal and when their budgets lock? want it straight before the options go"}
+{"type":"end","user":"u1","session":"s011","ts":"2026-02-10T14:20:00"}
+{"type":"start","user":"u1","session":"s012","ts":"2026-02-10T14:21:00"}
+{"type":"msg","user":"u1","session":"s012","ts":"2026-02-10T14:22:00","text":"Draft the SOC 2 evidence SOW summary for Gareth: 1 analyst from our compliance practice, 8 weeks from 9 March, $36k fixed, ready before the 1 April audit window. Decision needed by 20 Feb. Short, he'll paper it on their side"}
+{"type":"msg","user":"u1","session":"s012","ts":"2026-02-10T14:36:00","text":"Adatum weekly service call at 2:45 with Lourdes Pineda and Corinne Haas. Main thing is the improvement plan for Bogdan due Fri 13 Feb. Jan was FCR 61% vs 70% target, ASA 94s vs 60s, Czech queue worst. What should the plan commit to that we can actually hit?"}
+{"type":"start","user":"u1","session":"s013","ts":"2026-02-10T15:23:00"}
+{"type":"msg","user":"u1","session":"s013","ts":"2026-02-10T15:24:00","text":"Adatum: SIP targets agreed with Lourdes and Corinne. ASA under 60s by end of March, FCR back to 70% by end of April. KB refresh done by 20 Feb, Corinne reckons about 140 articles need rewriting. 2 Czech-speaking agents from 2 March on the 5:30 shift for Brno"}
+{"type":"msg","user":"u1","session":"s013","ts":"2026-02-10T15:26:00","text":"Self-service portal goes in the SIP too: Columbus 23 Feb, Monterrey 9 Mar, Brno 23 Mar. Okta SSO config is on their side, Lourdes will chase Bogdan's team about it"}
+{"type":"msg","user":"u1","session":"s013","ts":"2026-02-10T15:27:00","text":"Lourdes says the 2,300 users split roughly 1,350 Columbus, 600 Monterrey, 350 Brno. Brno is the smallest site but the loudest, Jakub copies Bogdan on everything"}
+{"type":"msg","user":"u1","session":"s013","ts":"2026-02-10T15:29:00","text":"is ASA under 60s by end of March realistic when the Czech agents only start 2 March? or should I push that one to April"}
+{"type":"end","user":"u1","session":"s013","ts":"2026-02-10T15:31:00"}
+{"type":"start","user":"u1","session":"s014","ts":"2026-02-10T15:32:00"}
+{"type":"msg","user":"u1","session":"s014","ts":"2026-02-10T15:33:00","text":"Draft a note to Corinne: I need the full SIP doc from her by Thu 12 Feb so it goes to Bogdan on Fri 13 Feb. Weekly measures he can track: FCR, ASA by queue, KB articles done, portal adoption per site. Practical, not a consultancy deck"}
+{"type":"msg","user":"u1","session":"s014","ts":"2026-02-10T15:36:00","text":"Kai emailed, thye'll take $92/hr for the 3 QA engineers. Nora raises the PO by Friday"}
+{"type":"msg","user":"u1","session":"s014","ts":"2026-02-10T15:38:00","text":"update the Tailspin change request with $92/hr and put the total in, 3 people x 6 weeks x 40 hrs"}
+{"type":"msg","user":"u1","session":"s014","ts":"2026-02-10T15:41:00","text":"Proseware at 3:45 with Duncan Kilbride and Raf Quintero. Two things: the observability pilot is stuck until Yusuf signs off the agent install, and the CloudOps renewal ($410k ACV, ends 31 Mar) with Bianca's competitive review hanging over it. Give me a tight 45 min agenda and what to ask Duncan about the review"}
+{"type":"end","user":"u1","session":"s014","ts":"2026-02-10T15:43:00"}
+{"type":"start","user":"u1","session":"s015","ts":"2026-02-10T16:33:00"}
+{"type":"msg","user":"u1","session":"s015","ts":"2026-02-10T16:34:00","text":"Proseware: Raf says Yusuf has the pen test summary and should sign off tmrw morning, so the pilot starts Wed 11 Feb instead of the 9th. Agents go on a first batch of claims services on day 1, all 20 by Fri. Full 6 weeks means it ends 25 Mar"}
+{"type":"msg","user":"u1","session":"s015","ts":"2026-02-10T16:36:00","text":"Renewal: Duncan will back a 2-yr deal but says Bianca's review is real, anything over $250k needs competing quotes this year. He expects a vendor questionnaire from her this week. My 5% uplift idea takes us to $430.5k, he winced"}
+{"type":"msg","user":"u1","session":"s015","ts":"2026-02-10T16:37:00","text":"Pilot commercials unchanged: $18k fixed for the 6 weeks, credited back if they buy the full service. Targets alert noise down 50% and MTTR down 30% from the 47 min baseline. Duncan wants week 1 numbers as soon as we have them"}
+{"type":"msg","user":"u1","session":"s015","ts":"2026-02-10T16:41:00","text":"Draft a short follow-up to Duncan, cc Raf: pilot now starts Wed 11 Feb pending Yusuf's sign-off, first batch of services on day 1 and all 20 by Fri, ends 25 Mar. On the renewal, we'll price a 2-yr option and answer whatever Bianca sends for the review. Keep it short"}
+{"type":"end","user":"u1","session":"s015","ts":"2026-02-10T16:43:00"}
+{"type":"start","user":"u1","session":"s016","ts":"2026-02-10T16:44:00"}
+{"type":"msg","user":"u1","session":"s016","ts":"2026-02-10T16:45:00","text":"and a 4 line internal note to Kasia Sobczak (our delivery lead on Proseware): pilot start moves to Wed 11 Feb, agents on a first batch of services, all 20 by Fri, keep the team booked through 25 Mar"}
+{"type":"msg","user":"u1","session":"s016","ts":"2026-02-10T16:49:00","text":"Julia replied already. Fine with $41, but the Bristol move slipped, so the 1,240 seats start 1 May, not 1 Apr. April stays at 1,150"}
+{"type":"msg","user":"u1","session":"s016","ts":"2026-02-10T16:51:00","text":"recalc the Contoso TCV then: April at 1,150 seats, May onwards at 1,240, all at $41, 24 months"}
+{"type":"msg","user":"u1","session":"s016","ts":"2026-02-10T16:55:00","text":"Samuel replied, ok with the split. He wants 2a billed 50% at start and 50% on acceptance, not monthly. fine by me"}
+{"type":"start","user":"u1","session":"s017","ts":"2026-02-10T16:58:00"}
+{"type":"msg","user":"u1","session":"s017","ts":"2026-02-10T16:59:00","text":"Jess says 24 Feb works for the Wingtip load test, but only if their payment provider's sandbox is ready by 17 Feb. Nnamdi is chasing them"}
+{"type":"msg","user":"u1","session":"s017","ts":"2026-02-10T17:02:00","text":"Draft a short internal update on Adatum for my VP: SIP goes to Bogdan Fri 13 Feb, targets ASA under 60s by end of March and FCR 70% by end of April. Contract is $1.85M/yr and ends 30 June, they pick 3-yr extension or tender by 31 March. Flag Brno as the risk"}
+{"type":"msg","user":"u1","session":"s017","ts":"2026-02-10T17:06:00","text":"Bartek: 85 of 1,400 tests migrated by end of today, ahead of plan. Flaky rate on the new Playwright suite is about 9%, he wants it under 5% before the benefits module starts"}
+{"type":"msg","user":"u1","session":"s017","ts":"2026-02-10T17:08:00","text":"is a 9% flaky rate normal early in a Selenium to Playwright migration? what do teams usually see"}
+{"type":"end","user":"u1","session":"s017","ts":"2026-02-10T17:10:00"}
+{"type":"start","user":"u1","session":"s018","ts":"2026-02-10T17:12:00"}
+{"type":"msg","user":"u1","session":"s018","ts":"2026-02-10T17:13:00","text":"Nora sent the Tailspin PO already, PO-77318 for $66,240. faster than they said"}
+{"type":"msg","user":"u1","session":"s018","ts":"2026-02-10T17:17:00","text":"Prep me for tmrw 9am with Leah at Northwind, the 2a kickoff planning. Who should be in the room from both sides and what do we need from them before 2 Mar (access, sample data etc). keep it to a short list"}
+{"type":"msg","user":"u1","session":"s018","ts":"2026-02-10T17:22:00","text":"Nnamdi sent the incident log back with 4 comments, all wording, nothing factual. Black Friday RCA actions now all marked closed. good to go to Saskia on Friday with the SLA schedule"}
+{"type":"msg","user":"u1","session":"s018","ts":"2026-02-10T17:26:00","text":"Redo the order form summary for Julia: $41/seat/month, 24 months from 1 Apr, 1,150 seats in April then 1,240 from 1 May, 5% Jan credit on the March invoice. Plain table, I'll attach it to the order form"}
+{"type":"end","user":"u1","session":"s018","ts":"2026-02-10T17:28:00"}
+{"type":"start","user":"u1","session":"s019","ts":"2026-02-10T17:30:00"}
+{"type":"msg","user":"u1","session":"s019","ts":"2026-02-10T17:31:00","text":"did I tell Callum the 24 Feb load test date was confirmed? don't want to overpromise before Jess has the sandbox"}
+{"type":"msg","user":"u1","session":"s019","ts":"2026-02-10T17:35:00","text":"Corinne broke down the Jan credit: $8,600 for ASA misses, $5,600 for FCR. Almost all of the ASA part is the Czech queue at the 6am shift change"}
+{"type":"msg","user":"u1","session":"s019","ts":"2026-02-10T17:37:00","text":"Draft a short reply to Jakub Hora, cc Bogdan: 2 Czech-speaking agents start 2 March on the 5:30 shift. Until then we add a callback option on the Czech queue after 2 min wait. Acknowledge the 6am problem, no excuses"}
+{"type":"msg","user":"u1","session":"s019","ts":"2026-02-10T17:42:00","text":"Raf asked for the agent install runbook tonight so his team can start at 8am Wed if Yusuf signs. Sent it, Kasia is on standby"}
+{"type":"end","user":"u1","session":"s019","ts":"2026-02-10T17:44:00"}
+{"type":"start","user":"u1","session":"s020","ts":"2026-02-10T17:45:00"}
+{"type":"msg","user":"u1","session":"s020","ts":"2026-02-10T17:46:00","text":"give me a simple template for the Tailspin Monday defect report: open defects by severity, fixed this week, blockers, risk to the 16 Mar release. Nora wants the first one on 23 Feb"}
+{"type":"msg","user":"u1","session":"s020","ts":"2026-02-10T17:50:00","text":"Leah confirmed tmrw 9am, Teams link sent. She's bringing their data engineer so we can sort access and sample data"}
+{"type":"msg","user":"u1","session":"s020","ts":"2026-02-10T17:53:00","text":"what's still open on Wingtip from my side? want to clear it before I log off"}
+{"type":"msg","user":"u1","session":"s020","ts":"2026-02-10T17:56:00","text":"Gareth confirmed the SOC 2 decision sits with Annika, not Leopold, since it's under her budget. Still by 20 Feb"}
+{"type":"start","user":"u1","session":"s021","ts":"2026-02-10T18:04:00"}
+{"type":"probe","user":"u1","session":"s021","ts":"2026-02-10T18:05:00","text":"Before I log off - what term and price did Blue Yonder agree to this morning?","expect":{"should":"States a 14-month term at $52,000 total","should_not":"Gives any other term or price (numbers from the other calls that day)"}}
+{"type":"end","user":"u1","session":"s021","ts":"2026-02-10T18:07:00"}
